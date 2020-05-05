@@ -1,7 +1,0 @@
-{
-    "view": "DatePicker",
-    "id": "DatePickerSample",
-    "mode":"time",
-    "timeFormat":"hh:mm A",
-    "style": {}
-}

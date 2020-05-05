@@ -1,7 +1,0 @@
-{
-    "solutionUid": "samples",
-    "idleSessionTimeout": 1800,
-    "enablePushNotification": false,
-    "cloudseerOauthClientId": "cloudseer_oauth_client_id",
-    "authType": "DATABASE"
-}
