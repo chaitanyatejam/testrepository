@@ -1,1 +1,0 @@
-{"applicationId":"mobiletrafficformview","microApplicationId":"trafficOrderForm","solutionId":"mobiledemo","updatePipelineId":"com::apporchid::mobiledemo::TrafficSignalFormUpdatePipeline","@class":"com.apporchid.vulcanux.common.EditableTableRequestParameters","data":{"newRows":[{"workType":"Trouble call","assetType":"Signal","assetId":123}],"updatedRows":[]}}

@@ -1,8 +1,0 @@
-{
-    "view": "DatePicker",
-    "id": "DatePickerSample",
-    "mode":"date",
-    "date": "22/12/1989",
-    "dateFormat":"DD/MM/YYYY",
-    "style": {}
-}
