@@ -1,0 +1,502 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.solution.Solution",
+    "id": "mobiledemo",
+    "name": "mobiledemo",
+    "componentCategory": "Solution",
+    "enableUsageEvents": false,
+    "displayName": "Mobile Demo",
+    "description": "Mobile Demo",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "com::apporchid::mobiledemo::ordersPage"
+                }
+            ],
+            "alignItems": "center",
+            "flexDirection": "column",
+            "justifyContent": "flex-start",
+            "width": "100%"
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "com::apporchid::mobiledemo::ordersPage",
+            "name": "ordersPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": false,
+            "displayName": "Orders",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "com::apporchid::mobiledemo::mobilelistviewapp"
+                        }
+                    ],
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 0,
+                    "padding": 0,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.Application",
+                    "id": "com::apporchid::mobiledemo::mobilelistviewapp",
+                    "name": "mobilelistviewapp",
+                    "componentCategory": "Application",
+                    "enableUsageEvents": false,
+                    "displayName": "Mobilelistview  Application",
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "Flex",
+                        "component": {
+                            "styles": [
+                                {
+                                    "style": {
+                                        "flex": 1,
+                                        "width": "100%"
+                                    },
+                                    "id": "6c925742-0c23-49bd-8d58-e76b2ad11ffc"
+                                }
+                            ],
+                            "alignItems": "center",
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "margin": 0,
+                            "padding": 0,
+                            "width": "100%"
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                            "id": "6c925742-0c23-49bd-8d58-e76b2ad11ffc",
+                            "name": "6c925742-0c23-49bd-8d58-e76b2ad11ffc",
+                            "componentCategory": "UIContainer",
+                            "enableUsageEvents": false,
+                            "layout": {
+                                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                                "layoutType": "Flex",
+                                "component": {
+                                    "styles": [
+                                        {
+                                            "style": {
+                                                "height": 50
+                                            },
+                                            "id": "iconContainerId"
+                                        },
+                                        {
+                                            "style": {
+                                                "flex": 1,
+                                                "width": "100%"
+                                            },
+                                            "id": "mobileListId"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "flex": 1,
+                                    "flexDirection": "column",
+                                    "justifyContent": "flex-start",
+                                    "width": "100%"
+                                }
+                            },
+                            "components": [
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                                    "id": "iconContainerId",
+                                    "name": "iconContainerId",
+                                    "componentCategory": "UIContainer",
+                                    "enableUsageEvents": false,
+                                    "layout": {
+                                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                                        "layoutType": "Flex",
+                                        "component": {
+                                            "styles": [
+                                                {
+                                                    "style": {},
+                                                    "id": "statusId"
+                                                },
+                                                {
+                                                    "style": {},
+                                                    "id": "refreshIcon"
+                                                },
+                                                {
+                                                    "style": {},
+                                                    "id": "createIcon"
+                                                }
+                                            ],
+                                            "alignItems": "center",
+                                            "flex": 1,
+                                            "flexDirection": "row",
+                                            "justifyContent": "flex-end",
+                                            "width": "100%"
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                                            "id": "statusId",
+                                            "name": "statusId",
+                                            "componentCategory": "MicroApplicationReference",
+                                            "enableUsageEvents": false,
+                                            "throttleInterval": 0
+                                        },
+                                        {
+                                            "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                            "id": "refreshIcon",
+                                            "name": "refreshIcon",
+                                            "componentCategory": "UIControl",
+                                            "type": "Icon",
+                                            "component": {
+                                                "view": "vuxmobile-icon",
+                                                "on": {
+                                                    "onPress": {
+                                                        "@class": "com.apporchid.common.JSFunction",
+                                                        "namespace": "demoAPIUtils",
+                                                        "name": "refreshTrafficOrderApp",
+                                                        "objectType": "jsfunction"
+                                                    }
+                                                },
+                                                "css": "aovuxicon refreshicon",
+                                                "id": "refreshIcon",
+                                                "name": "refresh",
+                                                "align": "right"
+                                            },
+                                            "visible": true
+                                        },
+                                        {
+                                            "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                            "id": "createIcon",
+                                            "name": "createIcon",
+                                            "componentCategory": "UIControl",
+                                            "type": "Icon",
+                                            "component": {
+                                                "view": "vuxmobile-icon",
+                                                "on": {
+                                                    "onPress": {
+                                                        "@class": "com.apporchid.common.JSFunction",
+                                                        "namespace": "demoAPIUtils",
+                                                        "name": "openTrafficForm",
+                                                        "objectType": "jsfunction"
+                                                    }
+                                                },
+                                                "css": "aovuxicon createordericon",
+                                                "id": "createIcon",
+                                                "name": "plus-circle",
+                                                "align": "right"
+                                            },
+                                            "visible": true
+                                        }
+                                    ],
+                                    "enableScroll": false,
+                                    "componentCount": 3,
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                                    "id": "mobileListId",
+                                    "name": "mobileListId",
+                                    "componentCategory": "MicroApplicationReference",
+                                    "enableUsageEvents": false,
+                                    "enableServersidePagination": false,
+                                    "enableVirtualPagination": true,
+                                    "throttleInterval": 0
+                                }
+                            ],
+                            "enableScroll": false,
+                            "componentCount": 2,
+                            "visible": true
+                        }
+                    ],
+                    "enableScroll": false,
+                    "extendedMetadata": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                        "categoryIds": [
+                            1
+                        ]
+                    },
+                    "captureSnapshot": false,
+                    "showAppFeedback": false,
+                    "visibleInAppstore": true,
+                    "showFullScreen": false,
+                    "componentCount": 1,
+                    "cssclass": "mobilelistviewappcss",
+                    "visible": true,
+                    "showHeader": false,
+                    "showFooter": false,
+                    "showTitle": false,
+                    "showSubTitle": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "star",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": true,
+            "componentCount": 1,
+            "visible": true,
+            "showHeader": false,
+            "showFooter": false,
+            "showTitle": false,
+            "showSubTitle": false
+        }
+    ],
+    "enableScroll": false,
+    "header": {
+        "@class": "com.apporchid.vulcanux.ui.solution.SolutionHeader",
+        "id": "solutionHeader",
+        "name": "solutionHeader",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "displayName": "Mobile Demo",
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {
+                            "flex": 1,
+                            "marginHorizontal": 5,
+                            "paddingLeft": 5
+                        },
+                        "id": "eb8331ba-1288-4e83-9bcc-4c2a0456b616"
+                    }
+                ],
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "flex-start",
+                "width": "100%"
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                "id": "eb8331ba-1288-4e83-9bcc-4c2a0456b616",
+                "name": "eb8331ba-1288-4e83-9bcc-4c2a0456b616",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {
+                                    "padding": 1
+                                },
+                                "id": "solheaderCustomerLogo"
+                            },
+                            {
+                                "style": {},
+                                "id": "solheaderSolutionName"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "marginTop": 0
+                                },
+                                "id": "7bd5a72f-4fb3-4266-a7a2-d25e31a94b94"
+                            }
+                        ],
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "height": 60,
+                        "justifyContent": "flex-start",
+                        "width": "100%"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "solheaderCustomerLogo",
+                        "name": "solheaderCustomerLogo",
+                        "componentCategory": "UIControl",
+                        "type": "Image",
+                        "component": {
+                            "view": "vuxmobile-image",
+                            "on": {
+                                "onPress": {
+                                    "@class": "com.apporchid.common.JSFunction",
+                                    "namespace": "samplesAPIUtils",
+                                    "name": "openDefaultPage",
+                                    "objectType": "jsfunction"
+                                }
+                            },
+                            "css": "aovuxsolutionlogo",
+                            "id": "solheaderCustomerLogo",
+                            "style": {
+                                "height": 21,
+                                "width": 42
+                            },
+                            "source": "main-ui/solutions/mobiledemo/images/demo-logo.png"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "solheaderSolutionName",
+                        "name": "solheaderSolutionName",
+                        "componentCategory": "UIControl",
+                        "type": "Label",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "on": {
+                                "onPress": {
+                                    "@class": "com.apporchid.common.JSFunction",
+                                    "namespace": "samplesAPIUtils",
+                                    "name": "openDefaultPage",
+                                    "objectType": "jsfunction"
+                                }
+                            },
+                            "css": "aovuxsolutionname",
+                            "id": "solheaderSolutionName",
+                            "style": {
+                                "fontSize": 21
+                            },
+                            "text": "Mobile Demo"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                        "id": "7bd5a72f-4fb3-4266-a7a2-d25e31a94b94",
+                        "name": "7bd5a72f-4fb3-4266-a7a2-d25e31a94b94",
+                        "componentCategory": "UIContainer",
+                        "enableUsageEvents": false,
+                        "layout": {
+                            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                            "layoutType": "Flex",
+                            "component": {
+                                "styles": [
+                                    {
+                                        "style": {},
+                                        "id": "solheaderUserprofile"
+                                    }
+                                ],
+                                "alignItems": "center",
+                                "flex": 1,
+                                "flexDirection": "row",
+                                "justifyContent": "flex-end",
+                                "width": "100%"
+                            }
+                        },
+                        "components": [
+                            {
+                                "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                                "id": "solheaderUserprofile",
+                                "name": "solheaderUserprofile",
+                                "componentCategory": "MicroApplicationReference",
+                                "enableUsageEvents": false,
+                                "throttleInterval": 0
+                            }
+                        ],
+                        "enableScroll": false,
+                        "componentCount": 1,
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "componentCount": 3,
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "componentCount": 1,
+        "visible": true
+    },
+    "footer": {
+        "@class": "com.apporchid.vulcanux.ui.solution.SolutionFooter",
+        "id": "solutionFooter",
+        "name": "solutionFooter",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {},
+                        "id": "labelId"
+                    }
+                ],
+                "alignItems": "center",
+                "bottom": 0,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+                "position": "absolute",
+                "width": "100%",
+                "backgroundColor": "white"
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "labelId",
+                "name": "labelId",
+                "componentCategory": "UIControl",
+                "type": "Label",
+                "component": {
+                    "view": "vuxmobile-text",
+                    "css": "aovuxtext",
+                    "id": "labelId",
+                    "text": "@2020 - App Orchid. All right reserved"
+                },
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "showFixedFooter": true,
+        "componentCount": 1,
+        "visible": true
+    },
+    "contextPath": "mobiledemo",
+    "jsFiles": [
+        "/js/vux/commonUtils.js",
+        "js/demo.js"
+    ],
+    "cssFiles": [
+        "css/styles.js"
+    ],
+    "hasCustomUIComponents": false,
+    "useCustomHeader": true,
+    "showBrowserTitle": true,
+    "jsErrorsLimit": 100,
+    "enableJSConsoleLogs": true,
+    "serverType": "VULCANUX",
+    "solutionRedirectUrls": {},
+    "isCustomSolution": false,
+    "enableOfflineSupport": false,
+    "domainId": "com.apporchid",
+    "subDomainId": "mobiledemo",
+    "default": false,
+    "componentCount": 1,
+    "visible": true,
+    "showHeader": true,
+    "showFooter": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

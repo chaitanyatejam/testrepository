@@ -1,0 +1,7 @@
+{
+    "id":"smartSearchControl",
+    "view":"SearchBar",
+    "style" :{
+        "maxWidth": 400
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+    "id": "tabviewsample",
+    "name": "tabviewsample",
+    "componentCategory": "SolutionPage",
+    "enableUsageEvents": true,
+    "enableScroll":true,
+    "displayName": "Cue Card",
+    "showFooter": false,
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "flexDirection":"column",
+                        "width": "100%"
+                    },
+                    "id": "com::apporchid::mobile::samples::tabviewsample"
+                }
+            ],
+            "alignItems": "center",
+            "flexDirection": "column",
+            "margin": 15,
+            "padding": 15
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.ui.application.Application",
+            "id": "com::apporchid::mobile::samples::tabviewsample",
+            "name": "tabviewsample",
+            "componentCategory": "Application",
+            "enableUsageEvents": true,
+            "displayName": "Mobilecuecard  Application",
+            "layout": {
+                "layoutType": "TabLayout",
+                "component": {
+                    "cells": [
+                        {
+                            "headerIcon": "star",
+                            "header": "Chart 1",
+                            "tabId": "multiserieschart1"
+                        },
+                        {
+                            "headerIcon": "star",
+                            "header": "Chart 2",
+                            "tabId": "multiserieschart2"
+                        },
+                        {
+                            "headerIcon": "star",
+                            "header": "Form",
+                            "tabId": "form"
+                        }
+                    ]
+                }
+            },
+            "components": [
+                {
+                    "id": "multiserieschart1",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "multiserieschart2",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "form",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "enableScroll": false,
+            "extendedMetadata": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                "thumbnailIconUrl": "analytics.svg",
+                "thumbnailBgColor": "#a6761d",
+                "categoryIds": [
+                    1
+                ]
+            },
+            "captureSnapshot": false,
+            "feedbackLikeOptions": [
+                "Exactly what I wanted",
+                "Useful information",
+                "Well presented",
+                "Easy to use"
+            ],
+            "feedbackDislikeOptions": [
+                "Difficult to use",
+                "Not enough detail",
+                "Not what I wanted",
+                "Incorrect information"
+            ],
+            "exportMicroappIds": {
+                "CSV": [
+                    "textdemo"
+                ]
+            },
+            "showAppFeedback": true,
+            "visibleInAppstore": true,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true,
+            "showHeader": false,
+            "showFooter": false,
+            "showTitle": false,
+            "showSubTitle": false
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.application.Application",
+            "id": "com::apporchid::mobile::samples::tabviewsample",
+            "name": "tabviewsample",
+            "componentCategory": "Application",
+            "enableUsageEvents": true,
+            "displayName": "Mobilecuecard  Application",
+            "layout": {
+                "layoutType": "TabLayout",
+                "component": {
+                    "cells": [
+                        {
+                            "headerIcon": "star",
+                            "header": "Chart 1",
+                            "tabId": "multiserieschart1"
+                        },
+                        {
+                            "headerIcon": "star",
+                            "header": "Chart 2",
+                            "tabId": "multiserieschart2"
+                        },
+                        {
+                            "headerIcon": "star",
+                            "header": "Form",
+                            "tabId": "form"
+                        }
+                    ],
+                    "style": {
+                        "padding":20,
+                        "backgroundColor": "#f0fff0"
+                    },
+                    "multiViewStyle": {
+                        "padding": 20,
+                        "backgroundColor": "#ff8b00"
+                    },
+                    "pageStyle": {
+                        "backgroundColor": "#03b2ef",
+                        "padding": 60
+                    },
+                    "tabBarStyle": {
+                        "padding": 5,
+                        "backgroundColor":"lightgray"
+                    },
+                    "tabItemIconStyle": {
+                        "backgroundColor": "white",
+                        "margin":5
+                    },
+                    "tabItemTextStyle": {
+                        "color": "green"
+                    }
+                }
+            },
+            "components": [
+                {
+                    "id": "multiserieschart1",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "multiserieschart2",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "form",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "enableScroll": false,
+            "extendedMetadata": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                "thumbnailIconUrl": "analytics.svg",
+                "thumbnailBgColor": "#a6761d",
+                "categoryIds": [
+                    1
+                ]
+            },
+            "captureSnapshot": false,
+            "feedbackLikeOptions": [
+                "Exactly what I wanted",
+                "Useful information",
+                "Well presented",
+                "Easy to use"
+            ],
+            "feedbackDislikeOptions": [
+                "Difficult to use",
+                "Not enough detail",
+                "Not what I wanted",
+                "Incorrect information"
+            ],
+            "exportMicroappIds": {
+                "CSV": [
+                    "textdemo"
+                ]
+            },
+            "showAppFeedback": true,
+            "visibleInAppstore": true,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true,
+            "showHeader": false,
+            "showFooter": false,
+            "showTitle": false,
+            "showSubTitle": false
+        }
+       
+    ],
+    "iconUrl": "vuxicon-cards",
+    "showSearchbar": true,
+    "isDynamic": false,
+    "showContainerComponent": true,
+    "enableSmartScrolling": false,
+    "default": true,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true
+}

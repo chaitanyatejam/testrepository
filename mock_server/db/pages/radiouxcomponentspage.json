@@ -1,0 +1,86 @@
+{
+    "id": "radiouxcomponentspage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "radiopage",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "radiogroup",
+                    "componentCategory": "UIContainer",
+                    "components": [
+                        {
+                            "id": "radio",
+                            "view": "vuxmobile-radiogroup",
+                            "label":"Gender",
+                            "labelPosition":"top",
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "value": "Male"
+                                },
+                                {
+                                    "id": "2",
+                                    "value": "Female"
+                                }
+                            ]
+                        }
+                    ],
+                    "layout": {
+                        "component": {
+                            "styles": [
+                                {
+                                    "id": "text",
+                                    "style": {
+                                        "marginLeft":7,
+                                        "alignSelf": "flex-start"
+                                    }
+                                },
+                                {
+                                    "id": "radio",
+                                    "style": {
+                                        "alignSelf": "flex-start"
+                                    }
+                                }
+                            ],
+                            "flex": 1,
+                            "width": "50%",
+                            "flexDirection": "column",
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "alignSelf":"center"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [
+                        {
+                            "id": "radiogroup",
+                            "style": {
+                                "flex": 1
+                            }
+                        }
+                    ],
+                    "flex": 1
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "styles": [
+                {
+                    "id": "radiopage",
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    }
+                }
+            ],
+            "flex": 1
+        }
+    }
+}

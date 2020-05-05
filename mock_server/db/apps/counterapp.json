@@ -1,0 +1,165 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "com::apporchid::mobile::samples::counterapp",
+    "name": "counterapp",
+    "componentCategory": "Application",
+    "enableUsageEvents": false,
+    "displayName": "Counter",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "137bdc98-764e-40fc-acf4-b06e589185b6"
+                }
+            ],
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "margin": 0,
+            "padding": 0,
+            "width": "100%"
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "137bdc98-764e-40fc-acf4-b06e589185b6",
+            "name": "137bdc98-764e-40fc-acf4-b06e589185b6",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {},
+                            "id": "counter"
+                        }
+                    ],
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "counter",
+                    "name": "counter",
+                    "componentCategory": "UIControl",
+                    "type": "Custom",
+                    "component": {
+                        "view": "vuxmobile-counter",
+                        "css": "aovuxcounter",
+                        "id": "counter",
+                        "label": "Counter",
+                        "step": 1,
+                        "value": 5,
+                        "min": 1,
+                        "max": 10
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": false,
+            "componentCount": 1,
+            "visible": true
+        }
+    ],
+    "enableScroll": false,
+    "header": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+        "id": "applicationHeader",
+        "name": "applicationHeader",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {},
+                        "id": "appHeaderIcon"
+                    },
+                    {
+                        "style": {
+                            "flex": 1,
+                            "padding": 9
+                        },
+                        "id": "appHeaderTitle"
+                    }
+                ],
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 42,
+                "justifyContent": "space-between",
+                "width": "100%"
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderIcon",
+                "name": "store-dark-solid",
+                "componentCategory": "UIControl",
+                "type": "Icon",
+                "component": {
+                    "view": "vuxmobile-icon",
+                    "css": "aovuxicon header_icon",
+                    "id": "appHeaderIcon",
+                    "size": 24,
+                    "name": "store-dark-solid",
+                    "align": "left",
+                    "width": 40
+                },
+                "visible": true
+            },
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderTitle",
+                "name": "appHeaderTitle",
+                "componentCategory": "UIControl",
+                "type": "Label",
+                "component": {
+                    "view": "vuxmobile-text",
+                    "css": "aovuxtext",
+                    "id": "appHeaderTitle",
+                    "text": "Counter",
+                    "label": "{name=text, value=Counter, propertyType=java.lang.String, keyValuePair=false}"
+                },
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "moreMenuItems": [],
+        "componentCount": 2,
+        "visible": true
+    },
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "categoryIds": [
+            1
+        ]
+    },
+    "captureSnapshot": false,
+    "showAppFeedback": false,
+    "visibleInAppstore": false,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "visible": true,
+    "showHeader": true,
+    "showFooter": false,
+    "showTitle": false,
+    "showSubTitle": false
+}

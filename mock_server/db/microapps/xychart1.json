@@ -1,0 +1,92 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "xychart1",
+    "name": "xychart1",
+    "componentCategory": "MicroApplication",
+    "type": "XYChart",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "Highchart",
+        "credits": {
+            "enabled": false
+        },
+        "exporting": {
+            "enabled": true
+        },
+        "legend": {
+            "enabled": true
+        },
+        "series": [
+            {
+                "id": "value",
+                "name": "Value",
+                "type": "line",
+                "data": [
+                    [
+                        "C1",
+                        878
+                    ],
+                    [
+                        "C2",
+                        589
+                    ],
+                    [
+                        "C3",
+                        536
+                    ],
+                    [
+                        "C4",
+                        717
+                    ],
+                    [
+                        "C5",
+                        955
+                    ],
+                    [
+                        "C6",
+                        567
+                    ],
+                    [
+                        "C7",
+                        813
+                    ],
+                    [
+                        "C8",
+                        508
+                    ],
+                    [
+                        "C9",
+                        900
+                    ]
+                ]
+            }
+        ],
+        "time": {
+            "useUTC": false
+        },
+        "tooltip": {
+            "enabled": true,
+            "shared": true
+        },
+        "title": {
+            "text": ""
+        },
+        "lang": {},
+        "xAxis": {
+            "arrow": false,
+            "reversed": false,
+            "type": "category"
+        },
+        "yAxis": [
+            {
+                "title": {
+                    "enabled": false
+                },
+                "arrow": false,
+                "reversed": false
+            }
+        ]
+    },
+    "visible": true
+}

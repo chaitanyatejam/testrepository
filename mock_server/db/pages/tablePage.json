@@ -1,0 +1,114 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+    "id": "tablePage",
+    "name": "tablePage",
+    "componentCategory": "SolutionPage",
+    "enableUsageEvents": true,
+    "displayName": "Tables",
+    "showFooter": false,
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "flex":1,
+        "component": {
+            "styles": [
+                {
+                    "style": {"flex":1, "width":"100%"},
+                    "id": "com::apporchid::mobile::samples::tableapp"
+                }
+            ],
+            "alignItems": "center",
+            "flexDirection": "column",
+            "padding": 15
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.ui.application.Application",
+            "id": "com::apporchid::mobile::samples::tableapp",
+            "name": "tableapp",
+            "componentCategory": "Application",
+            "enableUsageEvents": true,
+            "displayName": "Table  Application",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "flex":1,
+                "component": {
+                    "styles": [
+                        {
+                            "style": {"flex":1},
+                            "id": "table"
+                        }
+                    ],
+                    "flexDirection": "column"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                    "id": "table",
+                    "name": "table",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": true,
+                    "throttleInterval": 0,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "extendedMetadata": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                "thumbnailIconUrl": "analytics.svg",
+                "thumbnailBgColor": "#a6761d",
+                "categoryIds": [
+                    1
+                ]
+            },
+            "captureSnapshot": false,
+            "feedbackLikeOptions": [
+                "Exactly what I wanted",
+                "Useful information",
+                "Well presented",
+                "Easy to use"
+            ],
+            "feedbackDislikeOptions": [
+                "Difficult to use",
+                "Not enough detail",
+                "Not what I wanted",
+                "Incorrect information"
+            ],
+            "exportMicroappIds": {
+                "CSV": [
+                    "table"
+                ]
+            },
+            "showAppFeedback": true,
+            "visibleInAppstore": true,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "title": "Sample Table",
+            "subTitle": "Shows responsive table",
+            "visible": true,
+            "showHeader": true,
+            "showFooter": false,
+            "showTitle": true,
+            "showSubTitle": true
+        }
+    ],
+    "enableScroll": false,
+    "iconUrl": "vuxicon-cards",
+    "showSearchbar": true,
+    "isDynamic": false,
+    "showContainerComponent": true,
+    "enableSmartScrolling": false,
+    "default": true,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true
+}

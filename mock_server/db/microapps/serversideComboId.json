@@ -1,0 +1,2928 @@
+{
+    "data": [
+        {
+            "id": "Van Dorn Street",
+            "value": "Van Dorn Street",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.12911152370515,
+                        38.79930767201779,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Union Station",
+            "value": "Union Station",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00741429219985,
+                        38.89776603923524,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Congress Heights",
+            "value": "Congress Heights",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.98851193260715,
+                        38.84565770287511,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Naylor Road",
+            "value": "Naylor Road",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.95626270945314,
+                        38.8513013835867,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Suitland",
+            "value": "Suitland",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.93187015895299,
+                        38.84396455441679,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Branch Ave",
+            "value": "Branch Ave",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91146421773884,
+                        38.82644634832078,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Braddock Road",
+            "value": "Braddock Road",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05366757406264,
+                        38.81414366728901,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "King St - Old Town",
+            "value": "King St - Old Town",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.06081120854599,
+                        38.806586117247996,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Eisenhower Ave",
+            "value": "Eisenhower Ave",
+            "props": {
+                "markerCol": "#ffff00",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.07087438931458,
+                        38.800425449701244,
+                        0.0
+                    ]
+                },
+                "line": "yellow",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Huntington",
+            "value": "Huntington",
+            "props": {
+                "markerCol": "#ffff00",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.075205789149,
+                        38.793915852906736,
+                        0.0
+                    ]
+                },
+                "line": "yellow",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Anacostia",
+            "value": "Anacostia",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.99537073875437,
+                        38.862963116801595,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Franconia-Springfield",
+            "value": "Franconia-Springfield",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.16797018042666,
+                        38.766521892689916,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Eastern Market",
+            "value": "Eastern Market",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.99600112671642,
+                        38.884622260842676,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Potomac Ave",
+            "value": "Potomac Ave",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.98549531965503,
+                        38.88126327363317,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Stadium Armory",
+            "value": "Stadium Armory",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.97708890144222,
+                        38.88670908984284,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Rhode Island Ave",
+            "value": "Rhode Island Ave",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.9959369166641,
+                        38.921059689186336,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Minnesota Ave",
+            "value": "Minnesota Ave",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.94674773364017,
+                        38.89919122308901,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Van Ness-UDC",
+            "value": "Van Ness-UDC",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.06298618051905,
+                        38.94326528832245,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Cleveland Park",
+            "value": "Cleveland Park",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05804251913345,
+                        38.93476289080542,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Columbia Heights",
+            "value": "Columbia Heights",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03255211771173,
+                        38.9278379675233,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "College Park-U of Md",
+            "value": "College Park-U of Md",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.92812498187074,
+                        38.97863363396686,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Capitol Heights",
+            "value": "Capitol Heights",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91180811452222,
+                        38.889465856872334,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Federal Center SW",
+            "value": "Federal Center SW",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01586821694521,
+                        38.885072355144786,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Morgan Boulevard",
+            "value": "Morgan Boulevard",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.86807476813904,
+                        38.89383492821474,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Georgia Ave Petworth",
+            "value": "Georgia Ave Petworth",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02346090408138,
+                        38.93743463014478,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Takoma",
+            "value": "Takoma",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01817669871063,
+                        38.97607853106706,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Glenmont",
+            "value": "Glenmont",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05355735935977,
+                        39.06178376553033,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Wheaton",
+            "value": "Wheaton",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05010705352652,
+                        39.03752714367442,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Forest Glen",
+            "value": "Forest Glen",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.04291655489614,
+                        39.01495427527835,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Silver Spring",
+            "value": "Silver Spring",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03101782681891,
+                        38.99394937476845,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Brookland-CUA",
+            "value": "Brookland-CUA",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.99453428510049,
+                        38.93321099135371,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Fort Totten",
+            "value": "Fort Totten",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00220307680834,
+                        38.95184676758986,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Prince George's Plaza",
+            "value": "Prince George's Plaza",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.95588150788183,
+                        38.96538544585582,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Judiciary Sq",
+            "value": "Judiciary Sq",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01663895662587,
+                        38.896090317663166,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "West Hyattsville",
+            "value": "West Hyattsville",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.9695766751036,
+                        38.955040170722334,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Benning Road",
+            "value": "Benning Road",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.93836486812415,
+                        38.89097567600269,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Addison Road Seat Pleasant",
+            "value": "Addison Road Seat Pleasant",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.89410791000809,
+                        38.886747816832674,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Deanwood",
+            "value": "Deanwood",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.93525678304978,
+                        38.908178496517216,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "New Carrollton",
+            "value": "New Carrollton",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.87184128655672,
+                        38.94778485583298,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Landover",
+            "value": "Landover",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.8911979676093,
+                        38.93350623445376,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Cheverly",
+            "value": "Cheverly",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91662804405367,
+                        38.916631854659755,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Largo Town Center",
+            "value": "Largo Town Center",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.84203752022478,
+                        38.905068807210085,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "NoMa - Gallaudet U",
+            "value": "NoMa - Gallaudet U",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00302044727623,
+                        38.9070162121509,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Rosslyn",
+            "value": "Rosslyn",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.07090868538504,
+                        38.89597909628309,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Capitol South",
+            "value": "Capitol South",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00513941992737,
+                        38.885062500925,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Arlington|Cemetery",
+            "value": "Arlington|Cemetery",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.06281012914037,
+                        38.88468685852292,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Dupont Circle",
+            "value": "Dupont Circle",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.04341435972708,
+                        38.90959805757176,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Pentagon",
+            "value": "Pentagon",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05371567343194,
+                        38.869462701258364,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Crystal City",
+            "value": "Crystal City",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05028980970857,
+                        38.857904320437974,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Navy Yard - Ballpark",
+            "value": "Navy Yard - Ballpark",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00508565136944,
+                        38.87648108490679,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "McPherson Sq",
+            "value": "McPherson Sq",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03363417212512,
+                        38.90133279688736,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Shaw-Howard Univ",
+            "value": "Shaw-Howard Univ",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191170078564,
+                        38.91347687116465,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Southern Ave",
+            "value": "Southern Ave",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.97505413887284,
+                        38.841085780329024,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Greenbelt",
+            "value": "Greenbelt",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91105757313493,
+                        39.01114586051427,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Tenleytown-AU",
+            "value": "Tenleytown-AU",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.07958732553253,
+                        38.94885143514487,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Metro Center",
+            "value": "Metro Center",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02807799718069,
+                        38.89831447321318,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "West Falls Church VT/UVA",
+            "value": "West Falls Church VT/UVA",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.18909482259758,
+                        38.90078055103285,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Dunn Loring Merrifield",
+            "value": "Dunn Loring Merrifield",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.22716067211516,
+                        38.88362513595476,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Vienna Fairfax-GMU",
+            "value": "Vienna Fairfax-GMU",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.27262225692775,
+                        38.877601123856635,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Friendship Heights",
+            "value": "Friendship Heights",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.08499580503951,
+                        38.959483873675715,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Shady Grove",
+            "value": "Shady Grove",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.16462733437842,
+                        39.11992732498129,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Rockville",
+            "value": "Rockville",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.14612533928484,
+                        39.084321607556745,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Twinbrook",
+            "value": "Twinbrook",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.12081795176874,
+                        39.06246765170041,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "White Flint",
+            "value": "White Flint",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.1128298590364,
+                        39.04815135732502,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Grosvenor-Strathmore",
+            "value": "Grosvenor-Strathmore",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.10384972001367,
+                        39.02926895002534,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Medical Center",
+            "value": "Medical Center",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.09695229054405,
+                        39.00005648434642,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Gallery Pl-Chinatown",
+            "value": "Gallery Pl-Chinatown",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191539042379,
+                        38.89831680979661,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Bethesda",
+            "value": "Bethesda",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.09412919222653,
+                        38.984393660394474,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Foggy Bottom GWU",
+            "value": "Foggy Bottom GWU",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05027773906102,
+                        38.900698009227014,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Court House",
+            "value": "Court House",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.0871312310518,
+                        38.89017553121852,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Clarendon",
+            "value": "Clarendon",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.09539409835607,
+                        38.886704839074675,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "East Falls Church",
+            "value": "East Falls Church",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.15688301999151,
+                        38.88595316637261,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Virginia Square-GMU",
+            "value": "Virginia Square-GMU",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.10297729421117,
+                        38.88336615180341,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Ballston-MU",
+            "value": "Ballston-MU",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.11316883505587,
+                        38.882182873810734,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Farragut West",
+            "value": "Farragut West",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.0406954151549,
+                        38.90131289417984,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Farragut North",
+            "value": "Farragut North",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03970082724703,
+                        38.90320194626843,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Woodley Park-Zoo Adams Morgan",
+            "value": "Woodley Park-Zoo Adams Morgan",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05241802079871,
+                        38.92508513710051,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Mt Vernon Sq - 7th St Convention Center",
+            "value": "Mt Vernon Sq - 7th St Convention Center",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191438038649,
+                        38.906436814951725,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "L'Enfant Plaza",
+            "value": "L'Enfant Plaza",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02190848409535,
+                        38.88483772791197,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Smithsonian",
+            "value": "Smithsonian",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02806623428602,
+                        38.888018702051426,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Pentagon City",
+            "value": "Pentagon City",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05953892154457,
+                        38.86188238675449,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Federal Triangle",
+            "value": "Federal Triangle",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02813199840536,
+                        38.89318087185462,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Archives-Navy Mem'l",
+            "value": "Archives-Navy Mem'l",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191438799919,
+                        38.89366522352208,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "road",
+            "value": "road",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01750520880347,
+                        38.87646186689611,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Ronald Reagan Washington National Airport",
+            "value": "Ronald Reagan Washington National Airport",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.04404229438322,
+                        38.85341638599062,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "U St/African-Amer Civil War Memorial/Cardozo",
+            "value": "U St/African-Amer Civil War Memorial/Cardozo",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.0274958929489,
+                        38.91700239924426,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Van Dorn Street",
+            "value": "Van Dorn Street",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.12911152370515,
+                        38.79930767201779,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Union Station",
+            "value": "Union Station",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00741429219985,
+                        38.89776603923524,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Congress Heights",
+            "value": "Congress Heights",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.98851193260715,
+                        38.84565770287511,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Naylor Road",
+            "value": "Naylor Road",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.95626270945314,
+                        38.8513013835867,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Suitland",
+            "value": "Suitland",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.93187015895299,
+                        38.84396455441679,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Branch Ave",
+            "value": "Branch Ave",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91146421773884,
+                        38.82644634832078,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Braddock Road",
+            "value": "Braddock Road",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05366757406264,
+                        38.81414366728901,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "King St - Old Town",
+            "value": "King St - Old Town",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.06081120854599,
+                        38.806586117247996,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Eisenhower Ave",
+            "value": "Eisenhower Ave",
+            "props": {
+                "markerCol": "#ffff00",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.07087438931458,
+                        38.800425449701244,
+                        0.0
+                    ]
+                },
+                "line": "yellow",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Huntington",
+            "value": "Huntington",
+            "props": {
+                "markerCol": "#ffff00",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.075205789149,
+                        38.793915852906736,
+                        0.0
+                    ]
+                },
+                "line": "yellow",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Anacostia",
+            "value": "Anacostia",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.99537073875437,
+                        38.862963116801595,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Franconia-Springfield",
+            "value": "Franconia-Springfield",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.16797018042666,
+                        38.766521892689916,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Eastern Market",
+            "value": "Eastern Market",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.99600112671642,
+                        38.884622260842676,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Potomac Ave",
+            "value": "Potomac Ave",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.98549531965503,
+                        38.88126327363317,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Stadium Armory",
+            "value": "Stadium Armory",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.97708890144222,
+                        38.88670908984284,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Rhode Island Ave",
+            "value": "Rhode Island Ave",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.9959369166641,
+                        38.921059689186336,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Minnesota Ave",
+            "value": "Minnesota Ave",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.94674773364017,
+                        38.89919122308901,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Van Ness-UDC",
+            "value": "Van Ness-UDC",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.06298618051905,
+                        38.94326528832245,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Cleveland Park",
+            "value": "Cleveland Park",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05804251913345,
+                        38.93476289080542,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Columbia Heights",
+            "value": "Columbia Heights",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03255211771173,
+                        38.9278379675233,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "College Park-U of Md",
+            "value": "College Park-U of Md",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.92812498187074,
+                        38.97863363396686,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Capitol Heights",
+            "value": "Capitol Heights",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91180811452222,
+                        38.889465856872334,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Federal Center SW",
+            "value": "Federal Center SW",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01586821694521,
+                        38.885072355144786,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Morgan Boulevard",
+            "value": "Morgan Boulevard",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.86807476813904,
+                        38.89383492821474,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Georgia Ave Petworth",
+            "value": "Georgia Ave Petworth",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02346090408138,
+                        38.93743463014478,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Takoma",
+            "value": "Takoma",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01817669871063,
+                        38.97607853106706,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Glenmont",
+            "value": "Glenmont",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05355735935977,
+                        39.06178376553033,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Wheaton",
+            "value": "Wheaton",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05010705352652,
+                        39.03752714367442,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Forest Glen",
+            "value": "Forest Glen",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.04291655489614,
+                        39.01495427527835,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Silver Spring",
+            "value": "Silver Spring",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03101782681891,
+                        38.99394937476845,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Brookland-CUA",
+            "value": "Brookland-CUA",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.99453428510049,
+                        38.93321099135371,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Fort Totten",
+            "value": "Fort Totten",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00220307680834,
+                        38.95184676758986,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Prince George's Plaza",
+            "value": "Prince George's Plaza",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.95588150788183,
+                        38.96538544585582,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Judiciary Sq",
+            "value": "Judiciary Sq",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01663895662587,
+                        38.896090317663166,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "West Hyattsville",
+            "value": "West Hyattsville",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.9695766751036,
+                        38.955040170722334,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Benning Road",
+            "value": "Benning Road",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.93836486812415,
+                        38.89097567600269,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Addison Road Seat Pleasant",
+            "value": "Addison Road Seat Pleasant",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.89410791000809,
+                        38.886747816832674,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Deanwood",
+            "value": "Deanwood",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.93525678304978,
+                        38.908178496517216,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "New Carrollton",
+            "value": "New Carrollton",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.87184128655672,
+                        38.94778485583298,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Landover",
+            "value": "Landover",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.8911979676093,
+                        38.93350623445376,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Cheverly",
+            "value": "Cheverly",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91662804405367,
+                        38.916631854659755,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Largo Town Center",
+            "value": "Largo Town Center",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.84203752022478,
+                        38.905068807210085,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "NoMa - Gallaudet U",
+            "value": "NoMa - Gallaudet U",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00302044727623,
+                        38.9070162121509,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Rosslyn",
+            "value": "Rosslyn",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.07090868538504,
+                        38.89597909628309,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Capitol South",
+            "value": "Capitol South",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00513941992737,
+                        38.885062500925,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Arlington|Cemetery",
+            "value": "Arlington|Cemetery",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.06281012914037,
+                        38.88468685852292,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Dupont Circle",
+            "value": "Dupont Circle",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.04341435972708,
+                        38.90959805757176,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Pentagon",
+            "value": "Pentagon",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05371567343194,
+                        38.869462701258364,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Crystal City",
+            "value": "Crystal City",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05028980970857,
+                        38.857904320437974,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Navy Yard - Ballpark",
+            "value": "Navy Yard - Ballpark",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.00508565136944,
+                        38.87648108490679,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "McPherson Sq",
+            "value": "McPherson Sq",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03363417212512,
+                        38.90133279688736,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Shaw-Howard Univ",
+            "value": "Shaw-Howard Univ",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191170078564,
+                        38.91347687116465,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Southern Ave",
+            "value": "Southern Ave",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.97505413887284,
+                        38.841085780329024,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Greenbelt",
+            "value": "Greenbelt",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -76.91105757313493,
+                        39.01114586051427,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Tenleytown-AU",
+            "value": "Tenleytown-AU",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.07958732553253,
+                        38.94885143514487,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Metro Center",
+            "value": "Metro Center",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02807799718069,
+                        38.89831447321318,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "West Falls Church VT/UVA",
+            "value": "West Falls Church VT/UVA",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.18909482259758,
+                        38.90078055103285,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Dunn Loring Merrifield",
+            "value": "Dunn Loring Merrifield",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.22716067211516,
+                        38.88362513595476,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Vienna Fairfax-GMU",
+            "value": "Vienna Fairfax-GMU",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.27262225692775,
+                        38.877601123856635,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Friendship Heights",
+            "value": "Friendship Heights",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.08499580503951,
+                        38.959483873675715,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Shady Grove",
+            "value": "Shady Grove",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.16462733437842,
+                        39.11992732498129,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Rockville",
+            "value": "Rockville",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.14612533928484,
+                        39.084321607556745,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Twinbrook",
+            "value": "Twinbrook",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.12081795176874,
+                        39.06246765170041,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "White Flint",
+            "value": "White Flint",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.1128298590364,
+                        39.04815135732502,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Grosvenor-Strathmore",
+            "value": "Grosvenor-Strathmore",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.10384972001367,
+                        39.02926895002534,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Medical Center",
+            "value": "Medical Center",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.09695229054405,
+                        39.00005648434642,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Gallery Pl-Chinatown",
+            "value": "Gallery Pl-Chinatown",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191539042379,
+                        38.89831680979661,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Bethesda",
+            "value": "Bethesda",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.09412919222653,
+                        38.984393660394474,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Foggy Bottom GWU",
+            "value": "Foggy Bottom GWU",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05027773906102,
+                        38.900698009227014,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Court House",
+            "value": "Court House",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.0871312310518,
+                        38.89017553121852,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Clarendon",
+            "value": "Clarendon",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.09539409835607,
+                        38.886704839074675,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "East Falls Church",
+            "value": "East Falls Church",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.15688301999151,
+                        38.88595316637261,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Virginia Square-GMU",
+            "value": "Virginia Square-GMU",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.10297729421117,
+                        38.88336615180341,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Ballston-MU",
+            "value": "Ballston-MU",
+            "props": {
+                "markerCol": "#ffa500",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.11316883505587,
+                        38.882182873810734,
+                        0.0
+                    ]
+                },
+                "line": "orange",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Farragut West",
+            "value": "Farragut West",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.0406954151549,
+                        38.90131289417984,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Farragut North",
+            "value": "Farragut North",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.03970082724703,
+                        38.90320194626843,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Woodley Park-Zoo Adams Morgan",
+            "value": "Woodley Park-Zoo Adams Morgan",
+            "props": {
+                "markerCol": "#ff0000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05241802079871,
+                        38.92508513710051,
+                        0.0
+                    ]
+                },
+                "line": "red",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Mt Vernon Sq - 7th St Convention Center",
+            "value": "Mt Vernon Sq - 7th St Convention Center",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191438038649,
+                        38.906436814951725,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "L'Enfant Plaza",
+            "value": "L'Enfant Plaza",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02190848409535,
+                        38.88483772791197,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Smithsonian",
+            "value": "Smithsonian",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02806623428602,
+                        38.888018702051426,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Pentagon City",
+            "value": "Pentagon City",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.05953892154457,
+                        38.86188238675449,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Federal Triangle",
+            "value": "Federal Triangle",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02813199840536,
+                        38.89318087185462,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Archives-Navy Mem'l",
+            "value": "Archives-Navy Mem'l",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.02191438799919,
+                        38.89366522352208,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "road",
+            "value": "road",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.01750520880347,
+                        38.87646186689611,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "Ronald Reagan Washington National Airport",
+            "value": "Ronald Reagan Washington National Airport",
+            "props": {
+                "markerCol": "#0000ff",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.04404229438322,
+                        38.85341638599062,
+                        0.0
+                    ]
+                },
+                "line": "blue",
+                "markerSym": "rail-metro"
+            }
+        },
+        {
+            "id": "U St/African-Amer Civil War Memorial/Cardozo",
+            "value": "U St/African-Amer Civil War Memorial/Cardozo",
+            "props": {
+                "markerCol": "#008000",
+                "theGeom": {
+                    "type": "Point",
+                    "coordinates": [
+                        -77.0274958929489,
+                        38.91700239924426,
+                        0.0
+                    ]
+                },
+                "line": "green",
+                "markerSym": "rail-metro"
+            }
+        }
+    ]
+}

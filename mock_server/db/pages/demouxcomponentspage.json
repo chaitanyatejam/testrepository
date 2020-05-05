@@ -1,0 +1,427 @@
+{
+    "id": "demouxcomponentspage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "demoapp",
+            "componentCategory": "Application",
+            "enableScroll": true,
+            "components": [
+                {
+                    "id": "democontainer",
+                    "componentCategory": "UIContainer",
+                    "components": [
+                        {
+                            "id": "textinput1",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 1"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput2",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 2"
+                                }
+                            }
+                        }
+                    ],
+                    "layout": {
+                        "component": {
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "flexWrap": "wrap",
+                            "styles": [
+                                {
+                                    "id": "textinput1",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput2",
+                                    "style": {
+                                        "flex": 5,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput3",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput4",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput5",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput6",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput7",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput8",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput9",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput10",
+                                    "style": {
+                                        "flex": 1,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput11",
+                                    "style": {
+                                        "flex": 5,
+                                        "padding": 5
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "component": {
+                    "flex": 1,
+                    "margin": 10,
+                    "styles": [
+                        {
+                            "id": "democontainer",
+                            "style": {
+                                "flex": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "demoapp2",
+            "componentCategory": "Application",
+            "enableScroll": true,
+            "components": [
+                {
+                    "id": "democontainer",
+                    "componentCategory": "UIContainer",
+                    "components": [
+                        {
+                            "id": "textinput1",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 1"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput2",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 2"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput3",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 3"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput4",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 4"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput5",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 5"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput6",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 6"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput7",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 7"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput8",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 8"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput9",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 9"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput10",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 10"
+                                }
+                            }
+                        },
+                        {
+                            "id": "textinput11",
+                            "view": "vuxmobile-textinput",
+                            "label": {
+                                "id": "name",
+                                "type": "Text",
+                                "componentCategory": "UIControl",
+                                "component": {
+                                    "css": "success",
+                                    "view": "Text",
+                                    "text": "Field 11"
+                                }
+                            }
+                        }
+                    ],
+                    "layout": {
+                        "component": {
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "flexWrap": "wrap",
+                            "styles": [
+                                {
+                                    "id": "textinput1",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput2",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput3",
+                                    "style": {
+                                        "width": 700,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput4",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput5",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput6",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput7",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput8",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput9",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput10",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                },
+                                {
+                                    "id": "textinput11",
+                                    "style": {
+                                        "width": 200,
+                                        "padding": 5
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "component": {
+                    "flex": 1,
+                    "margin": 10,
+                    "styles": [
+                        {
+                            "id": "democontainer",
+                            "style": {
+                                "flex": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "flex": 1,
+            "justifyContent": "flex-start",
+            "styles": [
+                {
+                    "id": "demoapp",
+                    "style": {
+                    }
+                }
+            ]
+        }
+    }
+}

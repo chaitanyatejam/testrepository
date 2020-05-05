@@ -1,0 +1,51 @@
+{
+    "id": "td1v",
+    "header": {
+        "id": "solutionHeader",
+        "componentCategory": "UIContainer",
+        "components": [
+            {
+                "id": "burgerMenu",
+                "componentCategory": "MicroApplication"
+            },
+            {
+                "id": "smartSearchControl",
+                "componentCategory": "MicroApplication"
+            },
+            {
+                "id": "profileMenu",
+                "componentCategory": "MicroApplication"
+            }
+        ],
+        "layout": {
+            "style": {
+                "flexDirection": "row",
+                "alignItems":"center",
+                "height":60,
+                "width":"100%",
+                "backgroundColor":"lightblue"
+            },
+            "componentStyles":[
+                {
+                    "id": "burgerMenu",
+                    "style":{
+                        "width":60
+                    }
+                },
+                {
+                    "id": "smartSearchControl",
+                    "style":{
+                        "flex":1
+                    }
+                },
+                {
+                    "id": "profileMenu",
+                    "style":{
+                        "width":180,
+                        "marginTop":0
+                    }
+                }
+            ]
+        }
+    }
+}

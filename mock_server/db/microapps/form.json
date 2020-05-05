@@ -1,0 +1,191 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "form",
+    "name": "form",
+    "componentCategory": "MicroApplication",
+    "type": "Form",
+    "title": "Order Form",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-form",
+        "on": {
+            "onAfterSubmit": {
+                "@class": "com.apporchid.common.JSFunction",
+                "namespace": "demoAPIUtils",
+                "name": "onAfterFormSave",
+                "objectType": "jsfunction"
+            }
+        },
+        "css": "ao-vux-form",
+        "container": {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "2dfafd16-ae05-411a-80e4-dcc7d57d447b",
+            "name": "2dfafd16-ae05-411a-80e4-dcc7d57d447b",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {},
+                            "id": "customerName"
+                        },
+                        {
+                            "style": {},
+                            "id": "customerNumber"
+                        },
+                        {
+                            "style": {},
+                            "id": "description"
+                        },
+                        {
+                            "style": {},
+                            "id": "inMyTruck"
+                        },
+                        {
+                            "style": {},
+                            "id": "scheduleStartDate"
+                        },
+                        {
+                            "style": {},
+                            "id": "scheduleEndDate"
+                        },
+                        {
+                            "style": {},
+                            "id": "submitButtonId"
+                        }
+                    ],
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "customerName",
+                    "name": "customerName",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textinput",
+                        "css": "aovuxtextinput customerNameCss",
+                        "id": "customerName",
+                        "placeholder": "Name",
+                        "label": "CustomerName"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "customerNumber",
+                    "name": "customerNumber",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textinput",
+                        "css": "aovuxtextinput",
+                        "id": "customerNumber",
+                        "placeholder": "Number",
+                        "label": "Customer Number"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "description",
+                    "name": "description",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textinput",
+                        "css": "aovuxtextinput",
+                        "id": "description",
+                        "numberOfLines": 3,
+                        "placeholder": "description",
+                        "label": "Description"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "inMyTruck",
+                    "name": "inMyTruck",
+                    "componentCategory": "UIControl",
+                    "type": "Checkbox",
+                    "component": {
+                        "view": "vuxmobile-checkbox",
+                        "css": "aovuxcheckbox",
+                        "id": "inMyTruck",
+                        "disabled": false,
+                        "label": "In My Truck",
+                        "value": false,
+                        "checked": false,
+                        "enableRippleEffect": false,
+                        "labelPosition": "left"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "scheduleStartDate",
+                    "name": "scheduleStartDate",
+                    "componentCategory": "UIControl",
+                    "type": "DateTimepicker",
+                    "component": {
+                        "view": "vuxmobile-datepicker",
+                        "css": "aovuxdatepicker",
+                        "id": "scheduleStartDate",
+                        "mode": "date",
+                        "label": "StartDate"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "scheduleEndDate",
+                    "name": "scheduleEndDate",
+                    "componentCategory": "UIControl",
+                    "type": "DateTimepicker",
+                    "component": {
+                        "view": "vuxmobile-datepicker",
+                        "css": "aovuxdatepicker",
+                        "id": "scheduleEndDate",
+                        "mode": "date",
+                        "label": "EndDate"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "submitButtonId",
+                    "name": "submitButtonId",
+                    "componentCategory": "UIControl",
+                    "type": "Submit",
+                    "component": {
+                        "view": "vuxmobile-button",
+                        "css": "aovuxbutton submitButtonCss",
+                        "id": "submitButtonId",
+                        "title": "Submit"
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": true,
+            "componentCount": 7,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        "updatePipelineId": "com::apporchid::mobiledemo::OrderDataFormConfigUpdatePipeline"
+    },
+    "visible": true,
+    "showTitle": true,
+    "showSubTitle": false
+}

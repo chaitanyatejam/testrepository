@@ -1,0 +1,44 @@
+{
+    "id": "barcodescanneruxcomponentspage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "barcodescannerpage",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id":"barcodescanner",
+                    "view":"vuxmobile-barcodescanner"
+                }
+            ],
+            "layout": {
+                "component": {
+                    "flex": 1,
+                    "styles": [
+                        {
+                            "id": "barcodescanner",
+                            "style":{
+                                "flex":1
+                            }
+                        }
+                    ]
+                }
+                
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "flex": 1,
+            "styles": [
+                {
+                    "id": "barcodescannerpage",
+                    "style": {
+                        "flex": 1
+                    }
+                }
+            ]
+        }
+    
+    }
+}

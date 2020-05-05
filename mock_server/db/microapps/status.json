@@ -1,0 +1,88 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "status",
+    "name": "combo",
+    "componentCategory": "MicroApplication",
+    "type": "Combo",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-combo",
+        "css": "aovuxcombo formcombo",
+        "label": "status",
+        "labelPosition": "top",
+        "enableServersideFiltering": true,
+        "filterBy": "name",
+        "filterType": "MatchAll",
+        "filterIgnoreCase": true,
+        "options": [
+            {
+                "value": "Test",
+                "id": 1
+            },
+            {
+                "value": "Test2",
+                "id": 2
+            },
+            {
+                "value": "Test3",
+                "id": 3
+            },
+            {
+                "value": "test4",
+                "id": 4
+            },
+            {
+                "value": "test5",
+                "id": 5
+            },
+            {
+                "value": 12312,
+                "id": 6
+            },
+            {
+                "value": "1sadasaa",
+                "id": 7
+            },
+            {
+                "value": "12sadas313",
+                "id": 8
+            },
+            {
+                "value": "test",
+                "id": 9
+            },
+            {
+                "value": "test2",
+                "id": 10
+            },
+            {
+                "value": "test3",
+                "id": 11
+            },
+            {
+                "value": "test4",
+                "id": 12
+            },
+            {
+                "value": "test5",
+                "id": 13
+            },
+            {
+                "value": 12312,
+                "id": 14
+            },
+            {
+                "value": "1sadasaa",
+                "id": 15
+            },
+            {
+                "value": "12sadas313",
+                "id": 16
+            }
+        ]
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

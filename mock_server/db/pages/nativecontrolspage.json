@@ -1,0 +1,387 @@
+{
+    "id": "nativecontrolspage",
+    "enableScroll": true,
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "nativecontrolsapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "forms",
+                    "view": "Formik",
+                    "fields": [
+                        {
+                            "view": "TextInput",
+                            "name": "ema",
+                            "type": "email",
+                            "label": "Email",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "arguments": [
+                                        "this email is required"
+                                    ]
+                                },
+                                {
+                                    "name": "email",
+                                    "arguments": [
+                                        "provide valid email"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "view": "TextInput",
+                            "name": "pass",
+                            "type": "password",
+                            "label": "Password",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "arguments": [
+                                        "this password is required"
+                                    ]
+                                },
+                                {
+                                    "name": "min",
+                                    "arguments": [
+                                        8,
+                                        "min 8 characters required"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "view": "Picker",
+                            "name": "gender",
+                            "label": "gender",
+                            "values": [
+                                {
+                                    "label": "male",
+                                    "value": "male"
+                                },
+                                {
+                                    "label": "female",
+                                    "value": "female"
+                                }
+                            ]
+                        },
+                        {
+                            "view":"DatePicker",
+                            "name":"datePicker",
+                            "dateFormat":"DD/MM/YYYY"
+                        },
+                        {
+                            "view":"TimePicker",
+                            "name":"timePicker",
+                            "timeFormat":"hh:mm A"
+                        }
+                    ]
+                },
+                {
+                    "id": "sampleactivityindicator",
+                    "view": "ActivityIndicator",
+                    "useNative": "true"
+                },
+                {
+                    "id": "sampleactivityindicatorRNP",
+                    "view": "ActivityIndicator",
+                    "animating": "true",
+                    "color": "red",
+                    "size": "small"
+                },
+                {
+                    "id": "sampleimage",
+                    "view": "Image",
+                    "componentCategory": "UIControl",
+                    "source": {
+                        "uri": "https://facebook.github.io/react-native/docs/assets/favicon.png"
+                    },
+                    "style": {
+                        "width": 50,
+                        "height": 50
+                    }
+                },
+                {
+                    "id": "sampleimageBackground",
+                    "view": "ImageBackground",
+                    "componentCategory": "UIControl",
+                    "source": {
+                        "uri": "https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg"
+                    },
+                    "style": {
+                        "width": "100%",
+                        "height": 150,
+                        "flexDirection": "column",
+                        "justifyContent": "center"
+                    },
+                    "body": {
+                        "view": "Text",
+                        "label": "Background Image",
+                        "style": {
+                            "textAlign": "center",
+                            "color": "blue"
+                        }
+                    }
+                },
+                {
+                    "id": "samplebutton",
+                    "view": "Button",
+                    "componentCategory": "UIControl",
+                    "text": "Submit",
+                    "icon": "add-a-photo",
+                    "mode": "contained"
+                },
+                {
+                    "id": "sampleCheckbox",
+                    "view": "Checkbox",
+                    "label": "Default",
+                    "checked": "true",
+                    "useNative": "true"
+                },
+                {
+                    "id": "sampleCheckboxRNP",
+                    "view": "Checkbox",
+                    "label": "DefaultRNP",
+                    "checked": "true"
+                },
+                {
+                    "id": "sampleSwitch",
+                    "view": "Switch",
+                    "useNative": "true"
+                },
+                {
+                    "id": "sampleSwitchRNP",
+                    "view": "Switch",
+                    "color": "black"
+                },
+                {
+                    "id": "samplePicker",
+                    "view": "Picker",
+                    "data": [
+                        "Value1",
+                        "Value2"
+                    ]
+                },
+                {
+                    "id": "KeyboardAvoidingView",
+                    "view": "KeyboardAvoidingView",
+                    "style": {
+                        "width": 200,
+                        "height": 90
+                    },
+                    "body": {
+                        "view": "RNTextInput",
+                        "label": "TextInput",
+                        "style": {
+                            "textAlign": "center",
+                            "color": "blue",
+                            "minWidth": 100
+                        }
+                    }
+                },
+                {
+                    "id": "samplebadge",
+                    "view": "Badge",
+                    "componentCategory": "UIControl",
+                    "body": {
+                        "view": "Text",
+                        "label": "my badge"
+                    },
+                    "theme": "DarkTheme"
+                },
+                {
+                    "id": "samplebanner",
+                    "view": "Banner",
+                    "componentCategory": "UIControl",
+                    "body": "This is a Banner",
+                    "visible": "true",
+                    "theme": "DarkTheme",
+                    "actions": [
+                        {
+                            "label": "Fix It",
+                            "onPress": {}
+                        },
+                        {
+                            "label": "Learn more",
+                            "onPress": {}
+                        }
+                    ]
+                },
+                {
+                    "id": "samplechip",
+                    "view": "Chip",
+                    "componentCategory": "UIControl",
+                    "body": "chip example",
+                    "icon": "info",
+                    "mode": "outlined",
+                    "selected": "true"
+                },
+                {
+                    "id": "sampledivider",
+                    "view": "Divider",
+                    "componentCategory": "UIControl",
+                    "inset": "true"
+                },
+                {
+                    "id": "sampleprogressbar",
+                    "view": "ProgressBar",
+                    "componentCategory": "UIControl",
+                    "progress": 0.5,
+                    "color": "red"
+                },
+                {
+                    "id": "samplefab",
+                    "view": "FAB",
+                    "componentCategory": "UIControl",
+                    "small": "true",
+                    "color": "red",
+                    "icon": "add"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                    "alignItems": "center"
+                },
+                "componentStyles": [
+                    {
+                        "id": "forms",
+                        "style": {
+                            "width": 100
+                        }
+                    },
+                    {
+                        "id": "sampleimage",
+                        "style": {
+                            "height": 50,
+                            "width": 50,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "sampleimageBackground",
+                        "style": {
+                            "alignSelf": "stretch",
+                            "marginVertical": 10,
+                            "height": 150
+                        }
+                    },
+                    {
+                        "id": "samplePicker",
+                        "style": {
+                            "height": 150,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "sampleButton",
+                        "style": {
+                            "height": 50,
+                            "width": 50,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "sampleSwitch",
+                        "style": {
+                            "height": 50,
+                            "width": 50,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "sampleCheckbox",
+                        "style": {
+                            "height": 50,
+                            "width": 150,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "KeyboardAvoidingView",
+                        "style": {
+                            "height": 100,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "samplebadge",
+                        "style": {
+                            "height": 100,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "samplebanner",
+                        "style": {
+                            "height": 100,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "samplechip",
+                        "style": {
+                            "height": 100,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "sampledivider",
+                        "style": {
+                            "height": 100,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "sampleprogressbar",
+                        "style": {
+                            "height": 100,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "samplesnackbar",
+                        "style": {
+                            "height": 100,
+                            "width": 200,
+                            "marginVertical": 10
+                        }
+                    },
+                    {
+                        "id": "samplefab",
+                        "style": {
+                            "height": 100,
+                            "width": 40,
+                            "marginVertical": 10
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1
+        },
+        "componentStyles": [
+            {
+                "id": "nativecontrolsapp",
+                "style": {
+                    "flex": 1
+                }
+            }
+        ]
+    }
+}

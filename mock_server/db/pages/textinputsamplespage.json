@@ -1,0 +1,174 @@
+{
+    "id": "textinputsamplespage",
+    "enableScroll": true,
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "textinputsamplesapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "sampletextinput",
+                    "view": "RNTextInput",
+                    "componentCategory": "UIControl",
+                    "placeholder": "type something!"
+                },
+                {
+                    "id": "sampletextinput1",
+                    "view": "RNTextInput",
+                    "componentCategory": "UIControl",
+                    "label": "Email"
+                },
+                {
+                    "id": "sampletextinput2",
+                    "view": "TextInput",
+                    "componentCategory": "UIControl",
+                    "label": "Default",
+                    "placeholder": "Default",
+                    "labelStyle": {
+                        "fontSize": 20
+                    },
+                    "containerStyle": {
+                        "backgroundColor": "white",
+                        "borderRadius": 10,
+                        "height": 100
+                    },
+                    "textInputStyle": {}
+                },
+                {
+                    "id": "sampletextinput2",
+                    "view": "TextInput",
+                    "componentCategory": "UIControl",
+                    "label": "Label Placeholder",
+                    "labelPosition":"placeholder",
+                    "labelStyle": {
+                        "fontSize": 20
+                    },
+                    "containerStyle": {
+                        "backgroundColor": "white",
+                        "borderRadius": 10
+                    },
+                    "textInputStyle": {}
+                },
+                {
+                    "id": "sampletextinput3",
+                    "view": "TextInput",
+                    "componentCategory": "UIControl",
+                    "label": "Label Left",
+                    "labelPosition": "left",
+                    "labelStyle": {
+                        "fontSize": 20
+                    },
+                    "containerStyle": {
+                        "backgroundColor": "white",
+                        "borderRadius": 10,
+                        "height": 100
+                    },
+                    "textInputStyle": {}
+                },
+                {
+                    "id": "sampletextinput4",
+                    "view": "TextInput",
+                    "componentCategory": "UIControl",
+                    "label": "Label Right",
+                    "labelPosition": "right",
+                    "labelStyle": {
+                        "fontSize": 20
+                    },
+                    "containerStyle": {
+                        "backgroundColor": "white",
+                        "borderRadius": 10,
+                        "height": 100
+                    },
+                    "textInputStyle": {}
+                },
+                {
+                    "id": "sampletextinput5",
+                    "view": "TextInput",
+                    "componentCategory": "UIControl",
+                    "label": "Label Top",
+                    "labelPosition": "top",
+                    "warning": " ",
+                    "labelStyle": {
+                        "fontSize": 20
+                    },
+                    "containerStyle": {
+                        "backgroundColor": "white",
+                        "borderRadius": 10,
+                        "height": 100
+                    },
+                    "textInputStyle": {}
+                },
+                {
+                    "id": "sampletextinput6",
+                    "view": "TextInput",
+                    "componentCategory": "UIControl",
+                    "label": "Label Top Placeholder",
+                    "labelPosition": "placeholderTop",
+                    "initialLabelPosition": 40,
+                    "error": " ",
+                    "labelStyle": {
+                        "fontSize": 20
+                    },
+                    "containerStyle": {
+                        "backgroundColor": "white",
+                        "borderRadius": 10,
+                        "height": 100
+                    },
+                    "textInputStyle": {}
+                },
+                {
+                    "id": "samplehelpertext",
+                    "view": "HelperText",
+                    "componentCategory": "UIControl",
+                    "children": "Email address is invalid!",
+                    "type": "error"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "alignItems": "center"
+                },
+                "componentStyles": [
+                    {
+                        "id": "sampletextinput",
+                        "style": {
+                            "height": 100,
+                            "width": 300
+                        }
+                    },
+                    {
+                        "id": "sampletextinput1",
+                        "style": {
+                            "height": 100,
+                            "width": 300
+                        }
+                    },
+                    {
+                        "id": "samplehelpertext",
+                        "style": {
+                            "height": 80,
+                            "width": 300
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1
+        },
+        "componentStyles": [
+            {
+                "id": "textinputsamplesapp",
+                "style": {
+                    "flex": 1
+                }
+            }
+        ]
+    }
+}

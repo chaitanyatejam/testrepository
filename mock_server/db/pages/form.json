@@ -1,0 +1,44 @@
+{
+    "id": "form",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "form_app",
+            "componentCategory": "Application",
+            "title": "form offline",
+            "components": [
+                {
+                    "id": "form",
+                    "componentCategory": "MicroApplicationReference"
+                }
+            ],
+            "layout": {
+                "component": {
+                    "flex": 1,
+                    "styles": [
+                        {
+                            "id": "form",
+                            "style": {
+                                "flex": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "flex": 1,
+            "styles": [
+                {
+                    "id": "form_app",
+                    "style": {
+                        "flex": 1,
+                        "padding": 10
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "workType",
+    "name": "workType",
+    "componentCategory": "MicroApplication",
+    "type": "Combo",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-combo",
+        "css": "aovuxcombo",
+        "label": "Work type",
+        "options": {
+            "data": [
+                {
+                    "id": "Trouble call",
+                    "value": "Trouble call"
+                },
+                {
+                    "id": "Schedule Call",
+                    "value": "Schedule Call"
+                }
+            ]
+        },
+        "popupCssClass": "popupCssClass",
+        "noOfItemsToShow": 10,
+        "selectFirstOptionByDefault": true,
+        "addEmptyValue": false,
+        "labelPosition": "top",
+        "enableServersideFiltering": false
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

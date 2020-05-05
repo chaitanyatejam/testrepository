@@ -1,0 +1,219 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "textcontrolsapps",
+    "name": "textcontrolsapps",
+    "componentCategory": "Application",
+    "enableUsageEvents": true,
+    "displayName": "Text Inputs",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "531ed213-43c7-4062-a17d-0d766eea6380"
+                }
+            ],
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "margin": 0,
+            "padding": 0
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "531ed213-43c7-4062-a17d-0d766eea6380",
+            "name": "531ed213-43c7-4062-a17d-0d766eea6380",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {},
+                            "id": "lastName"
+                        },
+                        {
+                            "style": {},
+                            "id": "name"
+                        }
+                    ],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "name",
+                    "name": "name",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textinput",
+                        "css": "aovuxtextinput",
+                        "id": "name",
+                        "placeholder": "First Name",
+                        "label": "First Name",
+                        "labelPosition": "left"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "lastName",
+                    "name": "lastName",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textarea",
+                        "css": "aovuxtextarea",
+                        "id": "Description",
+                        "placeholder": "Description",
+                        "label": "Description",
+                        "numberOfLines": 4,
+                        "labelPosition": "left"
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": false,
+            "componentCount": 2,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        }
+    ],
+    "enableScroll": false,
+    "header": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+        "id": "applicationHeader",
+        "name": "applicationHeader",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {},
+                        "id": "appHeaderIcon"
+                    },
+                    {
+                        "style": {
+                            "padding": 12
+                        },
+                        "id": "appHeaderMoreButton"
+                    },
+                    {
+                        "style": {
+                            "flex": 1,
+                            "padding": 9
+                        },
+                        "id": "appHeaderTitle"
+                    }
+                ],
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 42,
+                "justifyContent": "space-between"
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderIcon",
+                "name": "store-dark-solid",
+                "componentCategory": "UIControl",
+                "type": "Icon",
+                "component": {
+                    "view": "vuxmobile-icon",
+                    "css": "aovuxicon header_icon",
+                    "id": "appHeaderIcon",
+                    "size": 24,
+                    "name": "store-dark-solid",
+                    "align": "left",
+                    "width": 40
+                },
+                "visible": true
+            },
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderTitle",
+                "name": "appHeaderTitle",
+                "componentCategory": "UIControl",
+                "type": "Label",
+                "component": {
+                    "view": "vuxmobile-text",
+                    "css": "aovuxtext appTitle",
+                    "id": "appHeaderTitle",
+                    "text": "Text Inputs"
+                },
+                "visible": true
+            },
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderMoreButton",
+                "name": "more",
+                "componentCategory": "UIControl",
+                "type": "Icon",
+                "component": {
+                    "view": "vuxmobile-icon",
+                    "css": "aovuxicon more",
+                    "id": "appHeaderMoreButton",
+                    "name": "more",
+                    "align": "left"
+                },
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "moreMenuItems": [
+            {
+                "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                "id": "appExportCSVMenu",
+                "value": "Export As CSV",
+                "icon": "vuxicon-export-regular"
+            }
+        ],
+        "componentCount": 3,
+        "cssclass": "appHeader",
+        "defaultUsageEventsDataInput": {
+            "publishRequestData": true
+        },
+        "visible": true
+    },
+    "title": "Text Inputs",
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "categoryIds": [
+            1
+        ]
+    },
+    "captureSnapshot": false,
+    "showAppFeedback": false,
+    "visibleInAppstore": false,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true,
+    "showHeader": true,
+    "showFooter": false,
+    "showTitle": true,
+    "showSubTitle": false
+}

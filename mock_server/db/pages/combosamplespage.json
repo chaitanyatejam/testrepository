@@ -1,0 +1,60 @@
+{
+    "id": "combosamplespage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "combosamplesapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "samplecombo1",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "samplecombo2",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "alignItems": "center"
+                },
+                "componentStyles": [
+                    {
+                        "id": "samplecombo1",
+                        "style": {
+                            "height": 80,
+                            "width": 300
+                        }
+                    },
+                    {
+                        "id": "samplecombo2",
+                        "style": {
+                            "height": 80,
+                            "width": 300
+                        }
+                    }
+                 
+
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1
+        },
+        "componentStyles": [
+            {
+                "id": "combosamplesapp",
+                "style": {
+                    "flex": 1
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "id": "buttonuxcomponentspage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "buttonsapp",
+            "componentCategory": "Application",
+            "enableScroll": true,
+            "components": [
+                {
+                    "id": "Text1",
+                    "view": "vuxmobile-text",
+                    "label": "Contained Buttons",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "submitButtonId",
+                    "view": "vuxmobile-button",
+                    "style": {
+                        "height": 60,
+                        "margin": 30,
+                        "width": 150
+                    },
+                    "title": "Submit",
+                    "mode": "contained"
+                },
+                {
+                    "id": "Button1",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "contained",
+                    "title": "Button",
+                    "color": "black",
+                    "on": {
+                        "onPress": {
+                            "namespace": "sampleUtil",
+                            "name": "openAlert",
+                            "args": "ALERT",
+                            "objectType": "jsfunction"
+                        }
+                    }
+                },
+                {
+                    "id": "Button2",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "contained",
+                    "title": "Button",
+                    "disabled": true
+                },
+                {
+                    "id": "Button3",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "contained",
+                    "title": "Button",
+                    "icon": {
+                        "name": "favorite"
+                    },
+                    "on": {
+                        "onPress": {
+                            "namespace": "sampleUtil",
+                            "name": "openAlert",
+                            "args": "ALERT",
+                            "objectType": "jsfunction"
+                        }
+                    }
+                },
+                {
+                    "id": "Button4",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "contained",
+                    "title": "Button",
+                    "disabled": true,
+                    "icon": {
+                        "name": "add"
+                    }
+                },
+                {
+                    "id": "Text2",
+                    "view": "vuxmobile-text",
+                    "label": "Text Buttons",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "Button5",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "text",
+                    "title": "Button"
+                },
+                {
+                    "id": "Button6",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "text",
+                    "title": "Button",
+                    "disabled": true
+                },
+                {
+                    "id": "Button7",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "text",
+                    "title": "Button",
+                    "icon": {
+                        "name": "add"
+                    }
+                },
+                {
+                    "id": "Button8",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "text",
+                    "title": "Button",
+                    "disabled": true,
+                    "icon": {
+                        "name": "add"
+                    }
+                },
+                {
+                    "id": "Text3",
+                    "view": "vuxmobile-text",
+                    "label": "Outlined Buttons",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "Button9",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "outlined",
+                    "title": "Button"
+                },
+                {
+                    "id": "Button10",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "outlined",
+                    "title": "Button",
+                    "disabled": true
+                },
+                {
+                    "id": "Button11",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "outlined",
+                    "title": "Button",
+                    "icon": {
+                        "name": "add"
+                    }
+                },
+                {
+                    "id": "Button12",
+                    "view": "vuxmobile-button",
+                    "componentCategory": "UIControl",
+                    "mode": "outlined",
+                    "title": "Button",
+                    "disabled": true,
+                    "icon": {
+                        "name": "add"
+                    }
+                },
+                {
+                    "id": "Text4",
+                    "view": "vuxmobile-text",
+                    "label": "Toggle Buttons",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "ToggleButton1",
+                    "view": "vuxmobile-togglebutton",
+                    "componentCategory": "UIControl",
+                    "values": [
+                        "favorite",
+                        "remove-red-eye",
+                        "shopping-cart"
+                    ]
+                }
+            ],
+            "layout": {
+                "component": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "styles": [
+                        {
+                            "id": "Text1",
+                            "style": {
+                                "width": "100%"
+                            }
+                        },
+                        {
+                            "id": "Button1",
+                            "style": {}
+                        },
+                        {
+                            "id": "Button2",
+                            "style": {}
+                        }
+                    ]
+                }
+               
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "flexDirection": "column",
+            "flex": 1,
+            "padding": 15,
+            "justifyContent": "center",
+            "alignItems": "center",
+            "styles": [
+                {
+                    "id": "buttonsapp",
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,2801 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.solution.Solution",
+    "id": "samples",
+    "name": "mobilesamples",
+    "componentCategory": "Solution",
+    "enableUsageEvents": true,
+    "displayName": "AOMobile",
+    "description": "AOMobile",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1
+                    },
+                    "id": "appCustomStylesPage"
+                }
+            ],
+            "alignItems": "center",
+            "flexDirection": "column",
+            "justifyContent": "flex-start"
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "mobileListMicroappPage",
+            "name": "mobileListMicroappPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "List",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "mobilelistapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "mobilelistapp",
+                    "name": "mobilelistapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "samplestextinputpage",
+            "name": "samplestextinputpage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "enableScroll": false,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "labelRenderPage",
+            "name": "labelRenderPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Text",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "labelsapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "labelsapp",
+                    "name": "labelsapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "buttonsPage",
+            "name": "buttonsPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Buttons",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "mobilebuttonsapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "mobilebuttonsapp",
+                    "name": "mobilebuttonsapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "tablesPage",
+            "name": "tablesPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "showFooter": false,
+            "displayName": "Simple Table",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "datagridapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "datagridapp",
+                    "name": "datagridapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": false,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "switchPage",
+            "name": "switchPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Switch",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "switchapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "switchapp",
+                    "name": "switchapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "checkBoxPage",
+            "name": "checkBoxPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "CheckBox",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "checkboxapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "checkboxapp",
+                    "name": "checkboxapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "radioGroupPage",
+            "name": "radioGroupPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "RadioGroup",
+            "showFooter": true,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "radiogroupapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "radiogroupapp",
+                    "name": "radiogroupapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "pickerPage",
+            "name": "pickerPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Picker",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "pickerrapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "pickerrapp",
+                    "name": "pickerrapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "appDefaultStylesPage",
+            "name": "appDefaultStylesPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "AppStyles",
+            "showFooter": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "appDefaultstyleapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "pickerrapp",
+                    "name": "pickerrapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "appCustomStylesPage",
+            "name": "appCustomStylesPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "AppStyles1",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "appCustomstyleapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.Application",
+                    "id": "appCustomstyleapp",
+                    "name": "appCustomstyleapp",
+                    "componentCategory": "Application",
+                    "enableUsageEvents": true,
+                    "displayName": "Text Label",
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "Flex",
+                        "component": {
+                            "styles": [
+                                {
+                                    "style": {
+                                        "flex": 1,
+                                        "width": "100%"
+                                    },
+                                    "id": "4585619c-3229-4b5d-a14a-3392637b1983"
+                                }
+                            ],
+                            "alignItems": "flex-start",
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "margin": 0,
+                            "padding": 0
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                            "id": "4585619c-3229-4b5d-a14a-3392637b1983",
+                            "name": "4585619c-3229-4b5d-a14a-3392637b1983",
+                            "componentCategory": "UIContainer",
+                            "enableUsageEvents": false,
+                            "layout": {
+                                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                                "layoutType": "Flex",
+                                "component": {
+                                    "styles": [
+                                        {
+                                            "style": {},
+                                            "id": "text3"
+                                        },
+                                        {
+                                            "style": {},
+                                            "id": "text4"
+                                        },
+                                        {
+                                            "style": {},
+                                            "id": "text1"
+                                        },
+                                        {
+                                            "style": {},
+                                            "id": "text2"
+                                        },
+                                        {
+                                            "style": {},
+                                            "id": "text5"
+                                        },
+                                        {
+                                            "style": {},
+                                            "id": "text6"
+                                        }
+                                    ],
+                                    "alignItems": "flex-start",
+                                    "flex": 1,
+                                    "flexDirection": "column",
+                                    "justifyContent": "flex-start",
+                                    "padding": 8
+                                }
+                            },
+                            "components": [
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "text1",
+                                    "name": "text1",
+                                    "componentCategory": "UIControl",
+                                    "type": "Label",
+                                    "component": {
+                                        "view": "vuxmobile-text",
+                                        "css": "aovuxtext",
+                                        "id": "text1",
+                                        "text": "default label"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "text2",
+                                    "name": "text2",
+                                    "componentCategory": "UIControl",
+                                    "type": "Label",
+                                    "component": {
+                                        "view": "vuxmobile-text",
+                                        "css": "aovuxtext",
+                                        "id": "text2",
+                                        "disabled": true,
+                                        "text": "disabled label"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "text3",
+                                    "name": "text3",
+                                    "componentCategory": "UIControl",
+                                    "type": "Label",
+                                    "component": {
+                                        "view": "vuxmobile-text",
+                                        "css": "aovuxtext customSampleLabel",
+                                        "id": "text3",
+                                        "text": "custom label with sample-label css"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "text4",
+                                    "name": "text4",
+                                    "componentCategory": "UIControl",
+                                    "type": "Label",
+                                    "component": {
+                                        "view": "vuxmobile-text",
+                                        "css": "aovuxtext customSampleLabel",
+                                        "id": "text4",
+                                        "disabled": true,
+                                        "text": "disabled label with sample-label css"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "text5",
+                                    "name": "text5",
+                                    "componentCategory": "UIControl",
+                                    "type": "Label",
+                                    "component": {
+                                        "view": "vuxmobile-text",
+                                        "css": "aovuxtext successLabel",
+                                        "id": "text5",
+                                        "text": "success label"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "text6",
+                                    "name": "text6",
+                                    "componentCategory": "UIControl",
+                                    "type": "Label",
+                                    "component": {
+                                        "view": "vuxmobile-text",
+                                        "css": "aovuxtext errorLabel",
+                                        "id": "text6",
+                                        "text": "error label"
+                                    },
+                                    "visible": true
+                                }
+                            ],
+                            "enableScroll": false,
+                            "componentCount": 6,
+                            "defaultUsageEventsDataInput": {
+                                "publishRequestData": true
+                            },
+                            "visible": true
+                        }
+                    ],
+                    "enableScroll": false,
+                    "header": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                        "id": "applicationHeader",
+                        "name": "applicationHeader",
+                        "componentCategory": "UIContainer",
+                        "enableUsageEvents": false,
+                        "layout": {
+                            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                            "layoutType": "Flex",
+                            "component": {
+                                "styles": [
+                                    {
+                                        "style": {},
+                                        "id": "appHeaderIcon"
+                                    },
+                                    {
+                                        "style": {
+                                            "padding": 12
+                                        },
+                                        "id": "appHeaderMoreButton"
+                                    },
+                                    {
+                                        "style": {
+                                            "flex": 1,
+                                            "padding": 9
+                                        },
+                                        "id": "appHeaderTitle"
+                                    }
+                                ],
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "height": 42,
+                                "justifyContent": "space-between"
+                            }
+                        },
+                        "components": [
+                            {
+                                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                "id": "appHeaderIcon",
+                                "name": "store-dark-solid",
+                                "componentCategory": "UIControl",
+                                "type": "Icon",
+                                "component": {
+                                    "view": "vuxmobile-icon",
+                                    "css": "aovuxicon header_icon",
+                                    "id": "appHeaderIcon",
+                                    "size": 24,
+                                    "name": "store-dark-solid",
+                                    "align": "left",
+                                    "width": 40
+                                },
+                                "visible": true
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                "id": "appHeaderTitle",
+                                "name": "appHeaderTitle",
+                                "componentCategory": "UIControl",
+                                "type": "Label",
+                                "component": {
+                                    "view": "vuxmobile-text",
+                                    "css": "aovuxtext",
+                                    "id": "appHeaderTitle",
+                                    "text": "Text Label"
+                                },
+                                "visible": true
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                "id": "appHeaderMoreButton",
+                                "name": "more",
+                                "componentCategory": "UIControl",
+                                "type": "Icon",
+                                "component": {
+                                    "view": "vuxmobile-icon",
+                                    "css": "aovuxicon more",
+                                    "id": "appHeaderMoreButton",
+                                    "name": "more",
+                                    "align": "left"
+                                },
+                                "visible": true
+                            }
+                        ],
+                        "enableScroll": false,
+                        "moreMenuItems": [
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                                "id": "appExportCSVMenu",
+                                "value": "Export As CSV",
+                                "icon": "vuxicon-export-regular"
+                            }
+                        ],
+                        "componentCount": 3,
+                        "cssclass": "sampleAppHeader",
+                        "defaultUsageEventsDataInput": {
+                            "publishRequestData": true
+                        },
+                        "visible": true
+                    },
+                    "title": "Text Label",
+                    "extendedMetadata": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                        "categoryIds": [
+                            1
+                        ]
+                    },
+                    "captureSnapshot": false,
+                    "showAppFeedback": false,
+                    "visibleInAppstore": false,
+                    "showFullScreen": false,
+                    "componentCount": 1,
+                    "cssclass": "samplesAppCss",
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    },
+                    "visible": true,
+                    "showHeader": true,
+                    "showFooter": false,
+                    "showTitle": true,
+                    "showSubTitle": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "componentCount": 1,
+            "default": false,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "carouselpage",
+            "name": "samplecarouselpage",
+            "default": false,
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Sample Crousel",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "samplescarouselapp"
+                        }
+                    ],
+                    "flex": 1,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.Application",
+                    "id": "samplescarouselapp",
+                    "name": "samplescarouselapp",
+                    "componentCategory": "Application",
+                    "enableUsageEvents": true,
+                    "layout": {
+                        "component": {
+                            "styles": [
+                                {
+                                    "id": "e36ea92a-481b-4584-b4e8-b90ecb7c6c10",
+                                    "style": {
+                                        "flex": 1
+                                    }
+                                },
+                                {
+                                    "id": "e36ea92a-481b-4584-b4e8-b90ecb7c6c10",
+                                    "style": {
+                                        "flex": 1
+                                    }
+                                }
+                            ],
+                            "flexDirection": "column",
+                            "flex": 1
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                            "id": "e36ea92a-481b-4584-b4e8-b90ecb7c6c10",
+                            "name": "e36ea92a-481b-4584-b4e8-b90ecb7c6c10",
+                            "componentCategory": "MicroApplication",
+                            "type": "Carousel",
+                            "showNoRecordsMessage": true,
+                            "enablePushNotifications": false,
+                            "component": {
+                                "view": "vuxmobile-carousel",
+                                "css": "aovuxcarousel",
+                                "data": [
+                                    {
+                                        "image": "http://docs.webix.com/samples/26_carousel/imgs/image001.jpg"
+                                    },
+                                    {
+                                        "image": "http://docs.webix.com/samples/26_carousel/imgs/image002.jpg"
+                                    },
+                                    {
+                                        "image": "http://docs.webix.com/samples/26_carousel/imgs/image003.jpg"
+                                    },
+                                    {
+                                        "image": "http://docs.webix.com/samples/26_carousel/imgs/image004.jpg"
+                                    }
+                                ],
+                                "template": {
+                                    "@class": "com.apporchid.common.JSFunction",
+                                    "namespace": "samplesAPIUtils",
+                                    "name": "carouselTemplateFn",
+                                    "objectType": "jsfunction"
+                                },
+                                "style": {
+                                    "borderRadius": 8
+                                }
+                            },
+                            "visible": true,
+                            "showTitle": false,
+                            "showSubTitle": false
+                        }
+                    ],
+                    "enableScroll": false,
+                    "extendedMetadata": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                        "thumbnailIconUrl": "analytics.svg",
+                        "thumbnailBgColor": "#666666",
+                        "categoryIds": [
+                            1
+                        ]
+                    },
+                    "captureSnapshot": false,
+                    "feedbackLikeOptions": [
+                        "Exactly what I wanted",
+                        "Useful information",
+                        "Well presented",
+                        "Easy to use"
+                    ],
+                    "feedbackDislikeOptions": [
+                        "Difficult to use",
+                        "Not enough detail",
+                        "Not what I wanted",
+                        "Incorrect information"
+                    ],
+                    "exportMicroappIds": {
+                        "CSV": [
+                            "mobileListId"
+                        ]
+                    },
+                    "showAppFeedback": true,
+                    "visibleInAppstore": true,
+                    "componentCount": 1,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    },
+                    "visible": true,
+                    "showHeader": false,
+                    "showFooter": false,
+                    "showTitle": false,
+                    "showSubTitle": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "showFooter": true,
+            "enableSmartScrolling": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "tabviewsamplePage",
+            "name": "samplestabspage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Samples TabView",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "sampletabsapp"
+                        }
+                    ],
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "margin": 0,
+                    "padding": 0,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.Application",
+                    "id": "sampletabsapp",
+                    "name": "sampletabsapp",
+                    "componentCategory": "Application",
+                    "enableUsageEvents": true,
+                    "displayName": "Mobilecuecard  Application",
+                    "layout": {
+                        "layoutType": "TabLayout",
+                        "component": {
+                            "view": "tabview",
+                            "css": "aovuxtabview tabview",
+                            "position": "top",
+                            "cells": [
+                                {
+                                    "headerIcon": "star",
+                                    "header": "Chart 1",
+                                    "tabId": "formControl"
+                                },
+                                {
+                                    "headerIcon": "star",
+                                    "header": "Chart 2",
+                                    "tabId": "form"
+                                }
+                            ]
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                            "id": "formControl",
+                            "name": "formControl",
+                            "componentCategory": "MicroApplicationReference",
+                            "enableUsageEvents": false,
+                            "defaultUsageEventsDataInput": {
+                                "publishRequestData": true
+                            }
+                        },
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                            "id": "form",
+                            "name": "form",
+                            "componentCategory": "MicroApplicationReference",
+                            "enableUsageEvents": false,
+                            "defaultUsageEventsDataInput": {
+                                "publishRequestData": true
+                            }
+                        }
+                    ],
+                    "enableScroll": false,
+                    "extendedMetadata": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                        "thumbnailIconUrl": "analytics.svg",
+                        "thumbnailBgColor": "#a6761d",
+                        "categoryIds": [
+                            1
+                        ]
+                    },
+                    "captureSnapshot": false,
+                    "feedbackLikeOptions": [
+                        "Exactly what I wanted",
+                        "Useful information",
+                        "Well presented",
+                        "Easy to use"
+                    ],
+                    "feedbackDislikeOptions": [
+                        "Difficult to use",
+                        "Not enough detail",
+                        "Not what I wanted",
+                        "Incorrect information"
+                    ],
+                    "exportMicroappIds": {
+                        "CSV": [
+                            "textdemo"
+                        ]
+                    },
+                    "showAppFeedback": true,
+                    "visibleInAppstore": true,
+                    "componentCount": 1,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    },
+                    "visible": true,
+                    "showHeader": false,
+                    "showFooter": false,
+                    "showTitle": false,
+                    "showSubTitle": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "showFooter": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "carouselLayoutApplicationPage",
+            "name": "carouselLayoutApplicationPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Carousel View",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "carousellayoutapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "carousellayoutapp",
+                    "name": "carousellayoutapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "showFooter": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "fabGroup": [
+                {
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "id": "iconbuton",
+                    "title": "Right Icon",
+                    "iconPosition": "right",
+                    "onPress": {
+                        "@class": "com.apporchid.common.JSFunction",
+                        "namespace": "demoAPIUtils",
+                        "name": "fabIconOnPress",
+                        "objectType": "jsfunction"
+                    },
+                    "icon": {
+                        "view": "vuxmobile-icon",
+                        "css": "aovuxicon",
+                        "id": "0067f553-09f9-4ffd-be90-03d21b6349e2",
+                        "size": 18,
+                        "name": "poly"
+                    }
+                },
+                {
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "id": "iconbuton",
+                    "title": "Right Icon",
+                    "iconPosition": "right",
+                    "onPress": {
+                        "@class": "com.apporchid.common.JSFunction",
+                        "namespace": "demoAPIUtils",
+                        "name": "fabIconOnPress",
+                        "objectType": "jsfunction"
+                    },
+                    "icon": {
+                        "view": "vuxmobile-icon",
+                        "css": "aovuxicon",
+                        "id": "0067f553-09f9-4ffd-be90-03d21b6349e2",
+                        "size": 18,
+                        "name": "circle"
+                    }
+                }
+            ],
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "datepickerpage",
+            "name": "datepickerpage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Accordion",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "datepickerapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "datepickerapp",
+                    "name": "datepickerapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "combo",
+            "name": "combo",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Combo",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "combo"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.MicroApplicationReference",
+                    "id": "combo",
+                    "name": "combo",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "cameraPage",
+            "name": "imagepickerpage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Camera",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "cameraapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "cameraapp",
+                    "name": "cameraapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "maps",
+            "name": "mapsPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": false,
+            "displayName": "Maps",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "map"
+                        }
+                    ],
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "map",
+                    "name": "map",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "map",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "mapsgps",
+            "name": "mapsPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": false,
+            "displayName": "Maps",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "mapgps"
+                        }
+                    ],
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "mapgps",
+                    "name": "mapgps",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "map",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "cuecard",
+            "name": "cuecard",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "cuecard",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "cuecard"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.MicroApplicationReference",
+                    "id": "cuecard1",
+                    "name": "cuecard1",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "counterPage",
+            "name": "counterPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Text",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "counterapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "counterapp",
+                    "name": "counterapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "sliderPage",
+            "name": "sliderPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Text",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "sliderapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "sliderapp",
+                    "name": "sliderapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "segmentedcontrolPage",
+            "name": "segmentedcontrolPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Text",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "segmentedcontrolapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "segmentedcontrolapp",
+                    "name": "segmentedcontrolapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "multiviewPage",
+            "name": "multiviewPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Text",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "multiviewapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.ApplicationReference",
+                    "id": "multiviewapp",
+                    "name": "multiviewapp",
+                    "componentCategory": "ApplicationReference",
+                    "enableUsageEvents": false,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "apipage",
+            "name": "apipage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Text",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "apiapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.Application",
+                    "id": "apiapp",
+                    "name": "openapplicationapp",
+                    "componentCategory": "Application",
+                    "enableUsageEvents": false,
+                    "displayName": "Open Lication  Application",
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "Flex",
+                        "component": {
+                            "styles": [
+                                {
+                                    "style": {
+                                        "flex": 1,
+                                        "width": "100%"
+                                    },
+                                    "id": "1d8c30fd-15e9-480d-9a8c-4fc33de5243b"
+                                }
+                            ],
+                            "alignItems": "center",
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "margin": 0,
+                            "padding": 0,
+                            "width": "100%"
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                            "id": "1d8c30fd-15e9-480d-9a8c-4fc33de5243b",
+                            "name": "1d8c30fd-15e9-480d-9a8c-4fc33de5243b",
+                            "componentCategory": "UIContainer",
+                            "enableUsageEvents": false,
+                            "layout": {
+                                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                                "layoutType": "Flex",
+                                "component": {
+                                    "styles": [
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "openApplication"
+                                        },
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "openPage"
+                                        },
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "deviceInfo"
+                                        },
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "openGPS"
+                                        },
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "voiceToText"
+                                        },
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "netInfo"
+                                        },
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "vibration"
+                                        },
+                                        {
+                                            "style": {
+                                                "padding": 20
+                                            },
+                                            "id": "openForm"
+                                        }
+                                    ],
+                                    "alignItems": "flex-start",
+                                    "flex": 1,
+                                    "flexDirection": "column",
+                                    "justifyContent": "flex-start",
+                                    "width": "100%"
+                                }
+                            },
+                            "components": [
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "openApplication",
+                                    "name": "openApplication",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openListApplication",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "openApplication",
+                                        "title": "Open Application"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "openPage",
+                                    "name": "openPage",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openDefaultPage",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "openPage",
+                                        "title": "Open Page"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "deviceInfo",
+                                    "name": "deviceInfo",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openDeviceInfo",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "deviceInfo",
+                                        "title": "Device Info"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "openGPS",
+                                    "name": "openGPS",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openGPS",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "openGPS",
+                                        "title": "GPS"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "voiceToText",
+                                    "name": "voiceToText",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openVoiceToText",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "voiceToText",
+                                        "title": "Voice To text"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "netInfo",
+                                    "name": "netInfo",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openNetInfo",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "netInfo",
+                                        "title": "Network Info"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "vibration",
+                                    "name": "vibration",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openVibration",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "vibration",
+                                        "title": "Vibration"
+                                    },
+                                    "visible": true
+                                },
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                    "id": "openForm",
+                                    "name": "openForm",
+                                    "componentCategory": "UIControl",
+                                    "type": "Button",
+                                    "component": {
+                                        "view": "vuxmobile-button",
+                                        "on": {
+                                            "onPress": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "openFormApp",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbutton",
+                                        "id": "openForm",
+                                        "title": "Open Form"
+                                    },
+                                    "visible": true
+                                }
+                            ],
+                            "enableScroll": false,
+                            "componentCount": 8,
+                            "visible": true
+                        }
+                    ],
+                    "enableScroll": false,
+                    "extendedMetadata": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                        "categoryIds": [
+                            1
+                        ]
+                    },
+                    "captureSnapshot": false,
+                    "showAppFeedback": false,
+                    "visibleInAppstore": true,
+                    "showFullScreen": false,
+                    "componentCount": 1,
+                    "visible": true,
+                    "showHeader": false,
+                    "showFooter": false,
+                    "showTitle": false,
+                    "showSubTitle": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "barcodescannerPage",
+            "name": "barcodescannerPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Text",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "barcodeapp"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "margin": 2,
+                    "padding": 2,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.Application",
+                    "id": "barcodeapp",
+                    "name": "barcodeapp",
+                    "componentCategory": "Application",
+                    "enableUsageEvents": false,
+                    "displayName": "BarCode",
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "Flex",
+                        "component": {
+                            "styles": [
+                                {
+                                    "style": {
+                                        "flex": 1,
+                                        "width": "100%"
+                                    },
+                                    "id": "e69ce5f6-f37a-45a6-820b-740ba5a4eb4b"
+                                }
+                            ],
+                            "alignItems": "center",
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "justifyContent": "flex-start",
+                            "margin": 0,
+                            "padding": 0,
+                            "width": "100%"
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                            "id": "e69ce5f6-f37a-45a6-820b-740ba5a4eb4b",
+                            "name": "e69ce5f6-f37a-45a6-820b-740ba5a4eb4b",
+                            "componentCategory": "UIContainer",
+                            "enableUsageEvents": false,
+                            "layout": {
+                                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                                "layoutType": "Flex",
+                                "component": {
+                                    "styles": [
+                                        {
+                                            "style": {
+                                                "width": "100%",
+                                                "flex": 1
+                                            },
+                                            "id": "barcode"
+                                        }
+                                    ],
+                                    "alignItems": "flex-start",
+                                    "flex": 1,
+                                    "flexDirection": "column",
+                                    "justifyContent": "flex-start",
+                                    "width": "100%"
+                                }
+                            },
+                            "components": [
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                                    "id": "barcode",
+                                    "name": "barcode",
+                                    "componentCategory": "MicroApplication",
+                                    "type": "MicroAppRepeater",
+                                    "showNoRecordsMessage": true,
+                                    "enablePushNotifications": false,
+                                    "component": {
+                                        "view": "vuxmobile-barcodescanner",
+                                        "on": {
+                                            "onAfterRecognize": {
+                                                "@class": "com.apporchid.common.JSFunction",
+                                                "namespace": "samplesAPIUtils",
+                                                "name": "onAfterRecognize",
+                                                "objectType": "jsfunction"
+                                            }
+                                        },
+                                        "css": "aovuxbarcodescanner",
+                                        "buttonName": "Barcode"
+                                    },
+                                    "visible": true,
+                                    "showTitle": false,
+                                    "showSubTitle": false
+                                }
+                            ],
+                            "enableScroll": false,
+                            "componentCount": 1,
+                            "visible": true
+                        }
+                    ],
+                    "enableScroll": false,
+                    "header": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                        "id": "applicationHeader",
+                        "name": "applicationHeader",
+                        "componentCategory": "UIContainer",
+                        "enableUsageEvents": false,
+                        "layout": {
+                            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                            "layoutType": "Flex",
+                            "component": {
+                                "styles": [
+                                    {
+                                        "style": {},
+                                        "id": "appHeaderIcon"
+                                    },
+                                    {
+                                        "style": {
+                                            "flex": 1,
+                                            "padding": 9
+                                        },
+                                        "id": "appHeaderTitle"
+                                    }
+                                ],
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "height": 42,
+                                "justifyContent": "space-between",
+                                "width": "100%"
+                            }
+                        },
+                        "components": [
+                            {
+                                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                "id": "appHeaderIcon",
+                                "name": "store-dark-solid",
+                                "componentCategory": "UIControl",
+                                "type": "Icon",
+                                "component": {
+                                    "view": "vuxmobile-icon",
+                                    "css": "aovuxicon header_icon",
+                                    "id": "appHeaderIcon",
+                                    "size": 24,
+                                    "name": "store-dark-solid",
+                                    "align": "left",
+                                    "width": 40
+                                },
+                                "visible": true
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                                "id": "appHeaderTitle",
+                                "name": "appHeaderTitle",
+                                "componentCategory": "UIControl",
+                                "type": "Label",
+                                "component": {
+                                    "view": "vuxmobile-text",
+                                    "css": "aovuxtext",
+                                    "id": "appHeaderTitle",
+                                    "text": "BarCode",
+                                    "label": "{name=text, value=BarCode, propertyType=java.lang.String, keyValuePair=false}"
+                                },
+                                "visible": true
+                            }
+                        ],
+                        "enableScroll": false,
+                        "moreMenuItems": [],
+                        "componentCount": 2,
+                        "visible": true
+                    },
+                    "extendedMetadata": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                        "categoryIds": [
+                            1
+                        ]
+                    },
+                    "captureSnapshot": false,
+                    "showAppFeedback": false,
+                    "visibleInAppstore": false,
+                    "showFullScreen": false,
+                    "componentCount": 1,
+                    "visible": true,
+                    "showHeader": true,
+                    "showFooter": false,
+                    "showTitle": false,
+                    "showSubTitle": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "default": true,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        }
+    ],
+    "containerComponent": {
+        "@class": "com.apporchid.vulcanux.common.ui.UIContainerComponent",
+        "id": "a53d926b-e6ab-4048-941f-efe34a8093a2",
+        "componentCategory": "UIContainerComponent",
+        "type": "Sidebar",
+        "component": {
+            "id": "sidebarNavigator",
+            "name": "sidebarNavigator",
+            "componentCategory": "MicroApplication",
+            "type": "Sidebar",
+            "showNoRecordsMessage": true,
+            "enablePushNotifications": false,
+            "component": {
+                "view": "vuxmobile-sidebar",
+                "data": [
+                    {
+                        "id": "Controls",
+                        "value": "Controls",
+                        "icon": "star",
+                        "data": [
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "labelRenderPage",
+                                "value": "Text",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "samplestextinputpage",
+                                "value": "Text Input",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "buttonsPage",
+                                "value": "Buttons",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "switchPage",
+                                "value": "Switch",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "checkBoxPage",
+                                "value": "CheckBox",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "radioGroupPage",
+                                "value": "RadioGroup",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "pickerPage",
+                                "value": "Picker",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "carouselpage",
+                                "value": "Carousel",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "datepickerpage",
+                                "value": "Date Picker",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "combo",
+                                "value": "Combo",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "cameraPage",
+                                "value": "Camera",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "counterPage",
+                                "value": "Counter",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "sliderPage",
+                                "value": "Slider",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "segmentedcontrolPage",
+                                "value": "Segmented Control",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "barcodescannerPage",
+                                "value": "Barcode Scanner",
+                                "icon": "star"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Layouts",
+                        "value": "Layouts",
+                        "icon": "star",
+                        "data": [
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "tabviewsamplePage",
+                                "value": "Tab View",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "carouselLayoutApplicationPage",
+                                "value": "Carousel Layout",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "maps",
+                                "value": "Map",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "mapsgps",
+                                "value": "MapGps",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "cuecard",
+                                "value": "Cue Card",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "multiviewPage",
+                                "value": "Multi View",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "apipage",
+                                "value": "API's",
+                                "icon": "star"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Data Tables",
+                        "value": "Data Tables",
+                        "icon": "star",
+                        "data": [
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "tablesPage",
+                                "value": "Simple Table",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "mobileListMicroappPage",
+                                "value": "List",
+                                "icon": "star"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Styles",
+                        "value": "Styles",
+                        "icon": "star",
+                        "data": [
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "appDefaultStylesPage",
+                                "value": "AppStyles",
+                                "icon": "star"
+                            },
+                            {
+                                "@class": "com.apporchid.vulcanux.ui.wx.data.WxSidebarData",
+                                "id": "appCustomStylesPage",
+                                "value": "AppStyles1",
+                                "icon": "star"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "visible": true,
+            "showTitle": false,
+            "showSubTitle": false
+        },
+        "visible": true
+    },
+    "enableScroll": false,
+    "header": {
+        "@class": "com.apporchid.vulcanux.ui.solution.SolutionHeader",
+        "id": "solutionHeader",
+        "name": "solutionHeader",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "displayName": "AOMobile",
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {
+                            "flex": 1,
+                            "shadowColor": "#E6E6E6",
+                            "shadowOffset": {
+                                "width": 1,
+                                "height": 2
+                            },
+                            "shadowOpacity": 0.4,
+                            "shadowRadius": 3
+                        },
+                        "id": "59930f32-7fb0-48e9-abbe-acd9cd9bb313"
+                    }
+                ],
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "flex-start",
+                "width": "100%",
+                "borderBottomWidth": 1,
+                "borderBottomColor": "#E6E6E6",
+                "overflow": "hidden",
+                "paddingBottom": 5
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                "id": "59930f32-7fb0-48e9-abbe-acd9cd9bb313",
+                "name": "59930f32-7fb0-48e9-abbe-acd9cd9bb313",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {
+                                    "paddingLeft": 10
+                                },
+                                "id": "solheaderCustomerLogo"
+                            },
+                            {
+                                "style": {},
+                                "id": "solheaderSolutionName"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1
+                                },
+                                "id": "spacer"
+                            },
+                            {
+                                "style": {},
+                                "id": "solheaderSearchbar"
+                            },
+                            {
+                                "style": {
+                                    "marginTop": 0,
+                                    "paddingRight": 5
+                                },
+                                "id": "solheaderUserprofile"
+                            }
+                        ],
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "height": 60,
+                        "justifyContent": "flex-start",
+                        "width": "100%",
+                        "backgroundColor": "white"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "solheaderCustomerLogo",
+                        "name": "solheaderCustomerLogo",
+                        "componentCategory": "UIControl",
+                        "type": "Image",
+                        "component": {
+                            "view": "vuxmobile-image",
+                            "on": {
+                                "onPress": {
+                                    "@class": "com.apporchid.common.JSFunction",
+                                    "namespace": "samplesAPIUtils",
+                                    "name": "openDefaultPage",
+                                    "objectType": "jsfunction"
+                                }
+                            },
+                            "css": "aovuxsolutionlogo",
+                            "id": "solheaderCustomerLogo",
+                            "style": {
+                                "height": 21,
+                                "width": 42
+                            },
+                            "source": "/main-ui/assets/images/AppOrchid2.png"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "solheaderSolutionName",
+                        "name": "solheaderSolutionName",
+                        "componentCategory": "UIControl",
+                        "type": "Label",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "on": {
+                                "onPress": {
+                                    "@class": "com.apporchid.common.JSFunction",
+                                    "namespace": "samplesAPIUtils",
+                                    "name": "openDefaultPage",
+                                    "objectType": "jsfunction"
+                                }
+                            },
+                            "css": "aovuxsolutionname",
+                            "id": "solheaderSolutionName",
+                            "style": {
+                                "fontSize": 21
+                            },
+                            "text": "AOMobile"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "spacer",
+                        "name": "spacer",
+                        "componentCategory": "UIControl",
+                        "type": "Label",
+                        "component": {
+                            "view": "spacer",
+                            "id": "solheaderSolutionName"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                        "id": "solheaderSearchbar",
+                        "name": "solheaderSearchbar",
+                        "componentCategory": "MicroApplicationReference",
+                        "enableUsageEvents": false,
+                        "renderOnlyConfigurationOnLoad": true,
+                        "throttleInterval": 0
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                        "id": "solheaderUserprofile",
+                        "name": "solheaderUserprofile",
+                        "componentCategory": "MicroApplicationReference",
+                        "enableUsageEvents": false,
+                        "throttleInterval": 0
+                    }
+                ],
+                "enableScroll": false,
+                "componentCount": 4,
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "componentCount": 1,
+        "visible": true
+    },
+    "footer": {
+        "@class": "com.apporchid.vulcanux.ui.solution.SolutionFooter",
+        "id": "solutionFooter",
+        "name": "solutionFooter",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {
+                            "marginHorizontal": 5
+                        },
+                        "id": "labelId"
+                    }
+                ],
+                "alignItems": "center",
+                "bottom": 0,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+                "position": "absolute",
+                "width": "100%",
+                "backgroundColor": "white"
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "labelId",
+                "name": "labelId",
+                "componentCategory": "UIControl",
+                "type": "Label",
+                "component": {
+                    "view": "vuxmobile-text",
+                    "css": "aovuxtext",
+                    "id": "labelId",
+                    "style": {
+                        "color": "black",
+                        "fontSize": 16
+                    },
+                    "text": "@2019 - App Orchid. All right reserved"
+                },
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "showFixedFooter": true,
+        "componentCount": 1,
+        "defaultUsageEventsDataInput": {
+            "publishRequestData": true
+        },
+        "visible": true
+    },
+    "contextPath": "samples",
+    "jsFiles": [
+        "/js/vux/commonUtils.js",
+        "js/sample.js"
+    ],
+    "cssFiles": [
+        "/css/aostyles.js",
+        "css/styles.js"
+    ],
+    "hasCustomUIComponents": false,
+    "useCustomHeader": true,
+    "showBrowserTitle": true,
+    "jsErrorsLimit": 100,
+    "enableJSConsoleLogs": true,
+    "serverType": "VULCANUX",
+    "solutionRedirectUrls": {},
+    "isCustomSolution": false,
+    "domainId": "com.apporchid",
+    "subDomainId": "mobile.samples",
+    "default": false,
+    "componentCount": 14,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true,
+    "showHeader": true,
+    "showFooter": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

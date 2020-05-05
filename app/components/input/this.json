@@ -1,0 +1,317 @@
+{
+    "_reactInternalFiber": {
+        "_debugHookTypes": null,
+        "_debugID": 183,
+        "_debugIsCurrentlyTiming": false,
+        "_debugNeedsRemount": false,
+        "_debugOwner": {
+            "_debugHookTypes": null,
+            "_debugID": 178,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [FiberNode
+            ],
+            "_debugSource": [Object
+            ],
+            "actualDuration": 40,
+            "actualStartTime": 117,
+            "alternate": null,
+            "child": [FiberNode
+            ],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function _temp
+            ],
+            "expirationTime": 0,
+            "firstEffect": [FiberNode
+            ],
+            "index": 0,
+            "key": null,
+            "lastEffect": [FiberNode
+            ],
+            "memoizedProps": [Object
+            ],
+            "memoizedState": [Object
+            ],
+            "mode": 8,
+            "nextEffect": null,
+            "pendingProps": [Object
+            ],
+            "ref": null,
+            "return": [FiberNode
+            ],
+            "selfBaseDuration": 22,
+            "sibling": null,
+            "stateNode": [_temp
+            ],
+            "tag": 1,
+            "treeBaseDuration": 32,
+            "type": [Function _temp
+            ],
+            "updateQueue": null
+        },
+        "_debugSource": {
+            "columnNumber": 21,
+            "fileName": "/Users/chaitanyatejam/Desktop/offline/test/Test/app/base/hoc/bottombar/withbottombar.tsx",
+            "lineNumber": 48
+        },
+        "actualDuration": 7,
+        "actualStartTime": 139,
+        "alternate": null,
+        "child": {
+            "_debugHookTypes": null,
+            "_debugID": 185,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular
+            ],
+            "_debugSource": [Object
+            ],
+            "actualDuration": 7,
+            "actualStartTime": 139,
+            "alternate": null,
+            "child": [FiberNode
+            ],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 133,
+            "elementType": [Function ScrollView
+            ],
+            "expirationTime": 0,
+            "firstEffect": [FiberNode
+            ],
+            "index": 0,
+            "key": null,
+            "lastEffect": [FiberNode
+            ],
+            "memoizedProps": [Object
+            ],
+            "memoizedState": [Object
+            ],
+            "mode": 8,
+            "nextEffect": null,
+            "pendingProps": [Object
+            ],
+            "ref": [Object
+            ],
+            "return": [Circular
+            ],
+            "selfBaseDuration": 2,
+            "sibling": null,
+            "stateNode": [ScrollView
+            ],
+            "tag": 1,
+            "treeBaseDuration": 4,
+            "type": [Function ScrollView
+            ],
+            "updateQueue": null
+        },
+        "childExpirationTime": 0,
+        "dependencies": null,
+        "effectTag": 129,
+        "elementType": [Function ViewPager
+        ],
+        "expirationTime": 0,
+        "firstEffect": {
+            "_debugHookTypes": null,
+            "_debugID": 189,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [FiberNode
+            ],
+            "_debugSource": [Object
+            ],
+            "actualDuration": 4,
+            "actualStartTime": 141,
+            "alternate": null,
+            "child": [FiberNode
+            ],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 128,
+            "elementType": "RCTScrollContentView",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": [Object
+            ],
+            "memoizedState": null,
+            "mode": 8,
+            "nextEffect": null,
+            "pendingProps": [Object
+            ],
+            "ref": [Function anonymous
+            ],
+            "return": [FiberNode
+            ],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": [ReactNativeFiberHostComponent
+            ],
+            "tag": 5,
+            "treeBaseDuration": 2,
+            "type": "RCTScrollContentView",
+            "updateQueue": null
+        },
+        "index": 0,
+        "key": null,
+        "lastEffect": {
+            "_debugHookTypes": null,
+            "_debugID": 185,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular
+            ],
+            "_debugSource": [Object
+            ],
+            "actualDuration": 7,
+            "actualStartTime": 139,
+            "alternate": null,
+            "child": [FiberNode
+            ],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 133,
+            "elementType": [Function ScrollView
+            ],
+            "expirationTime": 0,
+            "firstEffect": [FiberNode
+            ],
+            "index": 0,
+            "key": null,
+            "lastEffect": [FiberNode
+            ],
+            "memoizedProps": [Object
+            ],
+            "memoizedState": [Object
+            ],
+            "mode": 8,
+            "nextEffect": null,
+            "pendingProps": [Object
+            ],
+            "ref": [Object
+            ],
+            "return": [Circular
+            ],
+            "selfBaseDuration": 2,
+            "sibling": null,
+            "stateNode": [ScrollView
+            ],
+            "tag": 1,
+            "treeBaseDuration": 4,
+            "type": [Function ScrollView
+            ],
+            "updateQueue": null
+        },
+        "memoizedProps": {
+            "children": [Array
+            ],
+            "contentContainerStyle": [Object
+            ],
+            "horizontal": true,
+            "scrollEnabled": true,
+            "style": [Object
+            ]
+        },
+        "memoizedState": null,
+        "mode": 8,
+        "nextEffect": null,
+        "pendingProps": {
+            "children": [Array
+            ],
+            "contentContainerStyle": [Object
+            ],
+            "horizontal": true,
+            "scrollEnabled": true,
+            "style": [Object
+            ]
+        },
+        "ref": {
+            "current": [Circular
+            ]
+        },
+        "return": {
+            "_debugHookTypes": null,
+            "_debugID": 180,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [FiberNode
+            ],
+            "_debugSource": [Object
+            ],
+            "actualDuration": 7,
+            "actualStartTime": 139,
+            "alternate": null,
+            "child": [Circular
+            ],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": "RCTView",
+            "expirationTime": 0,
+            "firstEffect": [FiberNode
+            ],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular
+            ],
+            "memoizedProps": [Object
+            ],
+            "memoizedState": null,
+            "mode": 8,
+            "nextEffect": null,
+            "pendingProps": [Object
+            ],
+            "ref": null,
+            "return": [FiberNode
+            ],
+            "selfBaseDuration": 0,
+            "sibling": [FiberNode
+            ],
+            "stateNode": [ReactNativeFiberHostComponent
+            ],
+            "tag": 5,
+            "treeBaseDuration": 4,
+            "type": "RCTView",
+            "updateQueue": null
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular
+        ],
+        "tag": 1,
+        "treeBaseDuration": 4,
+        "type": [Function ViewPager
+        ],
+        "updateQueue": null
+    },
+    "_reactInternalInstance": {},
+    "context": {},
+    "props": {
+        "children": [<RCTView … />, <RCTView … />, <RCTView … />
+        ],
+        "contentContainerStyle": {
+            "flexGrow": 1
+        },
+        "horizontal": true,
+        "scrollEnabled": true,
+        "style": {
+            "flexGrow": 1
+        }
+    },
+    "refs": {},
+    "state": null,
+    "updater": {
+        "enqueueForceUpdate": [Function enqueueForceUpdate
+        ],
+        "enqueueReplaceState": [Function enqueueReplaceState
+        ],
+        "enqueueSetState": [Function enqueueSetState
+        ],
+        "isMounted": [Function isMounted
+        ]
+    }
+}

@@ -1,0 +1,403 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "mobilebuttonsapp",
+    "name": "mobilebuttonsapp",
+    "componentCategory": "Application",
+    "enableUsageEvents": true,
+    "displayName": "Buttons",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "8f431e60-b1c1-4034-990d-79fffda83914"
+                }
+            ],
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "margin": 0,
+            "padding": 0
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "8f431e60-b1c1-4034-990d-79fffda83914",
+            "name": "8f431e60-b1c1-4034-990d-79fffda83914",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "submitButtonId"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "cancelButtonId"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton2"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton3"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton4"
+                        },
+                        {
+                            "style": {
+                                "margin": 5,
+                                "width": "100%"
+                            },
+                            "id": "vuxbutton5"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton6"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton7"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton8"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton9"
+                        },
+                        {
+                            "style": {
+                                "margin": 5
+                            },
+                            "id": "vuxbutton10"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "width": "100%",
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "cancelButtonId",
+                    "name": "cancelButtonId",
+                    "componentCategory": "UIControl",
+                    "type": "Button",
+                    "component": {
+                        "view": "vuxmobile-button",
+                        "css": "aovuxbutton",
+                        "id": "cancelButtonId",
+                        "title": "Cancel Button"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "submitButtonId",
+                    "name": "submitButtonId",
+                    "componentCategory": "UIControl",
+                    "type": "Button",
+                    "component": {
+                        "view": "vuxmobile-button",
+                        "css": "aovuxbutton",
+                        "id": "submitButtonId",
+                        "title": "Submit Button",
+                        "mode": "ghost",
+                        "disabled": true
+                    },
+                    "visible": true
+                },
+                {
+                    "id": "vuxbutton2",
+                    "view": "vuxmobile-button",
+                    "css": "aovuxbutton",
+                    "title": "Button",
+                    "mode": "outlined"
+                },
+                {
+                    "id": "vuxbutton3",
+                    "view": "vuxmobile-button",
+                    "css": "aovuxbutton",
+                    "title": "Button",
+                    "style": {
+                        "margin": 5
+                    },
+                    "disabled": true,
+                    "mode": "text"
+                },
+                {
+                    "id": "vuxbutton3",
+                    "view": "vuxmobile-button",
+                    "css": "aovuxbutton",
+                    "title": "Button",
+                    "style": {
+                        "margin": 5
+                    },
+                    "disabled": true,
+                    "mode": "outlined"
+                },
+                {
+                    "id": "vuxbutton3",
+                    "view": "vuxmobile-button",
+                    "css": "aovuxbutton",
+                    "title": "Button",
+                    "style": {
+                        "margin": 5
+                    },
+                    "disabled": true,
+                    "mode": "contained"
+                },
+                {
+                    "id": "vuxbutton4",
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "style": {
+                        "margin": 5
+                    },
+                    "icon": {
+                        "name": "plus",
+                        "color": "#FFFFFF",
+                        "size": 18
+                    }
+                },
+                {
+                    "id": "vuxbutton5",
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "style": {
+                        "margin": 5
+                    },
+                    "icon": {
+                        "name": "plus",
+                        "color": "#FFFFFF",
+                        "size": 18
+                    },
+                    "title": "Button",
+                    "iconPosition": "right"
+                },
+                {
+                    "id": "vuxbutton6",
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "style": {
+                        "margin": 5
+                    },
+                    "icon": {
+                        "name": "plus",
+                        "color": "#FFFFFF",
+                        "size": 18
+                    },
+                    "title": "Button",
+                    "iconPosition": "left"
+                },
+                {
+                    "id": "vuxbutton7",
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "style": {
+                        "margin": 5
+                    },
+                    "title": "Button",
+                    "iconPosition": "left",
+                    "disabled": true,
+                    "mode": "outlined"
+                },
+                {
+                    "id": "vuxbutton8",
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "style": {
+                        "margin": 5
+                    },
+                    "title": "Button",
+                    "iconPosition": "right",
+                    "mode": "ghost"
+                },
+                {
+                    "id": "vuxbutton9",
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "style": {
+                        "margin": 5
+                    },
+                    "title": "Button",
+                    "iconPosition": "left",
+                    "mode": "pill",
+                    "disabled": true
+                },
+                {
+                    "id": "vuxbutton10",
+                    "view": "vuxmobile-iconbutton",
+                    "css": "aovuxiconbutton",
+                    "style": {
+                        "margin": 5
+                    },
+                    "title": "Button",
+                    "mode": "pill"
+                }
+            ],
+            "enableScroll": false,
+            "componentCount": 2,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        }
+    ],
+    "enableScroll": false,
+    "header": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+        "id": "applicationHeader",
+        "name": "applicationHeader",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {},
+                        "id": "appHeaderIcon"
+                    },
+                    {
+                        "style": {
+                            "padding": 12
+                        },
+                        "id": "appHeaderMoreButton"
+                    },
+                    {
+                        "style": {
+                            "flex": 1,
+                            "padding": 9
+                        },
+                        "id": "appHeaderTitle"
+                    }
+                ],
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 42,
+                "justifyContent": "space-between"
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderIcon",
+                "name": "store-dark-solid",
+                "componentCategory": "UIControl",
+                "type": "Icon",
+                "component": {
+                    "view": "vuxmobile-icon",
+                    "css": "aovuxicon header_icon",
+                    "id": "appHeaderIcon",
+                    "size": 24,
+                    "name": "store-dark-solid",
+                    "align": "left",
+                    "width": 40
+                },
+                "visible": true
+            },
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderTitle",
+                "name": "appHeaderTitle",
+                "componentCategory": "UIControl",
+                "type": "Label",
+                "component": {
+                    "view": "vuxmobile-text",
+                    "css": "aovuxtext",
+                    "id": "appHeaderTitle",
+                    "text": "Buttons"
+                },
+                "visible": true
+            },
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderMoreButton",
+                "name": "more",
+                "componentCategory": "UIControl",
+                "type": "Icon",
+                "component": {
+                    "view": "vuxmobile-icon",
+                    "css": "aovuxicon more",
+                    "id": "appHeaderMoreButton",
+                    "name": "more",
+                    "align": "left"
+                },
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "moreMenuItems": [
+            {
+                "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                "id": "appExportCSVMenu",
+                "value": "Export As CSV",
+                "icon": "vuxicon-export-regular"
+            }
+        ],
+        "componentCount": 3,
+        "defaultUsageEventsDataInput": {
+            "publishRequestData": true
+        },
+        "visible": true
+    },
+    "title": "Buttons",
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "categoryIds": [
+            1
+        ]
+    },
+    "captureSnapshot": false,
+    "showAppFeedback": false,
+    "visibleInAppstore": false,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true,
+    "showHeader": true,
+    "showFooter": false,
+    "showTitle": true,
+    "showSubTitle": false
+}

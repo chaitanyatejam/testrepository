@@ -1,0 +1,81 @@
+{
+    "view": "Form",
+    "id": "sampleform1",
+    "style": {
+        "width": 500
+    },
+    "fields": [
+        {
+            "view": "vuxmobile-textinput",
+            "type": "text",
+            "name": "user_name",
+            "icon": "ios-person",
+            "iconOrientation": "right",
+            "required": true,
+            "label": "Username",
+            "editable": true
+        },
+        {
+            "view": "vuxmobile-textinput",
+            "type": "password",
+            "name": "password",
+            "icon": "ios-lock",
+            "required": true,
+            "label": "Password",
+            "secureTextEntry": true
+        },
+        {
+            "view": "vuxmobile-textinput",
+            "type": "text",
+            "name": "description",
+            "label": "Describe Yourself",
+            "required": true,
+            "props": {
+                "multiline": true,
+                "numberOfLines": 3
+            }
+        },
+        {
+            "view": "vuxmobile-textinput",
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "label": "Email"
+        },
+        {
+            "view": "vuxmobile-textinput",
+            "type": "number",
+            "name": "number",
+            "required": true,
+            "label": "Age"
+        },
+        {
+            "view": "vuxmobile-textinput",
+            "type": "url",
+            "name": "url",
+            "required": true,
+            "label": "URL"
+        },
+        {
+            "view": "Button",
+            "type": "submit",
+            "value": "Submit",
+            "id": "samplebutton7",
+            "componentCategory": "UIControl",
+            "text": "Submit",
+            "primary": true,
+            "raised": "true",
+            "round": "true",
+            "style": {
+                "text": {
+                    "color": "white"
+                },
+                "container": {
+                    "marginTop": 10,
+                    "width": 100,
+                    "alignSelf": "center"
+                }
+            }
+        }
+    ]
+}

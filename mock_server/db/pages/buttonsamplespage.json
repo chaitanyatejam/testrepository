@@ -1,0 +1,69 @@
+{
+    "id": "buttonsamplespage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "buttonsamplesapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "samplebutton1",
+                    "css": "mybuton",
+                    "view": "Button",
+                    "componentCategory": "UIControl",
+                    "text": "Primary"
+                },
+                {
+                    "id": "samplebutton2",
+                    "actions": {
+                        "onPress": {
+                            "namespace": "sampleUtil",
+                            "method": "openAlert",
+                            "args": "openAlert from sampleUtil JS"
+                        }
+                    },
+                    "view": "Button",
+                    "componentCategory": "UIControl",
+                    "text": "Accent"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "alignItems": "center"
+                },
+                "componentStyles": [
+                    {
+                        "id": "samplebutton1",
+                        "style": {
+                            "height": 80,
+                            "width": 300
+                        }
+                    },
+                    {
+                        "id": "samplebutton2",
+                        "style": {
+                            "height": 80,
+                            "width": 300
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1
+        },
+        "componentStyles": [
+            {
+                "id": "buttonsamplesapp",
+                "style": {
+                    "flex": 1
+                }
+            }
+        ]
+    }
+}

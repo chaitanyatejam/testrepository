@@ -1,0 +1,19 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "slidermicroapp1",
+    "name": "slidermicroapp1",
+    "componentCategory": "MicroApplication",
+    "type": "CueCard",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-slider",
+        "css": "aovuxslider",
+        "label": "Slider",
+        "minimumValue": 0,
+        "maximumValue": 100
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

@@ -1,0 +1,207 @@
+{
+    "id": "webview",
+    "header": {
+        "id": "com::apporchid::forms::header",
+        "components": [
+            {
+                "componentCategory": "UIContainer",
+                "id": "headerLeftContainer",
+                "components": [
+                    {
+                        "id":"back",
+                        "view": "Icon",
+                        "name":"arrow-left",
+                        "color":"white",
+                        "size":30,
+                        "style": {
+                            "marginRight": 10
+                        },
+                        "on": {
+                            "onPress": {
+                                "ref": "mainwebview",
+                                "method":"goBack"
+                            }
+                        }
+                    }
+                    ,{
+                        "id":"forward",
+                        "view": "Icon",
+                        "color":"white",
+                        "name":"arrow-right",
+                        "size":30,
+                        "style": {
+                            "marginLeft": 10
+                        },
+                        "on": {
+                            "onPress": {
+                                "ref": "mainwebview",
+                                "method":"goForward"
+                            }
+                        }
+                    }
+                ],
+                "layout": {
+                    "style": {
+                        "flexDirection": "row",
+                        "alignItems": "center"
+                    },
+                    "componentStyles": [
+                        {
+                            "id": "back",
+                            "style": {
+                                "marginLeft": 10
+                            }
+                        },
+                        {
+                            "id": "forward",
+                            "style": {
+                                "width": 250,
+                                "marginLeft": 20
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "componentCategory": "UIContainer",
+                "id": "headerTitleContainer",
+                "components": [
+                    {
+                        "id":"reload",
+                        "view": "Icon",
+                        "name":"reload",
+                        "color":"white",
+                        "size":30,
+                        "on": {
+                            "onPress": {
+                                "ref": "mainwebview",
+                                "method":"reload"
+                            }
+                        }
+                    },
+                    {
+                        "id": "search",
+                        "view": "TextInput",
+                        "placeholder": "http://192.168.200.15:8090",
+                        "labelPosition": "left",
+                        "containerStyle": {
+                            "height": 50,
+                            "width": "100%",
+                            "backgroundColor": "white"
+                        },
+                        "textInputStyle": {
+                            "backgroundColor": "white",
+                            "width": "100%"
+                        },
+                        "emitEventsMap": {
+                            "onSubmitEditing": "onURLSearch"
+                        }
+                    }
+                ],
+                "layout": {
+                    "style": {
+                        "flexDirection": "row",
+                        "alignItems": "center",
+                        "justifyContent": "center"
+                    },
+                    "componentStyles": [
+                        {
+                            "id": "search",
+                            "style": {
+                                "width": "60%"
+                            }
+                        },
+                        {
+                            "id": "reload",
+                            "style": {
+                                "width":50
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "componentCategory": "UIContainer",
+                "id": "headerRightContainer",
+                "components": [
+                    {
+                        "id": "notifications",
+                        "view": "Icon",
+                        "name": "bell-filled-solid",
+                        "size": 35,
+                        "color": "white"
+                    },
+                    {
+                        "id": "profile",
+                        "view": "Profile"
+                    }
+                ],
+                "layout": {
+                    "style": {
+                        "flexDirection": "row",
+                        "alignItems": "center"
+                    },
+                    "componentStyles": [
+                        {
+                            "id": "notifications",
+                            "style": {
+                                "marginRight": 15
+                            }
+                        },
+                        {
+                            "id": "profile",
+                            "style": {}
+                        }
+                    ]
+                }
+            }
+        ],
+        "layout": {
+            "style": {
+                "width": "100%",
+                "height": 60,
+                "flexDirection": "row",
+                "backgroundColor": "#00bfff"
+            },
+            "componentStyles": [
+                {
+                    "id": "headerLeftContainer",
+                    "style": {
+                        "postion": "absolute",
+                        "left": 10,
+                        "alignItems": "center"
+                    }
+                },
+                {
+                    "id": "headerTitleContainer",
+                    "style": {
+                        "flex": 1,
+                        "alignItems": "center",
+                        "marginLeft":-20,
+                        "justifyContent":"flex-start"
+                    }
+                },
+                {
+                    "id": "headerRightContainer",
+                    "style": {
+                        "postion": "absolute",
+                        "right": 10,
+                        "alignItems": "center"
+                    }
+                }
+            ]
+        }
+    },
+    "components": [
+        {
+            "id": "mainwebview",
+            "view": "WebView",
+            "source": {
+                "uri": "http://10.10.12.99:8090"
+            },
+            "subscribedEvents": {
+                "onURLSearch": {}
+            }
+        }
+    ]
+}

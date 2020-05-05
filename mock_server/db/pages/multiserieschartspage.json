@@ -1,0 +1,3580 @@
+{
+    "id": "multiserieschartspage",
+    "componentCategory": "SolutionPage",
+    "enableScroll": true,
+    "components": [
+        {
+            "id": "chartspage1",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "3a063ce2-c66a-4d51-a19a-7719d3e478c9",
+                    "name": "3a063ce2-c66a-4d51-a19a-7719d3e478c9",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": true
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        217
+                                    ],
+                                    [
+                                        "C2",
+                                        62
+                                    ],
+                                    [
+                                        "C3",
+                                        215
+                                    ],
+                                    [
+                                        "C4",
+                                        146
+                                    ],
+                                    [
+                                        "C5",
+                                        40
+                                    ],
+                                    [
+                                        "C6",
+                                        94
+                                    ],
+                                    [
+                                        "C7",
+                                        213
+                                    ],
+                                    [
+                                        "C8",
+                                        26
+                                    ],
+                                    [
+                                        "C9",
+                                        93
+                                    ]
+                                ],
+                                "visible": false
+                            },
+                            {
+                                "id": "min",
+                                "name": "Low",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        415
+                                    ],
+                                    [
+                                        "C2",
+                                        397
+                                    ],
+                                    [
+                                        "C3",
+                                        412
+                                    ],
+                                    [
+                                        "C4",
+                                        463
+                                    ],
+                                    [
+                                        "C5",
+                                        390
+                                    ],
+                                    [
+                                        "C6",
+                                        483
+                                    ],
+                                    [
+                                        "C7",
+                                        271
+                                    ],
+                                    [
+                                        "C8",
+                                        381
+                                    ],
+                                    [
+                                        "C9",
+                                        437
+                                    ]
+                                ],
+                                "visible": false
+                            },
+                            {
+                                "id": "min",
+                                "name": "Value",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        887
+                                    ],
+                                    [
+                                        "C2",
+                                        716
+                                    ],
+                                    [
+                                        "C3",
+                                        944
+                                    ],
+                                    [
+                                        "C4",
+                                        780
+                                    ],
+                                    [
+                                        "C5",
+                                        627
+                                    ],
+                                    [
+                                        "C6",
+                                        621
+                                    ],
+                                    [
+                                        "C7",
+                                        518
+                                    ],
+                                    [
+                                        "C8",
+                                        762
+                                    ],
+                                    [
+                                        "C9",
+                                        519
+                                    ]
+                                ],
+                                "visible": false
+                            },
+                            {
+                                "id": "min",
+                                "name": "High",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        1788
+                                    ],
+                                    [
+                                        "C2",
+                                        1835
+                                    ],
+                                    [
+                                        "C3",
+                                        2966
+                                    ],
+                                    [
+                                        "C4",
+                                        1680
+                                    ],
+                                    [
+                                        "C5",
+                                        1777
+                                    ],
+                                    [
+                                        "C6",
+                                        2923
+                                    ],
+                                    [
+                                        "C7",
+                                        2358
+                                    ],
+                                    [
+                                        "C8",
+                                        2566
+                                    ],
+                                    [
+                                        "C9",
+                                        1659
+                                    ]
+                                ],
+                                "visible": false
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        4033
+                                    ],
+                                    [
+                                        "C2",
+                                        3167
+                                    ],
+                                    [
+                                        "C3",
+                                        4027
+                                    ],
+                                    [
+                                        "C4",
+                                        3765
+                                    ],
+                                    [
+                                        "C5",
+                                        4904
+                                    ],
+                                    [
+                                        "C6",
+                                        4297
+                                    ],
+                                    [
+                                        "C7",
+                                        3364
+                                    ],
+                                    [
+                                        "C8",
+                                        4032
+                                    ],
+                                    [
+                                        "C9",
+                                        4585
+                                    ]
+                                ],
+                                "visible": false
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "footerFormat": "</table>",
+                            "headerFormat": "<small>{point.key}</small><table>",
+                            "pointFormat": "<tr><td style=\"color: {series.color}\">{series.name}: </td><td style=\"text-align: right\"><b>${point.y}</b></td></tr>",
+                            "shared": true,
+                            "useHTML": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles":[
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Multiseries Line chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage2",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "7de84be7-0cb5-4022-8e2f-16500f764fc5",
+                    "name": "7de84be7-0cb5-4022-8e2f-16500f764fc5",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        201
+                                    ],
+                                    [
+                                        "C2",
+                                        38
+                                    ],
+                                    [
+                                        "C3",
+                                        118
+                                    ],
+                                    [
+                                        "C4",
+                                        49
+                                    ],
+                                    [
+                                        "C5",
+                                        162
+                                    ],
+                                    [
+                                        "C6",
+                                        107
+                                    ],
+                                    [
+                                        "C7",
+                                        58
+                                    ],
+                                    [
+                                        "C8",
+                                        192
+                                    ],
+                                    [
+                                        "C9",
+                                        113
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Low",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        351
+                                    ],
+                                    [
+                                        "C2",
+                                        345
+                                    ],
+                                    [
+                                        "C3",
+                                        438
+                                    ],
+                                    [
+                                        "C4",
+                                        302
+                                    ],
+                                    [
+                                        "C5",
+                                        396
+                                    ],
+                                    [
+                                        "C6",
+                                        377
+                                    ],
+                                    [
+                                        "C7",
+                                        320
+                                    ],
+                                    [
+                                        "C8",
+                                        487
+                                    ],
+                                    [
+                                        "C9",
+                                        396
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Value",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        512
+                                    ],
+                                    [
+                                        "C2",
+                                        827
+                                    ],
+                                    [
+                                        "C3",
+                                        953
+                                    ],
+                                    [
+                                        "C4",
+                                        684
+                                    ],
+                                    [
+                                        "C5",
+                                        605
+                                    ],
+                                    [
+                                        "C6",
+                                        524
+                                    ],
+                                    [
+                                        "C7",
+                                        837
+                                    ],
+                                    [
+                                        "C8",
+                                        679
+                                    ],
+                                    [
+                                        "C9",
+                                        502
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "High",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        2266
+                                    ],
+                                    [
+                                        "C2",
+                                        2376
+                                    ],
+                                    [
+                                        "C3",
+                                        2231
+                                    ],
+                                    [
+                                        "C4",
+                                        2486
+                                    ],
+                                    [
+                                        "C5",
+                                        2060
+                                    ],
+                                    [
+                                        "C6",
+                                        2079
+                                    ],
+                                    [
+                                        "C7",
+                                        1048
+                                    ],
+                                    [
+                                        "C8",
+                                        2092
+                                    ],
+                                    [
+                                        "C9",
+                                        1400
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        3753
+                                    ],
+                                    [
+                                        "C2",
+                                        3734
+                                    ],
+                                    [
+                                        "C3",
+                                        4323
+                                    ],
+                                    [
+                                        "C4",
+                                        4614
+                                    ],
+                                    [
+                                        "C5",
+                                        3666
+                                    ],
+                                    [
+                                        "C6",
+                                        3007
+                                    ],
+                                    [
+                                        "C7",
+                                        4032
+                                    ],
+                                    [
+                                        "C8",
+                                        4754
+                                    ],
+                                    [
+                                        "C9",
+                                        3439
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Multi series column chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage3",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Stacked Bar chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "4b03894f-2e57-4070-8e68-67a393408dee",
+                    "name": "4b03894f-2e57-4070-8e68-67a393408dee",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "bar",
+                                "data": [
+                                    [
+                                        "C1",
+                                        206
+                                    ],
+                                    [
+                                        "C2",
+                                        71
+                                    ],
+                                    [
+                                        "C3",
+                                        118
+                                    ],
+                                    [
+                                        "C4",
+                                        247
+                                    ],
+                                    [
+                                        "C5",
+                                        16
+                                    ],
+                                    [
+                                        "C6",
+                                        166
+                                    ],
+                                    [
+                                        "C7",
+                                        57
+                                    ],
+                                    [
+                                        "C8",
+                                        50
+                                    ],
+                                    [
+                                        "C9",
+                                        80
+                                    ]
+                                ],
+                                "stacking": "normal"
+                            },
+                            {
+                                "id": "min",
+                                "name": "Low",
+                                "type": "bar",
+                                "data": [
+                                    [
+                                        "C1",
+                                        346
+                                    ],
+                                    [
+                                        "C2",
+                                        336
+                                    ],
+                                    [
+                                        "C3",
+                                        466
+                                    ],
+                                    [
+                                        "C4",
+                                        448
+                                    ],
+                                    [
+                                        "C5",
+                                        432
+                                    ],
+                                    [
+                                        "C6",
+                                        341
+                                    ],
+                                    [
+                                        "C7",
+                                        302
+                                    ],
+                                    [
+                                        "C8",
+                                        360
+                                    ],
+                                    [
+                                        "C9",
+                                        363
+                                    ]
+                                ],
+                                "stacking": "normal"
+                            },
+                            {
+                                "id": "min",
+                                "name": "Value",
+                                "type": "bar",
+                                "data": [
+                                    [
+                                        "C1",
+                                        933
+                                    ],
+                                    [
+                                        "C2",
+                                        501
+                                    ],
+                                    [
+                                        "C3",
+                                        678
+                                    ],
+                                    [
+                                        "C4",
+                                        674
+                                    ],
+                                    [
+                                        "C5",
+                                        958
+                                    ],
+                                    [
+                                        "C6",
+                                        574
+                                    ],
+                                    [
+                                        "C7",
+                                        798
+                                    ],
+                                    [
+                                        "C8",
+                                        675
+                                    ],
+                                    [
+                                        "C9",
+                                        905
+                                    ]
+                                ],
+                                "stacking": "normal"
+                            },
+                            {
+                                "id": "min",
+                                "name": "High",
+                                "type": "bar",
+                                "data": [
+                                    [
+                                        "C1",
+                                        1704
+                                    ],
+                                    [
+                                        "C2",
+                                        2294
+                                    ],
+                                    [
+                                        "C3",
+                                        1260
+                                    ],
+                                    [
+                                        "C4",
+                                        1054
+                                    ],
+                                    [
+                                        "C5",
+                                        1071
+                                    ],
+                                    [
+                                        "C6",
+                                        2251
+                                    ],
+                                    [
+                                        "C7",
+                                        1242
+                                    ],
+                                    [
+                                        "C8",
+                                        1213
+                                    ],
+                                    [
+                                        "C9",
+                                        2329
+                                    ]
+                                ],
+                                "stacking": "normal"
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "bar",
+                                "data": [
+                                    [
+                                        "C1",
+                                        3065
+                                    ],
+                                    [
+                                        "C2",
+                                        3611
+                                    ],
+                                    [
+                                        "C3",
+                                        4109
+                                    ],
+                                    [
+                                        "C4",
+                                        3687
+                                    ],
+                                    [
+                                        "C5",
+                                        4564
+                                    ],
+                                    [
+                                        "C6",
+                                        4583
+                                    ],
+                                    [
+                                        "C7",
+                                        3479
+                                    ],
+                                    [
+                                        "C8",
+                                        3717
+                                    ],
+                                    [
+                                        "C9",
+                                        4075
+                                    ]
+                                ],
+                                "stacking": "normal"
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage4",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Stacked Area chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "34375173-009d-45b4-9e94-d2cd73c0d6a5",
+                    "name": "34375173-009d-45b4-9e94-d2cd73c0d6a5",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "area",
+                                "data": [
+                                    [
+                                        "C1",
+                                        231
+                                    ],
+                                    [
+                                        "C2",
+                                        95
+                                    ],
+                                    [
+                                        "C3",
+                                        247
+                                    ],
+                                    [
+                                        "C4",
+                                        194
+                                    ],
+                                    [
+                                        "C5",
+                                        32
+                                    ],
+                                    [
+                                        "C6",
+                                        20
+                                    ],
+                                    [
+                                        "C7",
+                                        244
+                                    ],
+                                    [
+                                        "C8",
+                                        95
+                                    ],
+                                    [
+                                        "C9",
+                                        3
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Low",
+                                "type": "area",
+                                "data": [
+                                    [
+                                        "C1",
+                                        299
+                                    ],
+                                    [
+                                        "C2",
+                                        266
+                                    ],
+                                    [
+                                        "C3",
+                                        274
+                                    ],
+                                    [
+                                        "C4",
+                                        335
+                                    ],
+                                    [
+                                        "C5",
+                                        424
+                                    ],
+                                    [
+                                        "C6",
+                                        431
+                                    ],
+                                    [
+                                        "C7",
+                                        280
+                                    ],
+                                    [
+                                        "C8",
+                                        317
+                                    ],
+                                    [
+                                        "C9",
+                                        300
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Value",
+                                "type": "area",
+                                "data": [
+                                    [
+                                        "C1",
+                                        911
+                                    ],
+                                    [
+                                        "C2",
+                                        516
+                                    ],
+                                    [
+                                        "C3",
+                                        796
+                                    ],
+                                    [
+                                        "C4",
+                                        973
+                                    ],
+                                    [
+                                        "C5",
+                                        977
+                                    ],
+                                    [
+                                        "C6",
+                                        907
+                                    ],
+                                    [
+                                        "C7",
+                                        501
+                                    ],
+                                    [
+                                        "C8",
+                                        560
+                                    ],
+                                    [
+                                        "C9",
+                                        613
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "High",
+                                "type": "area",
+                                "data": [
+                                    [
+                                        "C1",
+                                        1294
+                                    ],
+                                    [
+                                        "C2",
+                                        1307
+                                    ],
+                                    [
+                                        "C3",
+                                        1944
+                                    ],
+                                    [
+                                        "C4",
+                                        1823
+                                    ],
+                                    [
+                                        "C5",
+                                        2859
+                                    ],
+                                    [
+                                        "C6",
+                                        2209
+                                    ],
+                                    [
+                                        "C7",
+                                        2581
+                                    ],
+                                    [
+                                        "C8",
+                                        2377
+                                    ],
+                                    [
+                                        "C9",
+                                        1336
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "area",
+                                "data": [
+                                    [
+                                        "C1",
+                                        3058
+                                    ],
+                                    [
+                                        "C2",
+                                        4654
+                                    ],
+                                    [
+                                        "C3",
+                                        3788
+                                    ],
+                                    [
+                                        "C4",
+                                        4854
+                                    ],
+                                    [
+                                        "C5",
+                                        4876
+                                    ],
+                                    [
+                                        "C6",
+                                        3453
+                                    ],
+                                    [
+                                        "C7",
+                                        3228
+                                    ],
+                                    [
+                                        "C8",
+                                        4730
+                                    ],
+                                    [
+                                        "C9",
+                                        3642
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage5",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Line column combo chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "0bce2610-2a62-4545-8098-696ed937dba5",
+                    "name": "0bce2610-2a62-4545-8098-696ed937dba5",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": true
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        144
+                                    ],
+                                    [
+                                        "C2",
+                                        33
+                                    ],
+                                    [
+                                        "C3",
+                                        81
+                                    ],
+                                    [
+                                        "C4",
+                                        55
+                                    ],
+                                    [
+                                        "C5",
+                                        209
+                                    ],
+                                    [
+                                        "C6",
+                                        91
+                                    ],
+                                    [
+                                        "C7",
+                                        165
+                                    ],
+                                    [
+                                        "C8",
+                                        158
+                                    ],
+                                    [
+                                        "C9",
+                                        184
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Low",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        310
+                                    ],
+                                    [
+                                        "C2",
+                                        282
+                                    ],
+                                    [
+                                        "C3",
+                                        399
+                                    ],
+                                    [
+                                        "C4",
+                                        493
+                                    ],
+                                    [
+                                        "C5",
+                                        344
+                                    ],
+                                    [
+                                        "C6",
+                                        430
+                                    ],
+                                    [
+                                        "C7",
+                                        375
+                                    ],
+                                    [
+                                        "C8",
+                                        438
+                                    ],
+                                    [
+                                        "C9",
+                                        360
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Value",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        942
+                                    ],
+                                    [
+                                        "C2",
+                                        932
+                                    ],
+                                    [
+                                        "C3",
+                                        773
+                                    ],
+                                    [
+                                        "C4",
+                                        604
+                                    ],
+                                    [
+                                        "C5",
+                                        769
+                                    ],
+                                    [
+                                        "C6",
+                                        920
+                                    ],
+                                    [
+                                        "C7",
+                                        689
+                                    ],
+                                    [
+                                        "C8",
+                                        778
+                                    ],
+                                    [
+                                        "C9",
+                                        658
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        3031
+                                    ],
+                                    [
+                                        "C2",
+                                        4427
+                                    ],
+                                    [
+                                        "C3",
+                                        4393
+                                    ],
+                                    [
+                                        "C4",
+                                        4286
+                                    ],
+                                    [
+                                        "C5",
+                                        4465
+                                    ],
+                                    [
+                                        "C6",
+                                        4947
+                                    ],
+                                    [
+                                        "C7",
+                                        4949
+                                    ],
+                                    [
+                                        "C8",
+                                        4259
+                                    ],
+                                    [
+                                        "C9",
+                                        4735
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "high",
+                                "name": "High",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        1845
+                                    ],
+                                    [
+                                        "C2",
+                                        2567
+                                    ],
+                                    [
+                                        "C3",
+                                        1993
+                                    ],
+                                    [
+                                        "C4",
+                                        2733
+                                    ],
+                                    [
+                                        "C5",
+                                        2881
+                                    ],
+                                    [
+                                        "C6",
+                                        2118
+                                    ],
+                                    [
+                                        "C7",
+                                        1881
+                                    ],
+                                    [
+                                        "C8",
+                                        1479
+                                    ],
+                                    [
+                                        "C9",
+                                        2931
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage6",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Column line combo chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "9404c4c0-93ca-4da7-bd00-11b9753480aa",
+                    "name": "9404c4c0-93ca-4da7-bd00-11b9753480aa",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": true
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "high",
+                                "name": "High",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        2730
+                                    ],
+                                    [
+                                        "C2",
+                                        1819
+                                    ],
+                                    [
+                                        "C3",
+                                        2932
+                                    ],
+                                    [
+                                        "C4",
+                                        1753
+                                    ],
+                                    [
+                                        "C5",
+                                        2824
+                                    ],
+                                    [
+                                        "C6",
+                                        2105
+                                    ],
+                                    [
+                                        "C7",
+                                        2035
+                                    ],
+                                    [
+                                        "C8",
+                                        1078
+                                    ],
+                                    [
+                                        "C9",
+                                        2785
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        129
+                                    ],
+                                    [
+                                        "C2",
+                                        187
+                                    ],
+                                    [
+                                        "C3",
+                                        214
+                                    ],
+                                    [
+                                        "C4",
+                                        31
+                                    ],
+                                    [
+                                        "C5",
+                                        52
+                                    ],
+                                    [
+                                        "C6",
+                                        39
+                                    ],
+                                    [
+                                        "C7",
+                                        215
+                                    ],
+                                    [
+                                        "C8",
+                                        20
+                                    ],
+                                    [
+                                        "C9",
+                                        231
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Low",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        466
+                                    ],
+                                    [
+                                        "C2",
+                                        281
+                                    ],
+                                    [
+                                        "C3",
+                                        307
+                                    ],
+                                    [
+                                        "C4",
+                                        266
+                                    ],
+                                    [
+                                        "C5",
+                                        444
+                                    ],
+                                    [
+                                        "C6",
+                                        308
+                                    ],
+                                    [
+                                        "C7",
+                                        347
+                                    ],
+                                    [
+                                        "C8",
+                                        459
+                                    ],
+                                    [
+                                        "C9",
+                                        354
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Value",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        554
+                                    ],
+                                    [
+                                        "C2",
+                                        584
+                                    ],
+                                    [
+                                        "C3",
+                                        734
+                                    ],
+                                    [
+                                        "C4",
+                                        877
+                                    ],
+                                    [
+                                        "C5",
+                                        562
+                                    ],
+                                    [
+                                        "C6",
+                                        783
+                                    ],
+                                    [
+                                        "C7",
+                                        667
+                                    ],
+                                    [
+                                        "C8",
+                                        878
+                                    ],
+                                    [
+                                        "C9",
+                                        952
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        3345
+                                    ],
+                                    [
+                                        "C2",
+                                        4809
+                                    ],
+                                    [
+                                        "C3",
+                                        4253
+                                    ],
+                                    [
+                                        "C4",
+                                        4063
+                                    ],
+                                    [
+                                        "C5",
+                                        4866
+                                    ],
+                                    [
+                                        "C6",
+                                        4915
+                                    ],
+                                    [
+                                        "C7",
+                                        4161
+                                    ],
+                                    [
+                                        "C8",
+                                        3047
+                                    ],
+                                    [
+                                        "C9",
+                                        4887
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage7",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Line column area combo chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "3edc36f1-9225-4427-b07f-731e50b29970",
+                    "name": "3edc36f1-9225-4427-b07f-731e50b29970",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": true
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        47
+                                    ],
+                                    [
+                                        "C2",
+                                        83
+                                    ],
+                                    [
+                                        "C3",
+                                        13
+                                    ],
+                                    [
+                                        "C4",
+                                        100
+                                    ],
+                                    [
+                                        "C5",
+                                        73
+                                    ],
+                                    [
+                                        "C6",
+                                        7
+                                    ],
+                                    [
+                                        "C7",
+                                        169
+                                    ],
+                                    [
+                                        "C8",
+                                        41
+                                    ],
+                                    [
+                                        "C9",
+                                        108
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Value",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        808
+                                    ],
+                                    [
+                                        "C2",
+                                        715
+                                    ],
+                                    [
+                                        "C3",
+                                        554
+                                    ],
+                                    [
+                                        "C4",
+                                        714
+                                    ],
+                                    [
+                                        "C5",
+                                        842
+                                    ],
+                                    [
+                                        "C6",
+                                        742
+                                    ],
+                                    [
+                                        "C7",
+                                        830
+                                    ],
+                                    [
+                                        "C8",
+                                        622
+                                    ],
+                                    [
+                                        "C9",
+                                        799
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        3889
+                                    ],
+                                    [
+                                        "C2",
+                                        4143
+                                    ],
+                                    [
+                                        "C3",
+                                        3277
+                                    ],
+                                    [
+                                        "C4",
+                                        4968
+                                    ],
+                                    [
+                                        "C5",
+                                        3005
+                                    ],
+                                    [
+                                        "C6",
+                                        4898
+                                    ],
+                                    [
+                                        "C7",
+                                        4945
+                                    ],
+                                    [
+                                        "C8",
+                                        4431
+                                    ],
+                                    [
+                                        "C9",
+                                        4843
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "high",
+                                "name": "High",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        2842
+                                    ],
+                                    [
+                                        "C2",
+                                        2154
+                                    ],
+                                    [
+                                        "C3",
+                                        2981
+                                    ],
+                                    [
+                                        "C4",
+                                        2360
+                                    ],
+                                    [
+                                        "C5",
+                                        2946
+                                    ],
+                                    [
+                                        "C6",
+                                        2349
+                                    ],
+                                    [
+                                        "C7",
+                                        2190
+                                    ],
+                                    [
+                                        "C8",
+                                        1689
+                                    ],
+                                    [
+                                        "C9",
+                                        1085
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "low",
+                                "name": "Low",
+                                "type": "area",
+                                "data": [
+                                    [
+                                        "C1",
+                                        455
+                                    ],
+                                    [
+                                        "C2",
+                                        431
+                                    ],
+                                    [
+                                        "C3",
+                                        283
+                                    ],
+                                    [
+                                        "C4",
+                                        336
+                                    ],
+                                    [
+                                        "C5",
+                                        426
+                                    ],
+                                    [
+                                        "C6",
+                                        366
+                                    ],
+                                    [
+                                        "C7",
+                                        474
+                                    ],
+                                    [
+                                        "C8",
+                                        309
+                                    ],
+                                    [
+                                        "C9",
+                                        373
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage8",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Errorbar lin combo chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "ffe6b956-bc36-4c3a-9626-fef2b6095684",
+                    "name": "ffe6b956-bc36-4c3a-9626-fef2b6095684",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": true
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "high",
+                                "name": "High",
+                                "type": "errorbar",
+                                "data": [
+                                    [
+                                        "C1",
+                                        331,
+                                        2345
+                                    ],
+                                    [
+                                        "C2",
+                                        322,
+                                        2443
+                                    ],
+                                    [
+                                        "C3",
+                                        270,
+                                        1300
+                                    ],
+                                    [
+                                        "C4",
+                                        403,
+                                        2810
+                                    ],
+                                    [
+                                        "C5",
+                                        396,
+                                        2027
+                                    ],
+                                    [
+                                        "C6",
+                                        306,
+                                        2820
+                                    ],
+                                    [
+                                        "C7",
+                                        449,
+                                        2153
+                                    ],
+                                    [
+                                        "C8",
+                                        295,
+                                        2338
+                                    ],
+                                    [
+                                        "C9",
+                                        440,
+                                        2668
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "value",
+                                "name": "Value",
+                                "type": "line",
+                                "data": [
+                                    [
+                                        "C1",
+                                        514
+                                    ],
+                                    [
+                                        "C2",
+                                        534
+                                    ],
+                                    [
+                                        "C3",
+                                        635
+                                    ],
+                                    [
+                                        "C4",
+                                        537
+                                    ],
+                                    [
+                                        "C5",
+                                        797
+                                    ],
+                                    [
+                                        "C6",
+                                        900
+                                    ],
+                                    [
+                                        "C7",
+                                        720
+                                    ],
+                                    [
+                                        "C8",
+                                        875
+                                    ],
+                                    [
+                                        "C9",
+                                        543
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage9",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Boxplot Scatter combo chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "4d7175f3-488c-4842-85d6-160d0f03a091",
+                    "name": "4d7175f3-488c-4842-85d6-160d0f03a091",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "value",
+                                "name": "Value",
+                                "type": "boxplot",
+                                "data": [
+                                    [
+                                        "C1",
+                                        237,
+                                        419,
+                                        1000,
+                                        1089,
+                                        3849
+                                    ],
+                                    [
+                                        "C2",
+                                        62,
+                                        271,
+                                        514,
+                                        2184,
+                                        4018
+                                    ],
+                                    [
+                                        "C3",
+                                        82,
+                                        356,
+                                        608,
+                                        1844,
+                                        4060
+                                    ],
+                                    [
+                                        "C4",
+                                        111,
+                                        458,
+                                        527,
+                                        2075,
+                                        4240
+                                    ],
+                                    [
+                                        "C5",
+                                        173,
+                                        341,
+                                        723,
+                                        1304,
+                                        3388
+                                    ],
+                                    [
+                                        "C6",
+                                        246,
+                                        260,
+                                        603,
+                                        2945,
+                                        3141
+                                    ],
+                                    [
+                                        "C7",
+                                        118,
+                                        291,
+                                        747,
+                                        1707,
+                                        4645
+                                    ],
+                                    [
+                                        "C8",
+                                        129,
+                                        345,
+                                        983,
+                                        1542,
+                                        4078
+                                    ],
+                                    [
+                                        "C9",
+                                        82,
+                                        264,
+                                        696,
+                                        2352,
+                                        4425
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "radius",
+                                "name": "Radius",
+                                "type": "scatter",
+                                "data": [
+                                    [
+                                        "C1",
+                                        420
+                                    ],
+                                    [
+                                        "C2",
+                                        360
+                                    ],
+                                    [
+                                        "C3",
+                                        167
+                                    ],
+                                    [
+                                        "C4",
+                                        494
+                                    ],
+                                    [
+                                        "C5",
+                                        21
+                                    ],
+                                    [
+                                        "C6",
+                                        364
+                                    ],
+                                    [
+                                        "C7",
+                                        192
+                                    ],
+                                    [
+                                        "C8",
+                                        236
+                                    ],
+                                    [
+                                        "C9",
+                                        26
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "styles": [
+                {
+                    "id": "chartspage1",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage2",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage3",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage4",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage5",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage6",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage7",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage8",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage9",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                }
+            ],
+            "flex": 1,
+            "width": "100%",
+            "alignItems": "center",
+            "flexDirection": "column"
+        }
+    }
+}

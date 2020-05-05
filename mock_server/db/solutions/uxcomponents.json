@@ -1,0 +1,646 @@
+{
+    "id": "uxcomponents",
+    "componentCategory": "Solution",
+    "contextPath": "uxcomponents",
+    "header": {
+        "components": [
+            {
+                "id": "solution-icon",
+                "view": "vuxmobile-image",
+                "componentCategory": "UIControl",
+                "source": "/main-ui/assets/images/AppOrchid2.png",
+                "style": {
+                    "width": 40,
+                    "height": 19.51
+                }
+            },
+            {
+                "id": "solution-title",
+                "view": "vuxmobile-text",
+                "text": "Samples",
+                "scaleType": "h5",
+                "ellipsizeMode": "tail"
+            },
+            {
+                "id": "solution-smartsearch-container",
+                "componentCategory": "UIContainer",
+                "components": [
+                    {
+                        "id": "vuxmobile-smartsearch",
+                        "view": "vuxmobile-smartsearch",
+                        "styleClass": "mySearch",
+                        "placeholder": "Search"
+                    }
+                ],
+                "layout": {
+                    "component": {
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "justifyContent": "flex-end",
+                        "styles": [
+                            {
+                                "id": "vuxmobile-smartsearch",
+                                "style": {
+                                    "flex": 1,
+                                    "maxWidth": 400,
+                                    "minWidth": 100
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "solution-profile",
+                "view": "vuxmobile-profile"
+            }
+        ],
+        "layout": {
+            "component": {
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 54,
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "styles": [
+                    {
+                        "id": "solution-icon",
+                        "style": {
+                            "padding": 7
+                        }
+                    },
+                    {
+                        "id": "solution-title",
+                        "style": {}
+                    },
+                    {
+                        "id": "solution-smartsearch-container",
+                        "style": {
+                            "paddingLeft": 5,
+                            "flex": 1,
+                            "flexDirection": "row"
+                        }
+                    },
+                    {
+                        "id": "solution-profile",
+                        "style": {}
+                    }
+                ]
+            }
+        }
+    },
+    "containerComponent": {
+        "type": "Sidebar",
+        "componentCategory": "UIContainerComponent",
+        "component": {
+            "component": {
+                "view": "vuxmobile-sidebar",
+                "width": 200,
+                "id": "page_navigator",
+                "subscribedEvents": {
+                    "page_navigator$toggle": {
+                        "namespace": "sampleUtil",
+                        "name": "openDrawerNavigation"
+                    }
+                },
+                "header": {
+                    "@class": "com.apporchid.vulcanux.ui.solution.SolutionHeader",
+                    "id": "solutionHeader",
+                    "name": "solutionHeader",
+                    "componentCategory": "UIContainer",
+                    "enableUsageEvents": false,
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "Flex",
+                        "component": {
+                            "styles": [
+                                {
+                                    "style": {
+                                        "flex": 1,
+                                        "backgroundColor": "white"
+                                    },
+                                    "id": "8af9af41-6657-4c98-8f9f-4677dbdd4fbe"
+                                }
+                            ],
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "height": 60,
+                            "backgroundColor": "lightblue"
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                            "id": "8af9af41-6657-4c98-8f9f-4677dbdd4fbe",
+                            "name": "8af9af41-6657-4c98-8f9f-4677dbdd4fbe",
+                            "componentCategory": "UIContainer",
+                            "enableUsageEvents": false,
+                            "layout": {
+                                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                                "layoutType": "Flex",
+                                "component": {
+                                    "styles": [
+                                        {
+                                            "style": {
+                                                "marginHorizontal": 5,
+                                                "marginTop": 0
+                                            },
+                                            "id": "solheaderUserprofile"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "height": 60,
+                                    "backgroundColor": "lightblue"
+                                }
+                            },
+                            "components": [
+                                {
+                                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                                    "id": "solheaderUserprofile",
+                                    "name": "solheaderUserprofile",
+                                    "componentCategory": "MicroApplicationReference",
+                                    "enableUsageEvents": false,
+                                    "throttleInterval": 0,
+                                    "defaultUsageEventsDataInput": {
+                                        "publishRequestData": true
+                                    }
+                                }
+                            ],
+                            "enableScroll": false,
+                            "componentCount": 1,
+                            "defaultUsageEventsDataInput": {
+                                "publishRequestData": true
+                            },
+                            "visible": true
+                        }
+                    ],
+                    "enableScroll": false,
+                    "componentCount": 1,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    },
+                    "visible": true
+                },
+                "data": [
+                    {
+                        "id": "demos",
+                        "value": "demos",
+                        "data": [
+                            {
+                                "id": "appsdemo",
+                                "value": "Apps demo"
+                            },
+                            {
+                                "id":"demouxcomponentspage",
+                                "value":"Demo"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "controls",
+                        "value": "controls",
+                        "data": [
+                            {
+                                "id": "textinput",
+                                "value": "TextInputs"
+                            },
+                            {
+                                "id": "badgeuxcomponentspage",
+                                "value": "Badge"
+                            },
+                            {
+                                "id": "checkboxuxcomponentspage",
+                                "value": "Checkbox"
+                            },
+                            {
+                                "id": "radiouxcomponentspage",
+                                "value": "Radio"
+                            },
+                            {
+                                "id": "switchuxcomponentspage",
+                                "value": "Switch"
+                            },
+                            {
+                                "id": "tablePage",
+                                "value": "tableresponsive"
+                            },
+                            {
+                                "id": "activity_indicator_page",
+                                "value": "ActivityIndicator"
+                            },
+                            {
+                                "id": "textuxcomponentspage",
+                                "value": "Text"
+                            },
+                            {
+                                "id": "datetimepickerpage",
+                                "value": "DateTimePicker"
+                            },
+                            {
+                                "id": "carousel",
+                                "value": "Carousel"
+                            },
+                            {
+                                "id": "carduxcomponentspage",
+                                "value": "Card"
+                            },
+                            {
+                                "id": "buttonuxcomponentspage",
+                                "value": "Button"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "datatable",
+                        "value": "datatable",
+                        "data": [
+                            {
+                                "id": "datatableuxcomponentspage",
+                                "value": "DataTable"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "charts",
+                        "value": "charts",
+                        "data": [
+                            {
+                                "id": "xychartspage",
+                                "value": "XY Charts"
+                            },
+                            {
+                                "id": "otherchartspage",
+                                "value": "Other Charts"
+                            },
+                            {
+                                "id": "mapchartspage",
+                                "value": "Map Charts"
+                            },
+                            {
+                                "id": "multiserieschartspage",
+                                "value": "Multi Series Charts"
+                            },
+                            {
+                                "id": "heatmappage",
+                                "value": "Heatmap"
+                            },
+                            {
+                                "id": "rowdatachartspage",
+                                "value": "Row Data Charts"
+                            },
+                            {
+                                "id": "3Dchartspage",
+                                "value": "3D Charts"
+                            },
+                            {
+                                "id": "miscellaneouschartspage",
+                                "value": "Miscellaneous Charts"
+                            },
+                            {
+                                "id": "guagechartspage",
+                                "value": "Guage Charts"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "lists",
+                        "value": "lists",
+                        "data": [
+                            {
+                                "id": "mobileListMicroappPage",
+                                "value": "list"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "layouts",
+                        "value": "layouts",
+                        "data": [
+                            {
+                                "id": "tabviewsample",
+                                "value": "TabView"
+                            },
+                            {
+                                "id": "viewpager",
+                                "value": "ViewPager"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "others",
+                        "value": "others",
+                        "data": [
+                            {
+                                "id": "barcodescanneruxcomponentspage",
+                                "value": "Barcode Scanner"
+                            },
+                            {
+                                "id": "form",
+                                "value": "Form"
+                            },
+                            {
+                                "id": "maps",
+                                "value": "Map"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "components": [
+        {
+            "id":"demouxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "tabviewsample",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "appsdemo",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "viewpager",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "switchuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "datatableuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "chartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "mapchartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "multiserieschartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "guagechartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "miscellaneouschartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "3Dchartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "rowdatachartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "heatmappage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "otherchartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "xychartspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "tablePage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "textdemoPage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "textuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "activity_indicator_page",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "datetimepickerpage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "carousel",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "carduxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "buttonuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false,
+            "default":true
+        },
+        {
+            "id": "textinput",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "checkboxuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "radiouxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "switchuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "badgeuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "barcodescanneruxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "form",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "tabviewuxcomponentspage",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "id": "maps",
+            "componentCategory": "SolutionPage",
+            "showFooter": false
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+            "id": "mobileListMicroappPage",
+            "name": "mobileListMicroappPage",
+            "componentCategory": "SolutionPage",
+            "enableUsageEvents": true,
+            "displayName": "Mobile List",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "flex": 1,
+                                "width": "100%"
+                            },
+                            "id": "mobilelistapp"
+                        }
+                    ],
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "margin": 0,
+                    "padding": 0,
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.ui.application.Application",
+                    "id": "mobilelistapp",
+                    "name": "mobilelistapp",
+                    "componentCategory": "Application",
+                    "enableUsageEvents": true,
+                    "displayName": "Mobilelist  Application",
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "Flex",
+                        "component": {
+                            "styles": [
+                                {
+                                    "style": {
+                                        "flex": 1,
+                                        "width": "100%"
+                                    },
+                                    "id": "mobileListId"
+                                }
+                            ],
+                            "flexDirection": "column",
+                            "margin": 0,
+                            "padding": 0
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                            "id": "mobileListId",
+                            "name": "mobileListId",
+                            "componentCategory": "MicroApplicationReference",
+                            "enableUsageEvents": true,
+                            "throttleInterval": 0,
+                            "defaultUsageEventsDataInput": {
+                                "publishRequestData": true
+                            }
+                        }
+                    ],
+                    "enableScroll": false,
+                    "extendedMetadata": {
+                        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                        "thumbnailIconUrl": "analytics.svg",
+                        "thumbnailBgColor": "#666666",
+                        "categoryIds": [
+                            1
+                        ]
+                    },
+                    "captureSnapshot": false,
+                    "feedbackLikeOptions": [
+                        "Exactly what I wanted",
+                        "Useful information",
+                        "Well presented",
+                        "Easy to use"
+                    ],
+                    "feedbackDislikeOptions": [
+                        "Difficult to use",
+                        "Not enough detail",
+                        "Not what I wanted",
+                        "Incorrect information"
+                    ],
+                    "exportMicroappIds": {
+                        "CSV": [
+                            "mobileListId"
+                        ]
+                    },
+                    "showAppFeedback": true,
+                    "visibleInAppstore": true,
+                    "componentCount": 1,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    },
+                    "visible": true,
+                    "showHeader": false,
+                    "showFooter": false,
+                    "showTitle": false,
+                    "showSubTitle": false
+                }
+            ],
+            "enableScroll": false,
+            "iconUrl": "vuxicon-cards",
+            "showSearchbar": true,
+            "isDynamic": false,
+            "showContainerComponent": true,
+            "enableSmartScrolling": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        }
+    ],
+    "jsFiles": [
+        "js/sample.js"
+    ],
+    "cssFiles": [
+        "css/styles.js",
+        "/css/aostyles.js"
+    ]
+}

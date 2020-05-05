@@ -1,0 +1,251 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "appDefaultstyleapp",
+    "name": "appDefaultstyleapp",
+    "componentCategory": "Application",
+    "enableUsageEvents": true,
+    "displayName": "Text Label",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "af89ed74-452c-46b7-9ed0-ff69ffff788f"
+                }
+            ],
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "margin": 0,
+            "padding": 0
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "af89ed74-452c-46b7-9ed0-ff69ffff788f",
+            "name": "af89ed74-452c-46b7-9ed0-ff69ffff788f",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {},
+                            "id": "text3"
+                        },
+                        {
+                            "style": {},
+                            "id": "text4"
+                        },
+                        {
+                            "style": {},
+                            "id": "text1"
+                        },
+                        {
+                            "style": {},
+                            "id": "text2"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "text1",
+                    "name": "text1",
+                    "componentCategory": "UIControl",
+                    "type": "Label",
+                    "component": {
+                        "view": "vuxmobile-text",
+                        "css": "aovuxtext",
+                        "id": "text1",
+                        "text": "default label"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "text2",
+                    "name": "text2",
+                    "componentCategory": "UIControl",
+                    "type": "Label",
+                    "component": {
+                        "view": "vuxmobile-text",
+                        "css": "aovuxtext",
+                        "id": "text2",
+                        "disabled": true,
+                        "text": "disabled label"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "text3",
+                    "name": "text3",
+                    "componentCategory": "UIControl",
+                    "type": "Label",
+                    "component": {
+                        "view": "vuxmobile-text",
+                        "css": "aovuxtext sampleLabel",
+                        "id": "text3",
+                        "text": "custom label with sample-label css"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "text4",
+                    "name": "text4",
+                    "componentCategory": "UIControl",
+                    "type": "Label",
+                    "component": {
+                        "view": "vuxmobile-text",
+                        "css": "aovuxtext sampleLabel",
+                        "id": "text4",
+                        "disabled": true,
+                        "text": "disabled label with sample-label css"
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": false,
+            "componentCount": 4,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        }
+    ],
+    "enableScroll": false,
+    "header": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+        "id": "applicationHeader",
+        "name": "applicationHeader",
+        "componentCategory": "UIContainer",
+        "enableUsageEvents": false,
+        "layout": {
+            "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+            "layoutType": "Flex",
+            "component": {
+                "styles": [
+                    {
+                        "style": {},
+                        "id": "appHeaderIcon"
+                    },
+                    {
+                        "style": {
+                            "padding": 12
+                        },
+                        "id": "appHeaderMoreButton"
+                    },
+                    {
+                        "style": {
+                            "flex": 1,
+                            "padding": 9
+                        },
+                        "id": "appHeaderTitle"
+                    }
+                ],
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 42,
+                "justifyContent": "space-between"
+            }
+        },
+        "components": [
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderIcon",
+                "name": "store-dark-solid",
+                "componentCategory": "UIControl",
+                "type": "Icon",
+                "component": {
+                    "view": "vuxmobile-icon",
+                    "css": "aovuxicon header_icon",
+                    "id": "appHeaderIcon",
+                    "size": 24,
+                    "name": "store-dark-solid",
+                    "align": "left",
+                    "width": 40
+                },
+                "visible": true
+            },
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderTitle",
+                "name": "appHeaderTitle",
+                "componentCategory": "UIControl",
+                "type": "Label",
+                "component": {
+                    "view": "vuxmobile-text",
+                    "css": "aovuxtext",
+                    "id": "appHeaderTitle",
+                    "text": "Text Label"
+                },
+                "visible": true
+            },
+            {
+                "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                "id": "appHeaderMoreButton",
+                "name": "more",
+                "componentCategory": "UIControl",
+                "type": "Icon",
+                "component": {
+                    "view": "vuxmobile-icon",
+                    "css": "aovuxicon more",
+                    "id": "appHeaderMoreButton",
+                    "name": "more",
+                    "align": "left"
+                },
+                "visible": true
+            }
+        ],
+        "enableScroll": false,
+        "moreMenuItems": [
+            {
+                "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                "id": "appExportCSVMenu",
+                "value": "Export As CSV",
+                "icon": "vuxicon-export-regular"
+            }
+        ],
+        "componentCount": 3,
+        "defaultUsageEventsDataInput": {
+            "publishRequestData": true
+        },
+        "visible": true
+    },
+    "title": "Text Label",
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "categoryIds": [
+            1
+        ]
+    },
+    "captureSnapshot": false,
+    "showAppFeedback": false,
+    "visibleInAppstore": false,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true,
+    "showHeader": true,
+    "showFooter": false,
+    "showTitle": true,
+    "showSubTitle": false
+}

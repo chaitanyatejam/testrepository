@@ -1,0 +1,47 @@
+{
+    "id": "formsamplespage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "formsamplesapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "sampleform1",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "margin": 10,
+                    "alignItems": "stretch"
+                },
+                "componentStyles": [
+                    {
+                        "id": "sampleform1",
+                        "style": {
+                            "flex": 1
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1
+        },
+        "componentStyles": [
+            {
+                "id": "formsamplesapp",
+                "style": {
+                    "flex": 1
+                }
+            }
+        ]
+    }
+}

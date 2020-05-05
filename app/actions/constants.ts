@@ -1,0 +1,2 @@
+export const SHOW_INDICATOR = 'SHOW_INDICATOR';
+export const HIDE_INDICATOR = 'HIDE_INDICATOR';

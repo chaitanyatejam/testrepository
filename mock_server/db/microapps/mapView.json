@@ -1,0 +1,6 @@
+{
+    "id": "mapView",
+    "component": {
+        "view": "Map"
+    }
+}

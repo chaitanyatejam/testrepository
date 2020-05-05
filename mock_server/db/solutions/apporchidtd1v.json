@@ -1,0 +1,203 @@
+{
+    "id": "td1v",
+    "header": {
+        "componentCategory": "UIContainer",
+        "components": [
+            {
+                "componentCategory": "UIControl",
+                "id": "mainmenu",
+                "view": "Icon",
+                "Icon": "menu",
+                "emitEventsMap": {},
+                "style": {
+                    "alignSelf": "left"
+                }
+            },
+            {
+                "componentCategory": "UIControl",
+                "id": "pageSwitcher",
+                "view": "SegmentedButtons",
+                "data": [
+                    {
+                        "label": "Map",
+                        "pageId": "td1vmappage"
+                    },
+                    {
+                        "label": "Calender",
+                        "pageId": "td1vcalenderpage"
+                    }
+                ],
+                "actionEventsMap": {
+                    "onPress": {
+                        "type": "OPEN_PAGE"
+                    }
+                },
+                "style": {
+                    "alignSelf": "left"
+                }
+            },
+            {
+                "componentCategory": "UIControl",
+                "id": "mainmenu",
+                "view": "Icon",
+                "Icon": "tap",
+                "LabelRight": "TD1V",
+                "style": {
+                    "alignSelf": "center"
+                }
+            },
+            {
+                "componentCategory": "Microapplication",
+                "id": "userprofile",
+                "style": {
+                    "alignSelf": "right"
+                }
+            },
+            {
+                "componentCategory": "Microapplication",
+                "id": "notifications",
+                "style": {
+                    "alignSelf": "right"
+                }
+            },
+            {
+                "componentCategory": "Microapplication",
+                "id": "seacrh",
+                "style": {
+                    "alignSelf": "right"
+                }
+            }
+        ],
+        "layout": {
+            "style": {
+                "flexDirection": "row",
+                "height": 60
+            },
+            "componentStyles": {}
+        }
+    },
+    "anchorApps": [
+        {
+            "id": "orderFilterApp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "componentCategory": "UIControl",
+                    "view": "SegementedButton",
+                    "data": [
+                        {
+                            "id": "mywork",
+                            "label": "My Work"
+                        },
+                        {
+                            "id": "deferred",
+                            "label": "Deferred"
+                        },
+                        {
+                            "id": "requested",
+                            "label": "Requested"
+                        }
+                    ],
+                    "actionEventsMap": {
+                        "onPress": {
+                            "type": "REFRESH_MICROAPP",
+                            "microapplicationId": "orders_list"
+                        }
+                    }
+                },
+                {
+                    "componentCategory": "Microapplication",
+                    "defaultCriteria": "mywork",
+                    "id": "orders_list"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1
+                },
+                "componentStyles": {}
+            }
+        }
+    ],
+    "components": [
+        {
+            "id": "td1vmappage",
+            "anchorAppId": "orderFilterApp",
+            "componentCategory": "SolutionPage",
+            "components": [
+                {
+                    "id": "td1vtimelineapp",
+                    "componentCategory": "Application",
+                    "components": [
+                        {
+                            "id": "td1vtimelinemicroapp",
+                            "componentCategory": "MicroApplication"
+                        }
+                    ],
+                    "layout": {
+                        "style": {
+                            "flexDirection": "column",
+                            "flex": 1
+                        },
+                        "componentStyles": {}
+                    }
+                },
+                {
+                    "id": "td1vmappaapp",
+                    "componentCategory": "Application",
+                    "components": [
+                        {
+                            "id": "td1vmapmicroapp",
+                            "componentCategory": "MicroApplication"
+                        }
+                    ],
+                    "layout": {
+                        "style": {
+                            "flexDirection": "column",
+                            "flex": 1
+                        },
+                        "componentStyles": {}
+                    }
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1
+                },
+                "componentStyles": {}
+            }
+        },
+        {
+            "id": "td1vcalenderpage",
+            "componentCategory": "SolutionPage",
+            "components": [
+                {
+                    "id": "td1vcalenderApp",
+                    "componentCategory": "Application",
+                    "components": [
+                        {
+                            "id": "td1vcalenderMicroApp",
+                            "componentCategory": "MicroApplication"
+                        }
+                    ],
+                    "layout": {
+                        "style": {
+                            "flexDirection": "column",
+                            "flex": 1
+                        },
+                        "componentStyles": {}
+                    }
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1
+                },
+                "componentStyles": {}
+            }
+        }
+    ]
+}

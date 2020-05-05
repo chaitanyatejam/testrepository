@@ -1,0 +1,144 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "multiserieschart1",
+    "name": "multiserieschart1",
+    "componentCategory": "MicroApplication",
+    "type": "XYChart",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vux-highchart",
+        "credits": {
+            "enabled": false
+        },
+        "exporting": {
+            "enabled": true
+        },
+        "legend": {
+            "enabled": true
+        },
+        "series": [
+            {
+                "id": "high",
+                "name": "High",
+                "type": "errorbar",
+                "data": [
+                    [
+                        "C1",
+                        331,
+                        2345
+                    ],
+                    [
+                        "C2",
+                        322,
+                        2443
+                    ],
+                    [
+                        "C3",
+                        270,
+                        1300
+                    ],
+                    [
+                        "C4",
+                        403,
+                        2810
+                    ],
+                    [
+                        "C5",
+                        396,
+                        2027
+                    ],
+                    [
+                        "C6",
+                        306,
+                        2820
+                    ],
+                    [
+                        "C7",
+                        449,
+                        2153
+                    ],
+                    [
+                        "C8",
+                        295,
+                        2338
+                    ],
+                    [
+                        "C9",
+                        440,
+                        2668
+                    ]
+                ]
+            },
+            {
+                "id": "value",
+                "name": "Value",
+                "type": "line",
+                "data": [
+                    [
+                        "C1",
+                        514
+                    ],
+                    [
+                        "C2",
+                        534
+                    ],
+                    [
+                        "C3",
+                        635
+                    ],
+                    [
+                        "C4",
+                        537
+                    ],
+                    [
+                        "C5",
+                        797
+                    ],
+                    [
+                        "C6",
+                        900
+                    ],
+                    [
+                        "C7",
+                        720
+                    ],
+                    [
+                        "C8",
+                        875
+                    ],
+                    [
+                        "C9",
+                        543
+                    ]
+                ]
+            }
+        ],
+        "time": {
+            "useUTC": false
+        },
+        "tooltip": {
+            "enabled": true,
+            "shared": true
+        },
+        "title": {
+            "text": ""
+        },
+        "lang": {},
+        "xAxis": {
+            "arrow": false,
+            "reversed": false,
+            "type": "category"
+        },
+        "yAxis": [
+            {
+                "title": {
+                    "enabled": false
+                },
+                "arrow": false,
+                "reversed": false
+            }
+        ]
+    },
+    "visible": true
+}

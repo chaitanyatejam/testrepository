@@ -1,0 +1,20 @@
+{
+    "id": "GenderRadio",
+    "component": {
+        "name": "Gender",
+        "id": "radiogroup",
+        "view": "vuxmobile-radiogroup",
+        "label": "Gender",
+        "value": "1",
+        "options": [
+            {
+                "id": "1",
+                "value": "Male"
+            },
+            {
+                "id": "2",
+                "value": "FeMale"
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "solutionUid": "com::apporchid::mobile::samples::mobilesamples",
+    "idleSessionTimeout": 1800,
+    "enablePushNotification": false,
+    "cloudseerOauthClientId": "cloudseer_oauth_client_id",
+    "authType": "DATABASE"
+}

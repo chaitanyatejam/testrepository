@@ -1,0 +1,35 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "assetId",
+    "name": "assetId",
+    "componentCategory": "MicroApplication",
+    "type": "Combo",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-combo",
+        "css": "aovuxcombo",
+        "label": "Asset id",
+        "options": {
+            "data": [
+                {
+                    "id": 123,
+                    "value": "123"
+                },
+                {
+                    "id": 124,
+                    "value": "124"
+                }
+            ]
+        },
+        "popupCssClass": "popupCssClass",
+        "noOfItemsToShow": 10,
+        "selectFirstOptionByDefault": true,
+        "addEmptyValue": false,
+        "labelPosition": "top",
+        "enableServersideFiltering": false
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

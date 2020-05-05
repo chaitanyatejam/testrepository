@@ -1,0 +1,58 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "formcontrolsapp",
+    "name": "formcontrolsapp",
+    "componentCategory": "Application",
+    "enableUsageEvents": false,
+    "displayName": "Formcontrols  Application",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "orderForm"
+                }
+            ],
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "margin": 0,
+            "padding": 0,
+            "width": "100%"
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+            "id": "orderForm",
+            "name": "orderForm",
+            "componentCategory": "MicroApplicationReference",
+            "enableUsageEvents": false,
+            "throttleInterval": 0
+        }
+    ],
+    "enableScroll": false,
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "categoryIds": [
+            1
+        ]
+    },
+    "captureSnapshot": false,
+    "showAppFeedback": false,
+    "visibleInAppstore": true,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "cssclass": "orderformappcss",
+    "visible": true,
+    "showHeader": false,
+    "showFooter": false,
+    "showTitle": false,
+    "showSubTitle": false
+}

@@ -1,0 +1,27 @@
+{
+    "id": "accordionapp",
+    "componentCategory": "Application",
+    "components": [
+        {
+            "id": "accordion1",
+            "componentCategory": "MicroApplication"
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1,
+            "justifyContent": "flex-start",
+            "alignItems": "center"
+        },
+        "componentStyles": [
+            {
+                "id": "accordion1",
+                "style": {
+                    "height": 400,
+                    "width": 330
+                }
+            }
+        ]
+    }
+}

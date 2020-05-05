@@ -1,0 +1,107 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "radiogroupapp",
+    "name": "radiogroupapp",
+    "componentCategory": "Application",
+    "enableUsageEvents": true,
+    "displayName": "Radiogroup  Application",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "48bdb555-08c3-46be-a02b-0072d93f6d47"
+                }
+            ],
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "margin": 0,
+            "padding": 0
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "48bdb555-08c3-46be-a02b-0072d93f6d47",
+            "name": "48bdb555-08c3-46be-a02b-0072d93f6d47",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {},
+                            "id": "82064e18-a54d-4691-8d1b-78aa92dc33f6"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "82064e18-a54d-4691-8d1b-78aa92dc33f6",
+                    "name": "82064e18-a54d-4691-8d1b-78aa92dc33f6",
+                    "componentCategory": "UIControl",
+                    "type": "Radio",
+                    "component": {
+                        "view": "vuxmobile-radiogroup",
+                        "css": "aovuxradio RadioGroupCss",
+                        "id": "82064e18-a54d-4691-8d1b-78aa92dc33f6",
+                        "label": "Gender",
+                        "options": [
+                            {
+                                "id": "1",
+                                "value": "Male"
+                            },
+                            {
+                                "id": "2",
+                                "value": "FeMale"
+                            }
+                        ],
+                        "labelPosition": "left"
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": false,
+            "componentCount": 1,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        }
+    ],
+    "enableScroll": false,
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "categoryIds": [
+            1
+        ]
+    },
+    "captureSnapshot": false,
+    "showAppFeedback": false,
+    "visibleInAppstore": true,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true,
+    "showHeader": false,
+    "showFooter": false,
+    "showTitle": false,
+    "showSubTitle": false
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "accordion",
+    "name": "accordion",
+    "componentCategory": "MicroApplication",
+    "type": "Accordion",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "itemStyle": {
+        "margin": 10
+    },
+    "component": {
+        "view": "vuxmobile-accordion",
+        "openAllByDefault": true,
+        "data": [
+            {
+                "address": "225  Ivy Rd., ",
+               "workOrder": "129",
+                "priority":2,
+                "matDescription":"Inspect for Leak, Hi/Lo Usage",
+                "status":"ACK",
+                "city":"Egg Harbor Township",
+                "state":"NJ",
+                "zip":"08234-8432",
+                "workOrderNumber":"53957698",
+                "meterReadingUnit":"ACM13076",
+                "time1":"20 mins",
+                "time2":"24 mins"
+               }
+        ],
+        "height": 300,
+        "collapsed": true,
+        "headerTemplate": {
+            "@class": "com.apporchid.common.JSFunction",
+            "namespace": "samplesAPIUtils",
+            "name": "accordionConfigHeader",
+            "objectType": "jsfunction"
+        },
+        "useRows": true,
+        "isMulti": true,
+        "bodyTemplate": {
+            "@class": "com.apporchid.common.JSFunction",
+            "namespace": "samplesAPIUtils",
+            "name": "accordionConfigBody",
+            "objectType": "jsfunction"
+        },
+        "expandFirstItemByDefault": true,
+        "expandIfOnlyOneItemByDefault": true
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

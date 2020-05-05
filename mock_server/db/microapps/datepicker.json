@@ -1,0 +1,18 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "datepicker",
+    "name": "datepicker",
+    "componentCategory": "MicroApplication",
+    "type": "Datepicker",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-datepicker",
+        "mode":"time",
+        "css":"aovuxdatepicker",
+        "label":"Date"
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

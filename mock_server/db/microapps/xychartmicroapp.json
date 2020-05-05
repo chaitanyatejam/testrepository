@@ -1,0 +1,92 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "xychartmicroapp",
+    "name": "xychartmicroapp",
+    "componentCategory": "MicroApplication",
+    "type": "XYChart",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "Highchart",
+        "credits": {
+            "enabled": false
+        },
+        "exporting": {
+            "enabled": true
+        },
+        "legend": {
+            "enabled": true
+        },
+        "series": [
+            {
+                "id": "value",
+                "name": "Value",
+                "type": "line",
+                "data": [
+                    [
+                        "C1",
+                        758
+                    ],
+                    [
+                        "C2",
+                        620
+                    ],
+                    [
+                        "C3",
+                        714
+                    ],
+                    [
+                        "C4",
+                        955
+                    ],
+                    [
+                        "C5",
+                        513
+                    ],
+                    [
+                        "C6",
+                        708
+                    ],
+                    [
+                        "C7",
+                        608
+                    ],
+                    [
+                        "C8",
+                        837
+                    ],
+                    [
+                        "C9",
+                        925
+                    ]
+                ]
+            }
+        ],
+        "time": {
+            "useUTC": false
+        },
+        "tooltip": {
+            "enabled": true,
+            "shared": true
+        },
+        "title": {
+            "text": ""
+        },
+        "lang": {},
+        "xAxis": {
+            "arrow": false,
+            "reversed": false,
+            "type": "category"
+        },
+        "yAxis": [
+            {
+                "title": {
+                    "enabled": false
+                },
+                "arrow": false,
+                "reversed": false
+            }
+        ]
+    },
+    "visible": true
+}

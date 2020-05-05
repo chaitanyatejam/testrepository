@@ -1,0 +1,35 @@
+{
+    "id": "datatable1",
+    "view": "vuxmobile-datatable",
+    "label": "datatable1",
+    "cols": [
+        {
+            "id": "name",
+            "header": "Name"
+        },
+        {
+            "id": "designation",
+            "header": "designation"
+        }
+    ],
+    "data": [
+        {
+            "id": 1,
+            "name": "Anil",
+            "designation": "Software Engineer"
+        },
+        {
+            "id": 2,
+            "name": "Kapil",
+            "designation": "QA"
+        },
+        {
+            "id": 3,
+            "name": "Karan Kumar",
+            "designation": "Architect"
+        }
+    ],
+    "pager": {
+        "size": 2
+    }
+}

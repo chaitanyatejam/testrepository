@@ -1,0 +1,102 @@
+{
+  "id": "carousel",
+  "componentCategory": "SolutionPage",
+  "components": [
+    {
+      "id": "carousel_app",
+      "componentCategory": "Application",
+      "components": [
+        {
+          "id": "1",
+          "view": "vuxmobile-carousel",
+          "componentCategory": "UIControl",
+          "itemType": "WIDE",
+          "itemsSpacing": 16,
+          "isPagination": false,
+          "autoPlay": false,
+          "data": [
+            {
+              "id": "item1",
+              "name": "name1"
+            },
+            {
+              "id": "item2",
+              "name": "name2"
+            },
+            {
+              "id": "item3",
+              "name": "name3"
+            },
+            {
+              "id": "item4",
+              "name": "name4"
+            },
+            {
+              "id": "item5",
+              "name": "name5"
+            },
+            {
+              "id": "item6",
+              "name": "name6"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "view": "vuxmobile-carousel",
+          "componentCategory": "UIControl",
+          "itemType": "NORMAL",
+          "itemsSpacing": 16,
+          "isPagination": false,
+          "autoPlay": false,
+          "data": [
+            {
+              "id": "item1",
+              "name": "name1"
+            },
+            {
+              "id": "item2",
+              "name": "name2"
+            },
+            {
+              "id": "item3",
+              "name": "name3"
+            },
+            {
+              "id": "item4",
+              "name": "name4"
+            },
+            {
+              "id": "item5",
+              "name": "name5"
+            },
+            {
+              "id": "item6",
+              "name": "name6"
+            }
+          ]
+        }
+      ],
+      "layout": {
+        "component": {
+          "styles": [],
+          "flex": 1
+        }
+      }
+    }
+  ],
+  "layout": {
+    "component": {
+      "styles": [
+        {
+          "id": "carousel_app",
+          "style": {
+            "flex": 1
+          }
+        }
+      ],
+      "flexDirection": "column",
+      "flex": 1
+    }
+  }
+}

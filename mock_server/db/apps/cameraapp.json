@@ -1,0 +1,23 @@
+{
+    "id": "cameraapp",
+    "componentCategory": "Application",
+    "components": [
+        {
+            "id": "sampleimagepicker",
+            "componentCategory": "MicroApplication"
+        }
+    ],
+    "layout": {
+        "component": {
+            "flex": 1,
+            "styles": [
+                {
+                    "id": "sampleimagepicker",
+                    "style": {
+                        "flex": 1
+                    }
+                }
+            ]
+        }
+    }
+}

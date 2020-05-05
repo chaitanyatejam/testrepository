@@ -1,0 +1,41 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "solheaderUserprofile",
+    "name": "solheaderUserprofile",
+    "componentCategory": "MicroApplication",
+    "type": "UserProfileMenu",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-profile",
+        "data": [
+            {
+                "id": "userLastLoggedIn",
+                "value": {
+                    "name": "James Wilson",
+                    "shortName": "JW",
+                    "duration": "3h 9m"
+                }
+            },
+            {
+                "id": "online",
+                "value": "Online",
+                "icon": "wifi"
+            },
+            {
+                "id": "notifications",
+                "value": "Notifications",
+                "icon": "bell"
+            },
+            {
+                "id": "userLogout",
+                "value": "Sign Out",
+                "icon": "logout"
+            }
+        ],
+        "css": "aovuxprofile"
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

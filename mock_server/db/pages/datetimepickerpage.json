@@ -1,0 +1,57 @@
+{
+    "id": "activity_indicator_page",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "datetimepickerapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "datepicker",
+                    "view": "vuxmobile-datetimepicker",
+                    "mode": "date",
+                    "dateFormat": "DD/MM/YYYY",
+                    "date": "09/10/2019"
+                },
+                {
+                    "id": "timepicker",
+                    "view": "vuxmobile-datetimepicker",
+                    "mode": "time",
+                    "timeFormat": "hh:mm A"
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [
+                        {
+                            "id": "datepicker",
+                            "style": {
+                                "flex": 1
+                            }
+                        },
+                        {
+                            "id": "timepicker",
+                            "style": {
+                                "flex": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "styles": [
+                {
+                    "id": "datetimepickerapp",
+                    "style": {
+                        "flex": 1
+                    }
+                }
+            ],
+            "flexDirection": "column",
+            "flex": 1
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "googlemapoverlaylayerapp",
+    "name": "googlemapoverlaylayerapp",
+    "componentCategory": "Application",
+    "enableUsageEvents": true,
+    "displayName": "Googlemapoverlaylayer  Application",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "flex",
+        "component": {
+            "padding": 15,
+            "styles": [
+                {
+                    "id": "treeGoogleMapOverlayLayerId",
+                    "style": {}
+                }
+            ],
+            "margin": 15
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+            "id": "treeGoogleMapOverlayLayerId",
+            "name": "treeGoogleMapOverlayLayerId",
+            "componentCategory": "MicroApplicationReference",
+            "enableUsageEvents": true,
+            "throttleInterval": 0,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            }
+        }
+    ],
+    "enableScroll": false,
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "thumbnailIconUrl": "analytics.svg",
+        "thumbnailBgColor": "#A6761D"
+    },
+    "captureSnapshot": false,
+    "feedbackLikeOptions": [
+        "Exactly what I wanted",
+        "Useful information",
+        "Well\n\t\t\t\tpresented",
+        "Easy to use"
+    ],
+    "feedbackDislikeOptions": [
+        "Difficult to use",
+        "Not enough detail",
+        "Not what I\n\t\t\t\twanted",
+        "Incorrect information"
+    ],
+    "exportMicroappIds": {
+        "CSV": [
+            "treeGoogleMapOverlayLayerId"
+        ]
+    },
+    "showAppFeedback": true,
+    "visibleInAppstore": false,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true,
+    "showHeader": false,
+    "showFooter": false,
+    "showTitle": false,
+    "showSubTitle": false
+}

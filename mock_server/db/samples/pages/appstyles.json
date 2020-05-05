@@ -1,0 +1,703 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.solution.SolutionPage",
+    "id": "com::apporchid::samples::appStylesPage",
+    "name": "appStylesPage",
+    "componentCategory": "SolutionPage",
+    "enableUsageEvents": true,
+    "showFooter": false,
+    "displayName": "App Styles",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Grid",
+        "component": {
+            "view": "gridlayout",
+            "padding": 15,
+            "cells": [
+                {
+                    "dx": 1.0,
+                    "dy": 1.0,
+                    "x": 1.0,
+                    "y": 0.0,
+                    "id": "com::apporchid::samples::appstylesbarchartapp"
+                },
+                {
+                    "dx": 1.0,
+                    "dy": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "id": "com::apporchid::samples::appstylessampletableapp"
+                },
+                {
+                    "dx": 1.0,
+                    "dy": 1.0,
+                    "x": 0.0,
+                    "y": 1.0,
+                    "id": "com::apporchid::samples::appstylescuecard1app"
+                },
+                {
+                    "dx": 1.0,
+                    "dy": 1.0,
+                    "x": 1.0,
+                    "y": 1.0,
+                    "id": "com::apporchid::samples::appstylescuecard2app"
+                }
+            ],
+            "gridColumns": 2,
+            "gridRows": 2,
+            "margin": 15
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.ui.application.Application",
+            "id": "com::apporchid::samples::appstylessampletableapp",
+            "name": "appstylessampletableapp",
+            "componentCategory": "Application",
+            "enableUsageEvents": true,
+            "displayName": "Stylessampletable  Application",
+            "description": " Stylessampletable  Application",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Grid",
+                "component": {
+                    "view": "gridlayout",
+                    "padding": 15,
+                    "cells": [
+                        {
+                            "dx": 1.0,
+                            "dy": 1.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "id": "7867f81a-6525-48a5-a33f-841dd74e87f2"
+                        }
+                    ],
+                    "gridColumns": 1,
+                    "gridRows": 1,
+                    "margin": 15
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                    "id": "7867f81a-6525-48a5-a33f-841dd74e87f2",
+                    "name": "7867f81a-6525-48a5-a33f-841dd74e87f2",
+                    "componentCategory": "UIContainer",
+                    "enableUsageEvents": false,
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "RowsCols",
+                        "component": {
+                            "view": "layout",
+                            "cols": [
+                                {
+                                    "gravity": 1,
+                                    "width": 0,
+                                    "id": "container-table1",
+                                    "height": 0
+                                }
+                            ],
+                            "margin": 15
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                            "id": "container-table1",
+                            "name": "container-table1",
+                            "componentCategory": "MicroApplicationReference",
+                            "enableUsageEvents": true,
+                            "throttleInterval": 0,
+                            "defaultUsageEventsDataInput": {
+                                "publishRequestData": true
+                            }
+                        }
+                    ],
+                    "enableScroll": true,
+                    "componentCount": 1,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": false,
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Toolbar",
+                    "component": {
+                        "view": "vux-toolbar",
+                        "borderless": true,
+                        "elements": [
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderIcon",
+                                "height": 0
+                            },
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderExpandButton",
+                                "height": 0
+                            },
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderMoreButton",
+                                "height": 0
+                            },
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderTitle",
+                                "height": 0
+                            }
+                        ],
+                        "moreOptionHeight": 33,
+                        "moreOptionWidth": 33
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vux-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "icon": "table",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vux-label",
+                            "id": "appHeaderTitle",
+                            "label": "Stylessampletable  Application",
+                            "background": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vux-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "icon": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vux-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "extendedMetadata": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                "thumbnailIconUrl": "analytics.svg",
+                "thumbnailBgColor": "#a6761d"
+            },
+            "captureSnapshot": false,
+            "feedbackLikeOptions": [
+                "Exactly what I wanted",
+                "Useful information",
+                "Well presented",
+                "Easy to use"
+            ],
+            "feedbackDislikeOptions": [
+                "Difficult to use",
+                "Not enough detail",
+                "Not what I wanted",
+                "Incorrect information"
+            ],
+            "exportMicroappIds": {
+                "CSV": [
+                    "container-table1"
+                ]
+            },
+            "showAppFeedback": true,
+            "visibleInAppstore": false,
+            "showFullScreen": false,
+            "componentCount": 1,
+            "cssclass": "samples-appstyle-sampletable",
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true,
+            "showHeader": true,
+            "showFooter": false,
+            "showTitle": false,
+            "showSubTitle": false
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.application.Application",
+            "id": "com::apporchid::samples::appstylesbarchartapp",
+            "name": "appstylesbarchartapp",
+            "componentCategory": "Application",
+            "enableUsageEvents": true,
+            "displayName": "Stylesbarchart  Application",
+            "description": " Stylesbarchart  Application",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Grid",
+                "component": {
+                    "view": "gridlayout",
+                    "padding": 15,
+                    "cells": [
+                        {
+                            "dx": 1.0,
+                            "dy": 1.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "id": "c93bb2a7-b8ef-459d-9571-89ad1c7a26b5"
+                        }
+                    ],
+                    "gridColumns": 1,
+                    "gridRows": 1,
+                    "margin": 15
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+                    "id": "c93bb2a7-b8ef-459d-9571-89ad1c7a26b5",
+                    "name": "c93bb2a7-b8ef-459d-9571-89ad1c7a26b5",
+                    "componentCategory": "UIContainer",
+                    "enableUsageEvents": false,
+                    "layout": {
+                        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                        "layoutType": "RowsCols",
+                        "component": {
+                            "view": "layout",
+                            "cols": [
+                                {
+                                    "gravity": 1,
+                                    "width": 0,
+                                    "id": "5125d0d6-8c45-4a48-a111-9506ccb18c65",
+                                    "height": 0
+                                }
+                            ],
+                            "margin": 15
+                        }
+                    },
+                    "components": [
+                        {
+                            "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                            "id": "5125d0d6-8c45-4a48-a111-9506ccb18c65",
+                            "name": "5125d0d6-8c45-4a48-a111-9506ccb18c65",
+                            "componentCategory": "MicroApplicationReference",
+                            "enableUsageEvents": true,
+                            "throttleInterval": 0,
+                            "defaultUsageEventsDataInput": {
+                                "publishRequestData": true
+                            }
+                        }
+                    ],
+                    "enableScroll": true,
+                    "componentCount": 1,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": false,
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Toolbar",
+                    "component": {
+                        "view": "vux-toolbar",
+                        "borderless": true,
+                        "elements": [
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderIcon",
+                                "height": 0
+                            },
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderExpandButton",
+                                "height": 0
+                            },
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderMoreButton",
+                                "height": 0
+                            },
+                            {
+                                "gravity": 1,
+                                "width": 0,
+                                "id": "appHeaderTitle",
+                                "height": 0
+                            }
+                        ],
+                        "moreOptionHeight": 33,
+                        "moreOptionWidth": 33
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vux-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "icon": "table",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vux-label",
+                            "id": "appHeaderTitle",
+                            "label": "Stylesbarchart  Application",
+                            "background": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vux-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "icon": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vux-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "extendedMetadata": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                "thumbnailIconUrl": "analytics.svg",
+                "thumbnailBgColor": "#a6761d"
+            },
+            "captureSnapshot": false,
+            "feedbackLikeOptions": [
+                "Exactly what I wanted",
+                "Useful information",
+                "Well presented",
+                "Easy to use"
+            ],
+            "feedbackDislikeOptions": [
+                "Difficult to use",
+                "Not enough detail",
+                "Not what I wanted",
+                "Incorrect information"
+            ],
+            "exportMicroappIds": {
+                "CSV": [
+                    "5125d0d6-8c45-4a48-a111-9506ccb18c65"
+                ]
+            },
+            "showAppFeedback": true,
+            "visibleInAppstore": false,
+            "showFullScreen": false,
+            "componentCount": 1,
+            "cssclass": "samples-appstyle-barchart",
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true,
+            "showHeader": true,
+            "showFooter": false,
+            "showTitle": false,
+            "showSubTitle": false
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.application.Application",
+            "id": "com::apporchid::samples::appstylescuecard1app",
+            "name": "appstylescuecard1app",
+            "componentCategory": "Application",
+            "enableUsageEvents": true,
+            "displayName": " Stylescuecard1  Application",
+            "description": " Stylescuecard1  Application",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Grid",
+                "component": {
+                    "view": "gridlayout",
+                    "padding": 15,
+                    "cells": [
+                        {
+                            "dx": 1.0,
+                            "dy": 1.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "id": "templateId1"
+                        }
+                    ],
+                    "gridColumns": 1,
+                    "gridRows": 1,
+                    "margin": 15
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                    "id": "templateId1",
+                    "name": "templateId1",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": true,
+                    "throttleInterval": 0,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "extendedMetadata": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                "thumbnailIconUrl": "analytics.svg",
+                "thumbnailBgColor": "#d95f02"
+            },
+            "captureSnapshot": false,
+            "feedbackLikeOptions": [
+                "Exactly what I wanted",
+                "Useful information",
+                "Well presented",
+                "Easy to use"
+            ],
+            "feedbackDislikeOptions": [
+                "Difficult to use",
+                "Not enough detail",
+                "Not what I wanted",
+                "Incorrect information"
+            ],
+            "exportMicroappIds": {
+                "CSV": [
+                    "templateId1"
+                ]
+            },
+            "showAppFeedback": true,
+            "visibleInAppstore": false,
+            "showFullScreen": false,
+            "componentCount": 1,
+            "cssclass": "samples-appstyle-cuecard1",
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true,
+            "showHeader": false,
+            "showFooter": false,
+            "showTitle": false,
+            "showSubTitle": false
+        },
+        {
+            "@class": "com.apporchid.vulcanux.ui.application.Application",
+            "id": "com::apporchid::samples::appstylescuecard2app",
+            "name": "appstylescuecard2app",
+            "componentCategory": "Application",
+            "enableUsageEvents": true,
+            "displayName": " Stylescuecard2  Application",
+            "description": " Stylescuecard2  Application",
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Grid",
+                "component": {
+                    "view": "gridlayout",
+                    "padding": 15,
+                    "cells": [
+                        {
+                            "dx": 1.0,
+                            "dy": 1.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "id": "templateId2"
+                        }
+                    ],
+                    "gridColumns": 1,
+                    "gridRows": 1,
+                    "margin": 15
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                    "id": "templateId2",
+                    "name": "templateId2",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": true,
+                    "throttleInterval": 0,
+                    "defaultUsageEventsDataInput": {
+                        "publishRequestData": true
+                    }
+                }
+            ],
+            "enableScroll": false,
+            "extendedMetadata": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+                "thumbnailIconUrl": "analytics.svg",
+                "thumbnailBgColor": "#66a61e"
+            },
+            "captureSnapshot": false,
+            "feedbackLikeOptions": [
+                "Exactly what I wanted",
+                "Useful information",
+                "Well presented",
+                "Easy to use"
+            ],
+            "feedbackDislikeOptions": [
+                "Difficult to use",
+                "Not enough detail",
+                "Not what I wanted",
+                "Incorrect information"
+            ],
+            "exportMicroappIds": {
+                "CSV": [
+                    "templateId2"
+                ]
+            },
+            "showAppFeedback": true,
+            "visibleInAppstore": false,
+            "showFullScreen": false,
+            "componentCount": 1,
+            "cssclass": "samples-appstyle-cuecard2",
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true,
+            "showHeader": false,
+            "showFooter": false,
+            "showTitle": false,
+            "showSubTitle": false
+        }
+    ],
+    "enableScroll": false,
+    "iconUrl": "vuxicon-content",
+    "showSearchbar": true,
+    "isDynamic": false,
+    "showContainerComponent": true,
+    "enableStickyScrollForAnchorapp": true,
+    "enableSmartScrolling": false,
+    "default": true,
+    "componentCount": 4,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true
+}

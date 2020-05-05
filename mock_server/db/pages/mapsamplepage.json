@@ -1,0 +1,103 @@
+{
+    "id": "mapsamplepage",
+    "enableScroll": false,
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "simpleformmapsideContainerapp",
+            "components": [
+                {
+                    "id": "segmentedControl",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "cards",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flex": 1,
+                    "flexDirection": "column"
+                },
+                "componentStyles": [
+                    {
+                        "id": "segmentedControl",
+                        "style": {
+                            "marginTop": 10,
+                            "height": 60,
+                            "width": "90%",
+                            "alignSelf": "center"
+                        }
+                    },
+                    {
+                        "id": "cards",
+                        "style": {
+                            "flex": 1,
+                            "alignSelf": "center",
+                            "width": "90%"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "simpleformmapContainerapp",
+            "components": [
+                {
+                    "id": "timeline",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "mapView",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flex": 1,
+                    "flexDirection": "column"
+                },
+                "componentStyles": [
+                    {
+                        "id": "timeline",
+                        "style": {
+                            "height": 160,
+                            "backgroundColor": "yellow",
+                            "borderWidth": 1,
+                            "borderColor": "black"
+                        }
+                    },
+                    {
+                        "id": "mapView",
+                        "style": {
+                            "flex": 1,
+                            "borderWidth": 1,
+                            "borderColor": "black"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flex": 1,
+            "flexDirection": "row"
+        },
+        "componentStyles": [
+            {
+                "id": "simpleformmapsideContainerapp",
+                "style": {
+                    "flex": 3
+                }
+            },
+            {
+                "id": "simpleformmapContainerapp",
+                "style": {
+                    "flex": 7
+                }
+            }
+        ]
+    }
+}

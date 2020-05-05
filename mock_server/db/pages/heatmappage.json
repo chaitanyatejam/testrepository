@@ -1,0 +1,714 @@
+{
+    "id": "timelinechartpage",
+    "componentCategory": "SolutionPage",
+    "enableScroll": true,
+    "components": [
+        {
+            "id": "chartspage1",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Heatmap"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "7690c238-9ae9-4092-b8be-9866dc44fe75",
+                    "name": "7690c238-9ae9-4092-b8be-9866dc44fe75",
+                    "componentCategory": "MicroApplication",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "colorAxis": {},
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "type": "heatmap",
+                                "data": [
+                                    [
+                                        0,
+                                        0,
+                                        84
+                                    ],
+                                    [
+                                        0,
+                                        1,
+                                        11
+                                    ],
+                                    [
+                                        0,
+                                        2,
+                                        40
+                                    ],
+                                    [
+                                        0,
+                                        3,
+                                        86
+                                    ],
+                                    [
+                                        0,
+                                        4,
+                                        71
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        30
+                                    ],
+                                    [
+                                        1,
+                                        1,
+                                        68
+                                    ],
+                                    [
+                                        1,
+                                        2,
+                                        8
+                                    ],
+                                    [
+                                        1,
+                                        3,
+                                        40
+                                    ],
+                                    [
+                                        1,
+                                        4,
+                                        46
+                                    ],
+                                    [
+                                        2,
+                                        0,
+                                        48
+                                    ],
+                                    [
+                                        2,
+                                        1,
+                                        94
+                                    ],
+                                    [
+                                        2,
+                                        2,
+                                        82
+                                    ],
+                                    [
+                                        2,
+                                        3,
+                                        36
+                                    ],
+                                    [
+                                        2,
+                                        4,
+                                        18
+                                    ],
+                                    [
+                                        3,
+                                        0,
+                                        51
+                                    ],
+                                    [
+                                        3,
+                                        1,
+                                        5
+                                    ],
+                                    [
+                                        3,
+                                        2,
+                                        95
+                                    ],
+                                    [
+                                        3,
+                                        3,
+                                        5
+                                    ],
+                                    [
+                                        3,
+                                        4,
+                                        65
+                                    ],
+                                    [
+                                        4,
+                                        0,
+                                        22
+                                    ],
+                                    [
+                                        4,
+                                        1,
+                                        29
+                                    ],
+                                    [
+                                        4,
+                                        2,
+                                        10
+                                    ],
+                                    [
+                                        4,
+                                        3,
+                                        12
+                                    ],
+                                    [
+                                        4,
+                                        4,
+                                        89
+                                    ]
+                                ],
+                                "dataLabels": {
+                                    "enabled": true
+                                }
+                            }
+                        ],
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "categories": [
+                                "David",
+                                "John",
+                                "Sara",
+                                "Sophia",
+                                "Lukas"
+                            ],
+                            "type": "category"
+                        },
+                        "yAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "categories": [
+                                "m",
+                                "t",
+                                "w",
+                                "th",
+                                "f"
+                            ],
+                            "type": "category"
+                        }
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage2",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Heatmap Custom Color"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "09227a9c-9495-4e65-a509-c74cf7683c89",
+                    "name": "09227a9c-9495-4e65-a509-c74cf7683c89",
+                    "componentCategory": "MicroApplication",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "colorAxis": {
+                            "title": {
+                                "enabled": false
+                            },
+                            "arrow": false,
+                            "reversed": false,
+                            "maxColor": "#ff0000"
+                        },
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "type": "heatmap",
+                                "data": [
+                                    [
+                                        0,
+                                        0,
+                                        50
+                                    ],
+                                    [
+                                        0,
+                                        1,
+                                        72
+                                    ],
+                                    [
+                                        0,
+                                        2,
+                                        74
+                                    ],
+                                    [
+                                        0,
+                                        3,
+                                        39
+                                    ],
+                                    [
+                                        0,
+                                        4,
+                                        9
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        23
+                                    ],
+                                    [
+                                        1,
+                                        1,
+                                        98
+                                    ],
+                                    [
+                                        1,
+                                        2,
+                                        22
+                                    ],
+                                    [
+                                        1,
+                                        3,
+                                        75
+                                    ],
+                                    [
+                                        1,
+                                        4,
+                                        40
+                                    ],
+                                    [
+                                        2,
+                                        0,
+                                        44
+                                    ],
+                                    [
+                                        2,
+                                        1,
+                                        62
+                                    ],
+                                    [
+                                        2,
+                                        2,
+                                        10
+                                    ],
+                                    [
+                                        2,
+                                        3,
+                                        53
+                                    ],
+                                    [
+                                        2,
+                                        4,
+                                        85
+                                    ],
+                                    [
+                                        3,
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        3,
+                                        1,
+                                        47
+                                    ],
+                                    [
+                                        3,
+                                        2,
+                                        96
+                                    ],
+                                    [
+                                        3,
+                                        3,
+                                        14
+                                    ],
+                                    [
+                                        3,
+                                        4,
+                                        31
+                                    ],
+                                    [
+                                        4,
+                                        0,
+                                        99
+                                    ],
+                                    [
+                                        4,
+                                        1,
+                                        48
+                                    ],
+                                    [
+                                        4,
+                                        2,
+                                        30
+                                    ],
+                                    [
+                                        4,
+                                        3,
+                                        57
+                                    ],
+                                    [
+                                        4,
+                                        4,
+                                        76
+                                    ]
+                                ],
+                                "dataLabels": {
+                                    "color": "#00000",
+                                    "enabled": true
+                                }
+                            }
+                        ],
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "categories": [
+                                "David",
+                                "John",
+                                "Sara",
+                                "Sophia",
+                                "Lukas"
+                            ],
+                            "type": "category"
+                        },
+                        "yAxis": {
+                            "title": {
+                                "enabled": false
+                            },
+                            "arrow": false,
+                            "reversed": false,
+                            "categories": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday"
+                            ],
+                            "type": "category"
+                        }
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "styles": [
+                {
+                    "id": "chartspage1",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage2",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                }
+            ],
+            "flex": 1,
+            "width": "100%",
+            "alignItems": "center",
+            "flexDirection": "column"
+        }
+    }
+}

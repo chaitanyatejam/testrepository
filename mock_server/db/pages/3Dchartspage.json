@@ -1,0 +1,1774 @@
+{
+    "id": "3Dchartspage",
+    "componentCategory": "SolutionPage",
+    "enableScroll": true,
+    "components": [
+        {
+            "id": "chartspage1",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "be64ccbe-2baf-4131-b150-afa70ddd1277",
+                    "name": "be64ccbe-2baf-4131-b150-afa70ddd1277",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "chart": {
+                            "options3d": {
+                                "alpha": 15,
+                                "beta": 15,
+                                "depth": 50,
+                                "enabled": true,
+                                "viewDistance": 25
+                            }
+                        },
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "value",
+                                "name": "Value",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        887
+                                    ],
+                                    [
+                                        "C2",
+                                        786
+                                    ],
+                                    [
+                                        "C3",
+                                        937
+                                    ],
+                                    [
+                                        "C4",
+                                        1000
+                                    ],
+                                    [
+                                        "C5",
+                                        546
+                                    ],
+                                    [
+                                        "C6",
+                                        939
+                                    ],
+                                    [
+                                        "C7",
+                                        931
+                                    ],
+                                    [
+                                        "C8",
+                                        898
+                                    ],
+                                    [
+                                        "C9",
+                                        908
+                                    ]
+                                ],
+                                "depth": 50
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Column Chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage2",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "64d5771a-1361-40ba-92b6-de8a03d13eaf",
+                    "name": "64d5771a-1361-40ba-92b6-de8a03d13eaf",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "chart": {
+                            "options3d": {
+                                "alpha": 25,
+                                "beta": 25,
+                                "depth": 40,
+                                "enabled": true,
+                                "viewDistance": 25
+                            }
+                        },
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "low",
+                                "name": "Low",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        482
+                                    ],
+                                    [
+                                        "C2",
+                                        431
+                                    ],
+                                    [
+                                        "C3",
+                                        296
+                                    ],
+                                    [
+                                        "C4",
+                                        456
+                                    ],
+                                    [
+                                        "C5",
+                                        285
+                                    ],
+                                    [
+                                        "C6",
+                                        331
+                                    ],
+                                    [
+                                        "C7",
+                                        399
+                                    ],
+                                    [
+                                        "C8",
+                                        335
+                                    ],
+                                    [
+                                        "C9",
+                                        486
+                                    ]
+                                ],
+                                "depth": 40
+                            },
+                            {
+                                "id": "low",
+                                "name": "Value",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        955
+                                    ],
+                                    [
+                                        "C2",
+                                        885
+                                    ],
+                                    [
+                                        "C3",
+                                        553
+                                    ],
+                                    [
+                                        "C4",
+                                        721
+                                    ],
+                                    [
+                                        "C5",
+                                        781
+                                    ],
+                                    [
+                                        "C6",
+                                        936
+                                    ],
+                                    [
+                                        "C7",
+                                        651
+                                    ],
+                                    [
+                                        "C8",
+                                        786
+                                    ],
+                                    [
+                                        "C9",
+                                        598
+                                    ]
+                                ],
+                                "depth": 40
+                            },
+                            {
+                                "id": "low",
+                                "name": "Max",
+                                "type": "column",
+                                "data": [
+                                    [
+                                        "C1",
+                                        3529
+                                    ],
+                                    [
+                                        "C2",
+                                        4362
+                                    ],
+                                    [
+                                        "C3",
+                                        3072
+                                    ],
+                                    [
+                                        "C4",
+                                        3363
+                                    ],
+                                    [
+                                        "C5",
+                                        3666
+                                    ],
+                                    [
+                                        "C6",
+                                        4296
+                                    ],
+                                    [
+                                        "C7",
+                                        3605
+                                    ],
+                                    [
+                                        "C8",
+                                        4205
+                                    ],
+                                    [
+                                        "C9",
+                                        3660
+                                    ]
+                                ],
+                                "depth": 40
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "arrow": false,
+                            "reversed": false,
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 7
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Multi series column chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage3",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Scatter chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "a943d73c-dfc2-450a-a23f-7b52927a9b25",
+                    "name": "a943d73c-dfc2-450a-a23f-7b52927a9b25",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "chart": {
+                            "options3d": {
+                                "alpha": 20,
+                                "beta": 30,
+                                "depth": 400,
+                                "enabled": true,
+                                "viewDistance": 25
+                            }
+                        },
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "value",
+                                "name": "Value",
+                                "type": "scatter",
+                                "data": [
+                                    [
+                                        0,
+                                        591,
+                                        3904
+                                    ],
+                                    [
+                                        1,
+                                        783,
+                                        4276
+                                    ],
+                                    [
+                                        2,
+                                        656,
+                                        3986
+                                    ],
+                                    [
+                                        3,
+                                        675,
+                                        3483
+                                    ],
+                                    [
+                                        4,
+                                        692,
+                                        4571
+                                    ],
+                                    [
+                                        5,
+                                        615,
+                                        3967
+                                    ],
+                                    [
+                                        6,
+                                        524,
+                                        3489
+                                    ],
+                                    [
+                                        7,
+                                        618,
+                                        4212
+                                    ],
+                                    [
+                                        8,
+                                        710,
+                                        3940
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "title": {
+                                "enabled": false
+                            },
+                            "gridLineWidth": 1,
+                            "arrow": false,
+                            "reversed": false,
+                            "categories": [
+                                "C1",
+                                "C2",
+                                "C3",
+                                "C4",
+                                "C5",
+                                "C6",
+                                "C7",
+                                "C8",
+                                "C9"
+                            ],
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage4",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Multi Series Scatter chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "79e0dbb7-2abb-4bc7-bcd2-21753e93b696",
+                    "name": "79e0dbb7-2abb-4bc7-bcd2-21753e93b696",
+                    "componentCategory": "MicroApplication",
+                    "type": "XYChart",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "chart": {
+                            "options3d": {
+                                "alpha": 20,
+                                "beta": 30,
+                                "depth": 400,
+                                "enabled": true,
+                                "viewDistance": 25
+                            }
+                        },
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "id": "min",
+                                "name": "Min",
+                                "type": "scatter",
+                                "data": [
+                                    [
+                                        0,
+                                        206,
+                                        879
+                                    ],
+                                    [
+                                        1,
+                                        214,
+                                        703
+                                    ],
+                                    [
+                                        2,
+                                        214,
+                                        638
+                                    ],
+                                    [
+                                        3,
+                                        44,
+                                        628
+                                    ],
+                                    [
+                                        4,
+                                        137,
+                                        938
+                                    ],
+                                    [
+                                        5,
+                                        8,
+                                        730
+                                    ],
+                                    [
+                                        6,
+                                        20,
+                                        802
+                                    ],
+                                    [
+                                        7,
+                                        175,
+                                        549
+                                    ],
+                                    [
+                                        8,
+                                        245,
+                                        902
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Low",
+                                "type": "scatter",
+                                "data": [
+                                    [
+                                        0,
+                                        305,
+                                        879
+                                    ],
+                                    [
+                                        1,
+                                        276,
+                                        703
+                                    ],
+                                    [
+                                        2,
+                                        377,
+                                        638
+                                    ],
+                                    [
+                                        3,
+                                        474,
+                                        628
+                                    ],
+                                    [
+                                        4,
+                                        318,
+                                        938
+                                    ],
+                                    [
+                                        5,
+                                        300,
+                                        730
+                                    ],
+                                    [
+                                        6,
+                                        304,
+                                        802
+                                    ],
+                                    [
+                                        7,
+                                        420,
+                                        549
+                                    ],
+                                    [
+                                        8,
+                                        449,
+                                        902
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "High",
+                                "type": "scatter",
+                                "data": [
+                                    [
+                                        0,
+                                        2120,
+                                        879
+                                    ],
+                                    [
+                                        1,
+                                        2479,
+                                        703
+                                    ],
+                                    [
+                                        2,
+                                        2546,
+                                        638
+                                    ],
+                                    [
+                                        3,
+                                        1439,
+                                        628
+                                    ],
+                                    [
+                                        4,
+                                        2868,
+                                        938
+                                    ],
+                                    [
+                                        5,
+                                        1267,
+                                        730
+                                    ],
+                                    [
+                                        6,
+                                        2198,
+                                        802
+                                    ],
+                                    [
+                                        7,
+                                        1712,
+                                        549
+                                    ],
+                                    [
+                                        8,
+                                        1125,
+                                        902
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "min",
+                                "name": "Max",
+                                "type": "scatter",
+                                "data": [
+                                    [
+                                        0,
+                                        4627,
+                                        879
+                                    ],
+                                    [
+                                        1,
+                                        4907,
+                                        703
+                                    ],
+                                    [
+                                        2,
+                                        3668,
+                                        638
+                                    ],
+                                    [
+                                        3,
+                                        4303,
+                                        628
+                                    ],
+                                    [
+                                        4,
+                                        4296,
+                                        938
+                                    ],
+                                    [
+                                        5,
+                                        3717,
+                                        730
+                                    ],
+                                    [
+                                        6,
+                                        4531,
+                                        802
+                                    ],
+                                    [
+                                        7,
+                                        3876,
+                                        549
+                                    ],
+                                    [
+                                        8,
+                                        3670,
+                                        902
+                                    ]
+                                ]
+                            }
+                        ],
+                        "time": {
+                            "useUTC": false
+                        },
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {},
+                        "xAxis": {
+                            "title": {
+                                "enabled": false
+                            },
+                            "gridLineWidth": 1,
+                            "arrow": false,
+                            "reversed": false,
+                            "categories": [
+                                "C1",
+                                "C2",
+                                "C3",
+                                "C4",
+                                "C5",
+                                "C6",
+                                "C7",
+                                "C8",
+                                "C9"
+                            ],
+                            "type": "category"
+                        },
+                        "yAxis": [
+                            {
+                                "title": {
+                                    "enabled": false
+                                },
+                                "arrow": false,
+                                "reversed": false
+                            }
+                        ]
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage5",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Pie chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "3dpiechart",
+                    "name": "3dpiechart",
+                    "componentCategory": "MicroApplication",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "chart": {
+                            "options3d": {
+                                "alpha": 45,
+                                "beta": 0,
+                                "depth": 35,
+                                "enabled": true
+                            }
+                        },
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "name": "consumption",
+                                "type": "pie",
+                                "data": [
+                                    [
+                                        "Electric power",
+                                        477
+                                    ],
+                                    [
+                                        "Transportation",
+                                        370
+                                    ],
+                                    [
+                                        "Industrial",
+                                        498
+                                    ],
+                                    [
+                                        "Residential",
+                                        362
+                                    ],
+                                    [
+                                        "Commercial",
+                                        309
+                                    ]
+                                ],
+                                "allowPointSelect": true,
+                                "depth": 35
+                            }
+                        ],
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {}
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        },
+        {
+            "id": "chartspage6",
+            "componentCategory": "Application",
+            "header": {
+                "@class": "com.apporchid.vulcanux.ui.application.ApplicationHeader",
+                "id": "applicationHeader",
+                "name": "applicationHeader",
+                "componentCategory": "UIContainer",
+                "enableUsageEvents": false,
+                "layout": {
+                    "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                    "layoutType": "Flex",
+                    "component": {
+                        "styles": [
+                            {
+                                "style": {},
+                                "id": "appHeaderIcon"
+                            },
+                            {
+                                "style": {
+                                    "flex": 1,
+                                    "padding": 9,
+                                    "alignSelf": "flex-start"
+                                },
+                                "id": "appHeaderTitle"
+                            },
+                            {
+                                "style": {
+                                    "padding": 12
+                                },
+                                "id": "appHeaderExpandButton"
+                            },
+                            {
+                                "style": {},
+                                "id": "appHeaderMoreButton"
+                            }
+                        ],
+                        "flex": 1,
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "flexDirection": "row"
+                    }
+                },
+                "components": [
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderIcon",
+                        "name": "appHeaderIcon",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "header_icon",
+                            "id": "appHeaderIcon",
+                            "minWidth": 200,
+                            "name": "store-dark-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderTitle",
+                        "name": "appHeaderTitle",
+                        "componentCategory": "UIControl",
+                        "type": "VuxLabel",
+                        "component": {
+                            "view": "vuxmobile-text",
+                            "id": "appHeaderTitle",
+                            "text": "Donut chart"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderExpandButton",
+                        "name": "appHeaderExpandButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-icon",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderExpandButton",
+                            "width": 24,
+                            "name": "external-link",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                        "id": "appHeaderMoreButton",
+                        "name": "appHeaderMoreButton",
+                        "componentCategory": "UIControl",
+                        "type": "VuxIcon",
+                        "component": {
+                            "view": "vuxmobile-actionsbutton",
+                            "css": "action_icon external-link",
+                            "id": "appHeaderMoreButton",
+                            "width": 24,
+                            "icon": "info-round-solid",
+                            "align": "left",
+                            "iconColor": "#ffffff"
+                        },
+                        "visible": true
+                    }
+                ],
+                "enableScroll": false,
+                "moreMenuItems": [
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appMenuRefresh",
+                        "value": "Refresh",
+                        "icon": "vuxicon-refresh"
+                    },
+                    {
+                        "@class": "com.apporchid.vulcanux.ui.wx.data.WxMenuItemData",
+                        "id": "appExportCSVMenu",
+                        "value": "Export As CSV",
+                        "icon": "vuxicon-export-regular"
+                    }
+                ],
+                "expandButtonClick": {
+                    "@class": "com.apporchid.common.JSFunction",
+                    "namespace": "samplesChartUtils",
+                    "name": "expandButtonClick",
+                    "objectType": "jsfunction"
+                },
+                "componentCount": 4,
+                "defaultUsageEventsDataInput": {
+                    "publishRequestData": true
+                },
+                "visible": true
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+                    "id": "a0ca26ee-f27f-46cd-ac37-5080e7a7b292",
+                    "name": "a0ca26ee-f27f-46cd-ac37-5080e7a7b292",
+                    "componentCategory": "MicroApplication",
+                    "showNoRecordsMessage": true,
+                    "enablePushNotifications": false,
+                    "component": {
+                        "view": "vux-highchart",
+                        "chart": {
+                            "options3d": {
+                                "alpha": 45,
+                                "beta": 0,
+                                "depth": 35,
+                                "enabled": true
+                            }
+                        },
+                        "credits": {
+                            "enabled": false
+                        },
+                        "exporting": {
+                            "enabled": false
+                        },
+                        "legend": {
+                            "enabled": true
+                        },
+                        "series": [
+                            {
+                                "name": "consumption",
+                                "type": "pie",
+                                "data": [
+                                    [
+                                        "Electric power",
+                                        340
+                                    ],
+                                    [
+                                        "Transportation",
+                                        224
+                                    ],
+                                    [
+                                        "Industrial",
+                                        103
+                                    ],
+                                    [
+                                        "Residential",
+                                        189
+                                    ],
+                                    [
+                                        "Commercial",
+                                        269
+                                    ]
+                                ],
+                                "allowPointSelect": true,
+                                "innerSize": "50%",
+                                "depth": 35
+                            }
+                        ],
+                        "tooltip": {
+                            "enabled": true,
+                            "shared": true
+                        },
+                        "title": {
+                            "text": ""
+                        },
+                        "lang": {}
+                    },
+                    "visible": true
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around"
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "styles": [
+                {
+                    "id": "chartspage1",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage2",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage3",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage4",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage5",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                },
+                {
+                    "id": "chartspage6",
+                    "style": {
+                        "flex": 1,
+                        "padding": 15
+                    }
+                }
+            ],
+            "flex": 1,
+            "width": "100%",
+            "alignItems": "center",
+            "flexDirection": "column"
+        }
+    }
+}

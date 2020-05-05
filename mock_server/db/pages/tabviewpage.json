@@ -1,0 +1,48 @@
+
+{
+    "id": "tabviewpage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "tabviewapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "sampletabview",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "justifyContent": "flex-start",
+                    "alignItems": "center"
+                },
+                "componentStyles": [
+                    {
+                        "id": "sampletabview",
+                        "style": {
+                            "height": "100%",
+                            "width": "100%"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1
+        },
+        "componentStyles": [
+            {
+                "id": "tabviewapp",
+                "style": {
+                    "flex": 1
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": "checkboxuxcomponentspage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "checkboxpage",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "checkbox",
+                    "view": "vuxmobile-checkbox"
+                }
+            ],
+            "layout": {
+                "component": {
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around",
+                    "alignItems": "center",
+                    "styles": [
+                        {
+                            "id": "checkbox"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "flex": 1,
+            "styles": [
+                {
+                    "id": "checkboxpage",
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    }
+                }
+            ]
+        }
+    }
+}

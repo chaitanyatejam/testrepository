@@ -1,0 +1,80 @@
+{
+    "id": "sampleform2",
+    "view": "Formik",
+    "fields": [
+        {
+            "view": "vuxmobile-textinput",
+            "name": "ema",
+            "type": "email",
+            "label": "Email",
+            "validations": [
+                {
+                    "name": "required",
+                    "arguments": [
+                        "this email is required"
+                    ]
+                },
+                {
+                    "name": "email",
+                    "arguments": [
+                        "provide valid email"
+                    ]
+                }
+            ]
+        },
+        {
+            "view": "vuxmobile-textinput",
+            "name": "pass",
+            "type": "password",
+            "label": "Password",
+            "validations": [
+                {
+                    "name": "required",
+                    "arguments": [
+                        "this password is required"
+                    ]
+                },
+                {
+                    "name": "min",
+                    "arguments": [
+                        8,
+                        "min 8 characters required"
+                    ]
+                }
+            ]
+        },
+        {
+            "view": "vuxmobile-picker",
+            "name": "gender",
+            "label": "gender",
+            "values": [
+                {
+                    "label": "male",
+                    "value": "male"
+                },
+                {
+                    "label": "female",
+                    "value": "female"
+                }
+            ]
+        },
+        {
+            "view": "DatePicker",
+            "name": "datePicker",
+            "dateFormat": "DD/MM/YYYY",
+            "style":{
+                "marginTop":15,
+                "marginLeft":0
+            }
+        },
+        {
+            "view": "TimePicker",
+            "name": "timePicker",
+            "timeFormat": "hh:mm A",
+            "style":{
+                "marginTop":35,
+                "marginLeft":0
+            }
+        }
+    ]
+}

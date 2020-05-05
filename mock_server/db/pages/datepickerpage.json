@@ -1,0 +1,58 @@
+{
+    "id": "datepickerpage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "datepickerapp",
+            "componentCategory": "Application",
+            "components": [
+                {
+                    "id": "sampledatePicker",
+                    "componentCategory": "MicroApplication"
+                },
+                {
+                    "id": "sampleTimePicker",
+                    "componentCategory": "MicroApplication"
+                }
+            ],
+            "layout": {
+                "style": {
+                    "flexDirection": "column",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "alignItems": "center"
+                },
+                "componentStyles": [
+                    {
+                        "id": "sampledatePicker",
+                        "style": {
+                            "height": 70,
+                            "width": "100%"
+                        }
+                    },
+                    {
+                        "id": "sampleTimePicker",
+                        "style": {
+                            "height": 70,
+                            "width": "100%"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "layout": {
+        "style": {
+            "flexDirection": "column",
+            "flex": 1
+        },
+        "componentStyles": [
+            {
+                "id": "datepickerapp",
+                "style": {
+                    "flex": 1
+                }
+            }
+        ]
+    }
+}

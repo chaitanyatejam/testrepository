@@ -1,0 +1,138 @@
+{
+    "@class": "com.apporchid.vulcanux.ui.application.Application",
+    "id": "switchapp",
+    "name": "switchapp",
+    "componentCategory": "Application",
+    "enableUsageEvents": true,
+    "displayName": "Switch  Application",
+    "layout": {
+        "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+        "layoutType": "Flex",
+        "component": {
+            "styles": [
+                {
+                    "style": {
+                        "flex": 1,
+                        "width": "100%"
+                    },
+                    "id": "a8e861b4-143a-4925-9437-a75df3b4bf21"
+                }
+            ],
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "margin": 0,
+            "padding": 0
+        }
+    },
+    "components": [
+        {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "a8e861b4-143a-4925-9437-a75df3b4bf21",
+            "name": "a8e861b4-143a-4925-9437-a75df3b4bf21",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {},
+                            "id": "switchbuttonswithFalse"
+                        },
+                        {
+                            "style": {},
+                            "id": "switchbuttons"
+                        },
+                        {
+                            "style": {},
+                            "id": "disabledSwitchbuttons"
+                        }
+                    ],
+                    "alignItems": "flex-start",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "switchbuttons",
+                    "name": "switchbuttons",
+                    "componentCategory": "UIControl",
+                    "type": "Switch",
+                    "component": {
+                        "view": "vuxmobile-switch",
+                        "css": "aovuxswitch trueCss",
+                        "id": "switchbuttons",
+                        "label": "True Value",
+                        "value": true,
+                        "labelPosition": "top"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "switchbuttonswithFalse",
+                    "name": "switchbuttonswithFalse",
+                    "componentCategory": "UIControl",
+                    "type": "Switch",
+                    "component": {
+                        "view": "vuxmobile-switch",
+                        "css": "aovuxswitch",
+                        "id": "switchbuttonswithFalse",
+                        "label": "False Value",
+                        "value": false,
+                        "labelPosition": "left"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "disabledSwitchbuttons",
+                    "name": "disabledSwitchbuttons",
+                    "componentCategory": "UIControl",
+                    "type": "Switch",
+                    "component": {
+                        "view": "vuxmobile-switch",
+                        "css": "aovuxswitch disabledCss",
+                        "id": "disabledSwitchbuttons",
+                        "disabled": true,
+                        "label": "Disabled Value",
+                        "value": true
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": false,
+            "componentCount": 3,
+            "defaultUsageEventsDataInput": {
+                "publishRequestData": true
+            },
+            "visible": true
+        }
+    ],
+    "enableScroll": false,
+    "extendedMetadata": {
+        "@class": "com.apporchid.vulcanux.ui.application.ApplicationExtendedMetadata",
+        "categoryIds": [
+            1
+        ]
+    },
+    "captureSnapshot": false,
+    "showAppFeedback": false,
+    "visibleInAppstore": true,
+    "showFullScreen": false,
+    "componentCount": 1,
+    "defaultUsageEventsDataInput": {
+        "publishRequestData": true
+    },
+    "visible": true,
+    "showHeader": false,
+    "showFooter": false,
+    "showTitle": false,
+    "showSubTitle": false
+}

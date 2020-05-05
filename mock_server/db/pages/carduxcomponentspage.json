@@ -1,0 +1,154 @@
+{
+    "id": "carduxcomponentspage",
+    "componentCategory": "SolutionPage",
+    "components": [
+        {
+            "id": "cardspage",
+            "componentCategory": "Application",
+            "enableScroll": true,
+            "components": [
+                {
+                    "id": "defaultText",
+                    "view": "vuxmobile-text",
+                    "label": "Default Card(Level 1)",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "card",
+                    "view": "vuxmobile-appcard"
+                },
+                {
+                    "id": "cardTextWithTitle",
+                    "view": "vuxmobile-text",
+                    "label": "Application/Empty/Title + Top Action Menu",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "cardWithTitle",
+                    "view": "vuxmobile-appcard",
+                    "title": "Application Title",
+                    "style": {
+                        "width": 300,
+                        "height": 300
+                    }
+                },
+                {
+                    "id": "cardTextWithSubtitle",
+                    "view": "vuxmobile-text",
+                    "label": "Application/Empty/Title+Subtitle + Top Action Menu",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "cardWithSubTitle",
+                    "view": "vuxmobile-appcard",
+                    "title": "Application Title",
+                    "titleSubText": "Application Subtitle",
+                    "style": {
+                        "width": 300,
+                        "height": 300
+                    }
+                },
+                {
+                    "id": "cardwWithFooter",
+                    "view": "vuxmobile-text",
+                    "label": "Application/Empty/Title+Subtitle + Top Action Menu + Bottom Actions",
+                    "componentCategory": "UIControl"
+                },
+                {
+                    "id": "cardWithTitleFooter",
+                    "view": "vuxmobile-appcard",
+                    "title": "Application Title",
+                    "titleSubText": "Application Subtitle",
+                    "showFooter": true,
+                    "menuOptions": [
+                        "Action1",
+                        "Action2",
+                        "Action3",
+                        "Action4",
+                        "Cancel"
+                    ]
+                }
+            ],
+            "layout": {
+                "component": {
+                    "styles": [
+                        {
+                            "id": "defaultText",
+                            "style": {}
+                        },
+                        {
+                            "id": "card",
+                            "style": {
+                                "margin": 20,
+                                "marginTop": 5,
+                                "marginBottom": 40
+                            }
+                        },
+                        {
+                            "id": "cardTextWithTitle",
+                            "style": {}
+                        },
+                        {
+                            "id": "cardWithTitle",
+                            "style": {
+                                "margin": 20,
+                                "marginTop": 5,
+                                "marginBottom": 40
+                            }
+                        },
+                        {
+                            "id": "cardTextWithSubtitle",
+                            "style": {}
+                        },
+                        {
+                            "id": "cardWithSubTitle",
+                            "style": {
+                                "margin": 20,
+                                "marginTop": 5,
+                                "marginBottom": 40
+                            }
+                        },
+                        {
+                            "id": "cardWithTitleFooter",
+                            "style": {
+                                "margin": 20,
+                                "marginTop": 5,
+                                "marginBottom": 40
+                            }
+                        },
+                        {
+                            "id": "cardwWithFooter",
+                            "style": {}
+                        },
+                        {
+                            "id": "cardWithSubTitle",
+                            "style": {
+                                "margin": 20,
+                                "marginTop": 5,
+                                "marginBottom": 40
+                            }
+                        }
+                    ],
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "space-around",
+                    "alignItems": "center"
+                }
+            }
+        }
+    ],
+    "layout": {
+        "component": {
+            "styles": [
+                {
+                    "id": "cardspage",
+                    "style": {
+                        "flex": 1
+                    }
+                }
+            ],
+            "flex": 1,
+            "padding": 15
+        }
+    }
+}

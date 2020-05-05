@@ -1,0 +1,285 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "orderForm",
+    "name": "orderForm",
+    "componentCategory": "MicroApplication",
+    "type": "Form",
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-form",
+        "on": {
+            "onAfterSubmit": {
+                "@class": "com.apporchid.common.JSFunction",
+                "namespace": "demoAPIUtils",
+                "name": "onAfterTrafficFormSave",
+                "objectType": "jsfunction"
+            }
+        },
+        "css": "aovuxform",
+        "container": {
+            "@class": "com.apporchid.vulcanux.common.ui.UIContainer",
+            "id": "d40d0528-e3d7-4ff4-bf44-19720060a7f2",
+            "name": "d40d0528-e3d7-4ff4-bf44-19720060a7f2",
+            "componentCategory": "UIContainer",
+            "enableUsageEvents": false,
+            "layout": {
+                "@class": "com.apporchid.vulcanux.common.ui.layout.Layout",
+                "layoutType": "Flex",
+                "component": {
+                    "styles": [
+                        {
+                            "style": {
+                                "width": "100%"
+                            },
+                            "id": "workOrderId"
+                        },
+                        {
+                            "style": {
+                                "width": "50%",
+                                "padding": 5,
+                                "paddingTop": 20
+                            },
+                            "id": "status"
+                        },
+                        {
+                            "style": {
+                                "width": "50%",
+                                "padding": 5,
+                                "paddingTop": 20
+                            },
+                            "id": "assetType"
+                        },
+                        {
+                            "style": {
+                                "width": "50%",
+                                "padding": 5,
+                                "paddingTop": 20
+                            },
+                            "id": "assetId"
+                        },
+                        {
+                            "style": {
+                                "width": "100%",
+                                "paddingTop": 20,
+                                "paddingBottom": 10
+                            },
+                            "id": "createdDate"
+                        },
+                        {
+                            "style": {
+                                "width": "50%",
+                                "padding": 5,
+                                "paddingTop": 20
+                            },
+                            "id": "workType"
+                        },
+                        {
+                            "style": {
+                                "width": "100%",
+                                "paddingTop":20,
+                                "paddingBottom": 20
+                            },
+                            "id": "location"
+                        },
+                        {
+                            "style": {
+                                "width": "50%",
+                                "padding": 5,
+                                "paddingBottom": 20
+                            },
+                            "id": "problemFound"
+                        },
+                        {
+                            "style": {
+                                "width": "50%",
+                                "padding": 5
+                            },
+                            "id": "actionTaken"
+                        },
+                        {
+                            "style": {
+                                "width": "100%",
+                                "paddingBottom":20
+                            },
+                            "id": "filePath"
+                        },
+                        {
+                            "style": {
+                                "width": "100%"
+                            },
+                            "id": "submitButtonId"
+                        }
+                    ],
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "padding": 10,
+                    "justifyContent": "flex-start",
+                    "width": "100%"
+                }
+            },
+            "components": [
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "workOrderId",
+                    "name": "workOrderId",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textinput",
+                        "css": "aovuxtextinput",
+                        "id": "workOrderId",
+                        "keyboardType": "numeric",
+                        "placeholder": "Work order number",
+                        "labelPosition": "top",
+                        "fieldType": "ALPHA_NUMBERIC",
+                        "label": "Work Order Number"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                    "id": "status",
+                    "name": "status",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": false,
+                    "throttleInterval": 0
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                    "id": "assetType",
+                    "name": "assetType",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": false,
+                    "throttleInterval": 0
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                    "id": "assetId",
+                    "name": "assetId",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": false,
+                    "throttleInterval": 0
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplicationReference",
+                    "id": "workType",
+                    "name": "workType",
+                    "componentCategory": "MicroApplicationReference",
+                    "enableUsageEvents": false,
+                    "throttleInterval": 0
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "createdDate",
+                    "name": "createdDate",
+                    "componentCategory": "UIControl",
+                    "type": "DateTimepicker",
+                    "component": {
+                        "view": "vuxmobile-datepicker",
+                        "css": "aovuxdatepicker",
+                        "id": "createdDate",
+                        "mode": "date",
+                        "label": "Created date"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "location",
+                    "name": "location",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textinput",
+                        "css": "aovuxtextinput",
+                        "id": "location",
+                        "placeholder": "Location",
+                        "labelPosition": "top",
+                        "fieldType": "ALPHA_NUMBERIC",
+                        "label": "Location"
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "problemFound",
+                    "name": "problemFound",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textarea",
+                        "css": "aovuxtextarea textareacss",
+                        "id": "problemFound",
+                        "multiline": true,
+                        "placeholder": "Specify problem description",
+                        "labelPosition": "top",
+                        "fieldType": "ALPHA_NUMBERIC",
+                        "label": "Problem",
+                        "numberOfLines": 3
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "actionTaken",
+                    "name": "actionTaken",
+                    "componentCategory": "UIControl",
+                    "type": "TextInput",
+                    "component": {
+                        "view": "vuxmobile-textarea",
+                        "css": "aovuxtextarea textareacss",
+                        "id": "actionTaken",
+                        "multiline": true,
+                        "placeholder": "Action Taken",
+                        "labelPosition": "top",
+                        "fieldType": "ALPHA_NUMBERIC",
+                        "label": "Action taken",
+                        "numberOfLines": 3
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "filePath",
+                    "name": "filePath",
+                    "componentCategory": "UIControl",
+                    "type": "ImageButton",
+                    "component": {
+                        "view": "vuxmobile-camera",
+                        "css": "aovuxcamera",
+                        "id": "filePath",
+                        "showThumbnails": true,
+                        "uploadDirectory": "mobile/images",
+                        "buttonName": "Work Image",
+                        "accessGallary": true,
+                        "saveToPhysicalLocation": true
+                    },
+                    "visible": true
+                },
+                {
+                    "@class": "com.apporchid.vulcanux.common.ui.UIControl",
+                    "id": "submitButtonId",
+                    "name": "submitButtonId",
+                    "componentCategory": "UIControl",
+                    "type": "Submit",
+                    "component": {
+                        "view": "vuxmobile-button",
+                        "css": "aovuxbutton submitButtonCss",
+                        "id": "submitButtonId",
+                        "title": "Submit"
+                    },
+                    "visible": true
+                }
+            ],
+            "enableScroll": true,
+            "componentCount": 11,
+            "visible": true
+        },
+        "updatePipelineId": "com::apporchid::mobiledemo::TrafficSignalFormUpdatePipeline"
+    },
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}

@@ -1,0 +1,39 @@
+{
+    "@class": "com.apporchid.vulcanux.common.ui.microapp.MicroApplication",
+    "id": "statusId",
+    "name": "statusId",
+    "componentCategory": "MicroApplication",
+    "type": "Combo",
+    "emitEventsMap": {
+        "onSelect": "onStatusFilter"
+    },
+    "showNoRecordsMessage": true,
+    "enablePushNotifications": false,
+    "component": {
+        "view": "vuxmobile-combo",
+        "css": "aovuxcombo statusCss",
+        "label": "Status",
+        "options": {
+            "data": [
+                {
+                    "id": "Submitted",
+                    "value": "Submitted"
+                },
+                {
+                    "id": "Closed",
+                    "value": "Closed"
+                }
+            ]
+        },
+        "popupCssClass": "popupCssClass",
+        "noOfItemsToShow": 10,
+        "selectFirstOptionByDefault": true,
+        "addEmptyValue": false,
+        "labelPosition": "left",
+        "enableServersideFiltering": false
+    },
+    "cssclass": "statusCss",
+    "visible": true,
+    "showTitle": false,
+    "showSubTitle": false
+}
